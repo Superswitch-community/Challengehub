@@ -1,0 +1,128 @@
+[
+    {
+        "question": "A proton with an initial velocity of 10⁵m/s enters an accelerating region and emerges with a final velocity of 5 * 10⁸m/s, after 10seconds. How long is the acceleraing region.",
+        "answers": [
+            {
+                "text": "3.4 * 10⁶s",
+                "correct": false
+            },
+            {
+                "text": "2.5 * 10⁹s",
+                "correct": true
+            },
+            {
+                "text": "2.7 * 10¯⁴s",
+                "correct": false
+            },
+            {
+                "text": "4.5 * 10⁸s",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "A ball is thrown vertically upwards with a velocity of 30m/s. Determine the maximum height reached",
+        "answers": [
+            {
+                "text": "80m",
+                "correct": false
+            },
+            {
+                "text": "450m",
+                "correct": false
+            },
+            {
+                "text": "45m",
+                "correct": false
+            },
+            {
+                "text": "15m",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "In a hydraulic press, a force of 20N is applied to a piston of area 0.2 m². if the area of the other piston is 2m², calculate the force exerted on it.",
+        "answers": [
+            {
+                "text": "200N",
+                "correct": true
+            },
+            {
+                "text": "50N",
+                "correct": false
+            },
+            {
+                "text": "20N",
+                "correct": false
+            },
+            {
+                "text": "5N",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The area of cross section of two pistons in a hydraulic press are 2 and 150cm². if a downward force of 20N is exerted on the smaller piston, calculate the force on the larger one.  ",
+        "answers": [
+            {
+                "text": "112500N",
+                "correct": false
+            },
+            {
+                "text": "1500N",
+                "correct": true
+            },
+            {
+                "text": "150N",
+                "correct": false
+            },
+            {
+                "text": "15N",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the length of the liquid column in a barometer tube that would support an atmospheric pressure of 102000Nm¯² if the density of the liquid is 2600kgm¯³",
+        "answers": [
+            {
+                "text": "10.75m",
+                "correct": false
+            },
+            {
+                "text": "0.76m",
+                "correct": false
+            },
+            {
+                "text": "3.92m",
+                "correct": true
+            },
+            {
+                "text": "39.23m",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "a quantity with both magnitude and direction is called?",
+        "answers": [
+            { 
+                "text": "vector quantity",
+                "correct": true
+            },
+            {
+                "text": "scalar quantity",
+                "correct": false
+            },
+            {
+                "text": "derived quantity",
+                "correct": false
+            },
+            {
+                "text": "physical quantity",
+                "correct": false
+            }
+        ]
+    }
+]

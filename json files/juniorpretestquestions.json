@@ -1,0 +1,275 @@
+[{
+    "question": "What is the corect name for thousand thousand",
+    "options": ["1000000", "10000", "1000", "100000"],
+    "answer": "A"
+},
+{
+    "question": "What is the corect name for thousand million",
+    "options": ["100000", "1000000", "1000000000", "10000000"],
+    "answer": "C"
+},
+{
+    "question": "What is the corect name for million million",
+    "options": ["10000000000", "1000000000000", "100000000000", "1000000000"],
+    "answer": "B"
+},
+{
+    "question": "A football field measures 80m by 50m. A bar soap measures 8cm by 5cm. calculate how many soap bars would be needed to cover the football field",
+    "options": ["1 thousand", "1 billion", "1 trillion", "1 million"],
+    "answer": "D"
+},
+{
+    "question": "A library has about 4000 books. Each book has about 250 pages. Approxiamtely how many pages are there in the library?",
+    "options": ["1 million", "1 billion", "1 trillion", "1 quadrillion"],
+    "answer": "A"
+},
+{
+    "question": "How long would it take to count to 1 million if it takes an average of 1 second to say each number?",
+    "options": ["21/2 days", "23/2 days", "25/2 days", "272 days"],
+    "answer": "B"
+},
+{
+    "question": "_____________ is anything that has mass and occupy space",
+    "options": ["matter", "mather", "mater", "mattter"],
+    "answer": "A"
+},
+{
+    "question": "How many state of matter do we have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "C"
+},
+{
+    "question": "What state of matter has no definite shape and volume unless it takes the space and shape of that container",
+    "options": ["solid", "gas", "liquid", "plasma"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following order is correct in the increase in vibration of molecules",
+    "options": ["solid ---> gas ---> liquid", "solid ---> liquid ---> gas", "gas ---> solid ---> liquid", "liquid ---> gas ---> solid"],
+    "answer": "B"
+},
+{
+    "question": "Tha change in position of an organism from one place to another is _________",
+    "options": ["movement", "growth", "feeding", "reproduction"],
+    "answer": "A"
+},
+{
+    "question": "Is the movement in plants restricted?",
+    "options": ["yes", "no", "i don't know", "maybe"],
+    "answer": "A"
+},
+{
+    "question": "The irreversible increase in size, height etc is called _________",
+    "options": ["movement", "growth", "feeding", "reproduction"],
+    "answer": "B"
+},
+{
+    "question": "The ability to take in food nutrients is ",
+    "options": ["growth", "death", "nutrition", "reproduction"],
+    "answer": "C"
+},
+{
+    "question": "Animal that feed on other animal are called ________ animals",
+    "options": ["herbivorous", "omnivorous", "carnivorous", "semivorous"],
+    "answer": "C"
+},
+{
+    "question": "Organisms that feed on plants are called ___________",
+    "options": ["omnivorous", "carnivorous", "semivorous", "herbivorous"],
+    "answer": "D"
+},
+{
+    "question": "The response to internal and external stimuli is called ____________",
+    "options": ["irritability", "death", "speed", "stimulization"],
+    "answer": "A"
+},
+{
+    "question": "The process of producing new organism is called _________",
+    "options": ["irritability", "reproduction", "sanitation", "death"],
+    "answer": "B"
+},
+{
+    "question": "How type of reproduction do we have?",
+    "options": ["1 type", "2 types", "3 types", "4 types"],
+    "answer": "B"
+},
+{
+    "question": "When an organism produces offspring on its own without two organism is called",
+    "options": ["asexual reproduction", "sexual reproduction", "typical reproduction", "atypical reproduction"],
+    "answer": "A"
+},
+{
+    "question": "The exchange of gases between organism and their environment is called _________",
+    "options": ["excretion", "respiration", "death", "reproduction"],
+    "answer": "B"
+},
+{
+    "question": "We breathe in ________ and breathe out _________",
+    "options": ["oxygen, carbondioxide", "air, carbondioxide", "carbondioxide, air", "carbondioxide, oxygen"],
+    "answer": "A"
+},
+{
+    "question": "Plants breathe in __________ and breathe out __________",
+    "options": ["O2, CO2", "CO2, O2", "air, CO2", "CO2, air"],
+    "answer": "B"
+},
+{
+    "question": "The process of removing waste proucts and metabolic substances out of the body is called ____________",
+    "options": ["reproduction", "respiration", "excretion", "death"],
+    "answer": "C"
+},
+{
+    "question": "Convert 37 in base ten to base eight",
+    "options": ["44", "45", "46", "47"],
+    "answer": "B"
+},
+{
+    "question": "Convert 37 in base ten to base five",
+    "options": ["120", "121", "122", "123"],
+    "answer": "C"
+},
+{
+    "question": "Convert 75 in base ten to base four",
+    "options": ["6101", "1023", "1253", "3522"],
+    "answer": "B"
+},
+{
+    "question": "Convert 75 in base ten to base two",
+    "options": ["110100101", "1011001101", "1000111", "1001011"],
+    "answer": "D"
+},
+{
+    "question": "Convert 1264 in base eight to base ten",
+    "options": ["575", "692", "473", "102"],
+    "answer": "B"
+},
+{
+    "question": "Convert 432 in base five to base ten",
+    "options": ["115", "116", "119", "117"],
+    "answer": "D"
+},
+{
+    "question": "Convert 11101 in base two to base ten",
+    "options": ["29", "25", "52", "92"],
+    "answer": "A"
+},
+{
+    "question": "Find the square root of 100100 in base two, let your answer be in base two",
+    "options": ["101", "110", "111", "100"],
+    "answer": "B"
+},
+{
+    "question": "__________ is the study of science of heredity",
+    "options": ["Genetics", "Hereditics", "gentics", "chromosonitics"],
+    "answer": "A"
+},
+{
+    "question": "The word 'GENETICS' is coined by who?",
+    "options": ["william bateson", "gregor mendel", "robert hooke", "theodor schwan"],
+    "answer": "A"
+},
+{
+    "question": "_________ is the study of just one pair of constrasting character",
+    "options": ["dihybrid inheritance", "monohydrid inheritance", "Genetics", "chracterisation"],
+    "answer": "B"
+},
+{
+    "question": "All living things are made up of building blocks called ________",
+    "options": ["chromosones", "cells", "nucleus", "mitochondrion"],
+    "answer": "B"
+},
+{
+    "question": "__________ are a living materials that carry the gene",
+    "options": ["chromosones", "macro nucleus", "micro nucleus", "DNA"],
+    "answer": "A"
+},
+{
+    "question": "A trait that overshadows other genes is called ________ gene",
+    "options": ["reccessive", "chromosonal", "nucleidal", "dominant"],
+    "answer": "D"
+},
+{
+    "question": "A gene that is not noticed in a trait is called __________ gene",
+    "options": ["reccessive", "chromosonal", "nucleidal", "dominant"],
+    "answer": "A"
+},
+{
+    "question": "When crossing TT and tt plants, how many short are obtained",
+    "options": ["2", "4", "5", "1"],
+    "answer": "D"
+},
+{
+    "question": "When crossing TT and tt plants, what percentage of short plants is obtained",
+    "options": ["20%", "25%", "30%", "50%"],
+    "answer": "B"
+},
+{
+    "question": "Which of these has a carrier of sickle cell but healthy",
+    "options": ["AS", "AA", "AB", "SS"],
+    "answer": "A"
+},
+{
+    "question": "When crossing two parents with the same AS genotype, what is the result of crossing ",
+    "options": ["1 AS, 1 AA, 2 SS", "1 AA, 2 AS, 1 SS", "1 AA, 1 AS, 2 SS", "1AA, 2AS, 2 SS"],
+    "answer": "B"
+},
+{
+    "question": "The absence of pigmentation of the skin, hairs, and eyes of human beings is called ________",
+    "options": ["albinism", "absenceness", "chloropyhla", "diabetes"],
+    "answer": "A"
+},
+{
+    "question": "The ozone layer is located at what part of atmosphere?",
+    "options": ["stratosphere", "mesosphere", "lithosphere", "ozonosphere"],
+    "answer": "A"
+},
+{
+    "question": "What is the abbreviation of the gas that is called ozone depleter",
+    "options": ["CFC", "CFFC", "CFCC", "FCF"],
+    "answer": "A"
+},
+{
+    "question": "When the ozone is depleted, does it causes greenhouse effect",
+    "options": ["no", "yes", "none of the above", "all of the above"],
+    "answer": "B"
+},
+{
+    "question": "A college has 778 students. The average mass of a student is approximately 52kg. Estimate to 1 significant figure, the total mass in tonnes of all the students in the school",
+    "options": ["39", "40", "50", "60"],
+    "answer": "B"
+},
+{
+    "question": "Divide $1500 in the ratio 1 : 2",
+    "options": ["$150, $1350", "$500, $1000", "$800, $700", "$400, $1100"],
+    "answer": "B"
+},
+{
+    "question": "Divide 400mm in the ratio 4 : 1",
+    "options": ["320mm, 80mm","40mm, 360mm", "60mm, 340mm", "70mm, 330mm"],
+    "answer": "A"
+},
+{
+    "question": "Divide 44 oranges in the ratio 7 : 4",
+    "options": ["28, 16", "10, 34", "6, 38", "28, 6"],
+    "answer": "A"
+},
+{
+    "question": "Find the discount price if 10% is given on a cost price of 500 dollars",
+    "options": ["$400", "$450", "$490", "$350"],
+    "answer": "B"
+},
+{
+    "question": "Find the discount price if 25% is given on a cost price of 4400 dollars",
+    "options": ["$3000", "$3100", "$3300", "$3400"],
+    "answer": "C"
+},
+{
+    "question": "A typist can type about 35 words per minute. Estimate to 1 significant figure, how long it will take her to type a paper that is 682 words long",
+    "options": ["30 mins", "40 mins", "80 mins", "20 mins"],
+    "answer": "D"
+},
+{
+    "question": "",
+    "options": [],
+    "answer": ""
+}]

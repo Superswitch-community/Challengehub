@@ -1,0 +1,21 @@
+[{"question": "An elastic string with a spring constant of 100N/m is stretched by 0.05m. Calculate the force exerted by the string and the potential energy stored in the spring",
+    "answer": ["0.4N","0.6N","0.9N","0.2N"]},
+    {"question": "Two spheres of masses 1kg and 2kg collide elastically. If the initial velocity of the 1kg sphere is 3m/s and the 2kg sphere is at rest, calculate their final velocities after collision.",
+        "answer": ["0.4m/s","0.6m/s","0.9m/s","1.0m/s"]},
+    {"question": "For a simple pendulum of length 2m, calculate the period of oscillation and the maximum speed of the pendulum bob at its lowest point.",
+        "answer": ["2.8s, 6.32m/s","3.4s, 0.9m/s","6s, 0.9m/s","5.5s, 3m/s"]},
+    {"question": "If the point(k, 0) divides a line that joins the points A(2, -2) and B(-7, 4) in the ratio 1:2, what is the value of k?",
+        "answer": ["2.0","3.0","4.0","5.0"]
+    },
+{"question": "Find the directrix of parabola, having the equation (y - 7)² = 12(x - 4)",
+    "answer": ["2.3","4.5","6.7","7.1"]
+},
+{"question": "Find the equation of the line passing through the point (6, 4) with a slope of 3.",
+    "answer": ["y = 3x - 12", "y = 4x - 5", "y = 8x - 7", " y = 2x - 1"]
+},
+{"question": "Given a circle with center (1, -2) and radius 3, determine the equation of the circle in standard form and find the coordinates of the points where the circle intersects the x-axis",
+    "answer": ["y - 3x + 4, (2, 3)","y - 4x -6, (3, 4)","4y - 6x + 9, (4, -5)","y - 7x + 6, (0, -8)"]
+},
+{"question": "The equation of a certain ellipse is given as 49x² 16y² = 784, calculate the foci and vertex",
+    "answer": ["foci(7, -7), vertex(+-7, +-4)","foci(6, -7), vertex(+-4, +-4)","foci(2, -6), vertex(+-1, +-4)","foci(1, -10), vertex(+-2, +-5)"]
+}]  

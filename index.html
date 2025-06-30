@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/chimg2.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/laptopstyle.css">
+  <link rel="stylesheet" href="./styles/androidstyle.css">
+  <title>Challengehub.com</title>
+
+</head>
+
+<body>
+
+  <img src="./images/loading anmation.gif" alt="" id="animation-gif" style="display: none;">
+  <video id="video" autoplay style="display: none;"></video>
+
+
+  <div id="examination-container" style="display: none;">
+    <p id="timer">00:00:00</p>
+    <div id="question-container">
+      <p id="question">
+      <ul id="options">
+        <li><input type="radio" name="option" value="A">A</li>
+        <li><input type="radio" name="option" value="B">B</li>
+        <li><input type="radio" name="option" value="C">C</li>
+        <li><input type="radio" name="option" value="D">D</li>
+      </ul>
+      </p>
+    </div>
+    <div class="controls">
+      <button id="prev-btn">Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="question-nav"></div>
+
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <div class="result-page" style="display: none;">
+    <div class="question-number"></div>
+    <div class="incorrect-questions"></div>
+    <div class="unansweredquestions"></div>
+    <div class="percentscore"></div>
+    <button id="logout-btn">Logout</button>
+  </div>
+
+
+  <div class="main-page">
+    <img src="./images/chimg2.png" alt="image-1" width="100" height="100">
+    <p>Welcome to Challengehub, a Pan - Nigeria Science competition designed to empower Nigerian students in the area of
+      STEM.
+      The initiative was introduced for High school and primary students to develop, ignite and chart a career path in
+      the area of STEM education and drive them towards fully optimizing their potential to make Nigeria a better place
+      for us all.</p>
+
+    <p>The competiton is presently in the following categories</p>
+
+    <input type="number" class="grade-input" min="4" max="12">
+    <button onclick="submitGrade()">Enter</button>
+
+    <p>FAQS</p>
+    <div class="guildlines">
+      <p>Q: How do I register?</p>
+      <p>Q: What do I stand to win?</p>
+      <p>A: Type your grade(4 - 12) in the input above and navigate to the guidelines</p>
+      <p>A: Besides the opportunity to become the best science student in your country;
+        you stand a chance to win prizes. Select your grade to see how much.</p>
+    </div>
+
+
+    <div class="bottom-main-page">
+      <img src="./images/eduimg8.jpeg" alt="image-2">
+    </div>
+
+    <p class="main-page-copyright">Copyright © 2025 Challengehub.com All Right Reserved</p>
+  </div>
+
+
+  <div class="primarycategory" style="display: none;">
+    <nav class="header-nav">
+      <img src="./images/chimg2.png" alt="" width="50px" height="50px" class="logo">
+      <div class="inner-nav">
+
+        <ol class="click-to-home" onclick="goToPrimaryHomePage()">Home</ol>
+        <ol onclick="openGuildlines()">Guildlines</ol>
+        <ol onclick="displayQuestionbank()">Demo Test</ol>
+        <button class="registerbtn" onclick="OpenSignupForm()">Register</button>
+        <button class="loginbtn" onclick="OpenLoginForm()">Login</button>
+      </div>
+    </nav>
+
+    <div class="primary-body" style="background-image: url(./images/eduimg8.jpeg);">
+       <p id="welcome-message">Welcome to the Challengehub primary category</p>
+      <div class="primary-body-text">
+       This is the primary category page.
+       The primary category subjects includes only mathematics and general studies.
+       This compettion is a weekly based competition and it provides opportunity for smart students to explore their talents in the academic world.
+        To bring out the genuis in them and reject low self esteem among students.
+         I believe every student in Nigeria has what it takes to academically prosper.
+          The problem in Nigeria is the economic distraction towards students which prevents most of them from focusing on their dreams.
+          Go to the guidelines page first before handling any page
+      </div>
+    </div>
+
+  </div>
+
+<div class="juniorcategory" style="display: none;">
+    <nav class="header-nav">
+      <img src="./images/chimg2.png" alt="" width="50px" height="50px" class="logo">
+      <div class="inner-nav">
+
+        <ol class="click-to-home" onclick="goToJuniorHomePage()">Home</ol>
+        <ol onclick="openGuildlines()">Guildlines</ol>
+        <ol onclick="displayQuestionbank()">Demo Test</ol>
+        <button class="registerbtn" onclick="OpenSignupForm()">Register</button>
+        <button class="loginbtn" onclick="OpenLoginForm()">Login</button>
+      </div>
+    </nav>
+
+    <div class="junior-body" style="background-image: url(./images/eduimg9.jpeg);">
+       <p id="welcome-message">Welcome to the Challengehub primary category</p>
+      <div class="junior-body-text">
+         This is the junior category page.
+         The junior category offers two subjects which includes only mathematics and basic science.
+         This compettion is a weekly based competition and it provides opportunity for smart students to explore their talents in the academic world. 
+         To bring out the genuis in them and reject low self esteem among students. 
+         I believe every student in Nigeria has what it takes to academically prosper. 
+         The problem in Nigeria is the economic distraction towards students which prevents most of them from focusing on their dreams.Go to the guidelines page first before handling any page
+      </div>
+    </div>
+
+  </div> 
+
+
+ <div class="seniorcategory" style="display: none;">
+    <nav class="header-nav">
+      <img src="./images/chimg2.png" alt="" width="50px" height="50px" class="logo">
+      <div class="inner-nav">
+
+        <ol class="click-to-home" onclick="goToSeniorHomePage()">Home</ol>
+        <ol onclick="openGuildlines()">Guildlines</ol>
+        <ol onclick="displayQuestionbank()">Demo Test</ol>
+        <button class="registerbtn" onclick="OpenSignupForm()">Register</button>
+        <button class="loginbtn" onclick="OpenLoginForm()">Login</button>
+      </div>
+    </nav>
+
+    <div class="senior-body" style="background-image: url(./images/eduimg10.jpeg);">
+       <p id="welcome-message">Welcome to the Challengehub primary category</p>
+      <div class="senior-body-text">
+               This is the senior category page.The senior category offers only four subjects which includes mathematics, physics, chemistry, and biology. 
+               This compettion is a weekly based competition and it provides opportunity for smart students to explore their talents in the academic world. 
+               To bring out the genuis in them and reject low self esteem among students. 
+               I believe every student in Nigeria has what it takes to academically prosper. 
+               The problem in Nigeria is the economic distraction towards students which prevents most of them from focusing on their dreams.
+               Go to the guidelines page first before handling any page
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <form method="post" class="register-form" style="display: none;" >
+
+
+    <div class="inner-container">
+      <label for="">Enter your username</label>
+      <input id="username" type="text" placeholder="enter your username" required>
+
+    </div>
+
+
+    <div class="inner-container">
+      <label for="">Enter your email</label>
+      <input id="email" type="email" placeholder="enter your email" required>
+
+    </div>
+
+    <div class="inner-container">
+      <label for="">Phonenumber</label>
+      <input type="number" id="phonenumber" placeholder="enter your phonenumber" required>
+    </div>
+
+    <div class="inner-container">
+      <label for="">Age</label>
+      <input type="number" id="age" placeholder="enter your age"  min="1" max="100" required>
+    </div>
+
+    <div class="inner-container">
+      <label for="">Father's name</label>
+      <input type="text" placeholder="enter your father's/guardian's name" required>
+    </div>
+
+
+    <div class="inner-container">
+      <label for="">Mother's name</label>
+      <input type="text" placeholder="enter your mother's/guardian's name" required>
+    </div>
+
+    <div class="inner-container">
+      <label for="">School's name</label>
+      <input type="text" placeholder="enter the name of your school" id="schoolname" required>
+    </div>
+
+
+
+    <div class="inner-container">
+      <label for="">Password</label>
+      <input type="text" id="password" placeholder="enter a strong password"  required>
+    </div>
+    <div class="options">
+    <button class="signup-button">Submit</button>
+    <li onclick="OpenLoginForm()">Already have an account?Login</li>
+    <p id="return-register-btn">Back</p>
+    </div>
+  </form>
+
+
+  <form class="login-form" style="display: none;" method="get">
+    <label for="">Email</label>
+    <input type="email" id="login-email">
+    <label for="">Password</label>
+    <input type="password" id="login-password">
+    <button class="login-button">Login</button>
+    <p id="return-login-btn">Back</p>
+    <p onclick="OpenSignupForm()">Don't have an account yet?signup</p>
+  </form>
+
+  <div class="questionsbank" style="display: none;">
+    <div class="demotest">
+      <label for="">Demotest 1</label>
+      <button onclick="startTest()">start test</button>
+    </div>
+    <div class="demotest">
+      <label for="">Demotest 2</label>
+      <button onclick="startTest()">start test</button>
+    </div>
+    <div class="demotest">
+      <label for="">Demotest 3</label>
+      <button onclick="startTest()">start test</button>
+    </div>
+    <div class="demotest">
+      <label for="">Demotest 4</label>
+      <button onclick="startTest()">start test</button>
+    </div>
+    <div class="demotest">
+      <label for="">Demotest 5</label>
+      <button onclick="startTest()">start test</button>
+    </div>
+    <p id="return-questionbank-btn">Back</p>
+  </div>
+
+  <div id="guildlines" style="display: none;">
+    <h1>This is the guidlines. Please read carefully</h1>
+
+     <p id="return-guildline-btn">Back</p>
+    <li>Grades: Grades ranges from 4 - 12(basic 4 to SS3). eg 4 - basic four, 7 - JS1, 12 - SS3 etc.</li>
+    <li>Demotest: In each category there are five demotest.</li>
+    <li>Signingup: When signing up, users should input their correct credentials especially your username, email, and password.</li>
+    <li>Payment: During payment, users should pay a sum of 1000 naira only. Nothing more nothing less.</li>
+    <li>Payment: You will be redirected to a payment page for operation of payment. please enable a stable network!!! remember it's a money transaction you're doing.<li>
+    <li>Login: Before you login, you must pay by signing up because the server will reject your request or access to the exam page.</li>
+    <li>Login: Your username is your email not your name and your password is the very password you used to sign up.</li>
+    <li>Demotest: You are not restricted to the demotest. you can take it at any time or repeat a particular demo.</li>
+    <li>Demotest: The demotest contains only 30 question each. The more you pactice you will get random and different questions altogether.</li>
+    <li>Exam page: When you are directed to the examination page you will see three links to join a group. It's very important for exposure to your academic perfomance.</li>
+    <li>Exam page: Each of these three links represent the three categories.</li>
+    <li>Exam page: Before you join the group check whether your androids, ipad, or laptops enable whatsapp. Please it is very important for your exposure.</li>
+    <li>Prizes: The prizes are awarded to three students in each category making it nine students.</li>
+    <li>Prizes: Prizes are not stable. The higher the students, the higher the prizes. When a category is clocking to 1000 students it gives higher value when it comes to awarding prizes.</li>
+    <li>Group/Platform: Additional informations are given by the group/platform admins promptly</li>
+    <li>Group/Platform: Please note this!!! do not contact any admin in the group only when you have private issues, but if you have issues that is related to others send a message in the group. Besides, it is a group for interaction.</li>
+    <li>Group/platform: If you have any private issue academically please contact this number @+2347078910740 on whatsapp. please do not call!!! message only thanks.<li>
+    <li>Time: The main examination will be informed by the administrators.</li>
+    <li>Time: the competition is weekly based. So it's very helpful to students who want to write any particular week.<li>
+    <li>Aims: The aim of this competition is to encourage students and improve the academic spirit in them.</li>
+    <li>About: We are a secret and anonymous organization. Non-governmental just for the well being of Nigerian student</li>
+    <li>Note: Please do not call our contact only send messages to the platform. Please don't introduce misunderstanding within admins.</li>
+    <li>Lastly hold God tight. It's very important.</li>
+  </div>
+
+
+   <div class="confirm-container" style="display: none;">
+        <p id="confirm-message"></p>
+        <div class="buttons-container">
+            <button id="confirm-ok">Yes</button>
+            <button id="confirm-no">No</button>
+        </div>
+
+    </div>
+
+    <div class="messageDiv" style="display: none;"></div>
+     <div class="popup">
+        <span id="popup-message">Account created succesfully</span>
+    </div>
+
+    <div class="exampage" style="display: none;">
+      <button id="startExam">Upload</button>
+    </div>
+
+
+
+</body>
+
+<script src="./scripts/index.js"></script>
+<script src="./scripts/confirmmessage.js"></script>
+<script src="./scripts/primary.js"></script>
+<script src="./scripts/juniorsec.js"></script>
+<script src="./scripts/seniorsec.js"></script>
+<script src="./scripts/camera.js"></script>
+<script type="module" src="./scripts/signupandlogin.js"></script>
+
+</html>
