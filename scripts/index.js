@@ -25,6 +25,10 @@ const seniorBody = document.querySelector('.senior-body');
 const primaryBodyText = document.querySelector('.primary-body-text');
 const juniorBodyText = document.querySelector('.primary-body-text');
 const seniorBodyText = document.querySelector('.primary-body-text');
+const dropMenu = document.querySelector('.drop-down-menu');
+const dropDown = document.querySelector('.drop-down');
+
+
 
 window.addEventListener('online', () => {
     alert('Network connection established');
@@ -57,7 +61,7 @@ function submitGrade() {
             seniorBody.style.display = 'block';
         }
         else {
-           showPopUpMessage("Not a valid number (4 - 12)");
+           showPopUpMessage("Enter a value between 4 - 12");
         }
     }, 1000);
 }
@@ -127,47 +131,59 @@ function goToSeniorHomePage() {
     
 }
 
+/* The drop down menu*/
+dropMenu.addEventListener('click', () => {
+    dropDown.style.display = "flex";
+})
+
 /* Display the body*/
 function displayBody() {
      if(gradeInput.value >= 4 && gradeInput.value <= 6) {
-        primaryBody.style.display = 'block';        
+        dropDown.style.display = 'none';
+        primaryBody.style.display = 'block';     
     }
     else if(gradeInput.value >= 7 && gradeInput.value <= 9) {
+        dropDown.style.display = 'none';
         juniorBody.style.display = 'block';
     }
     else if(gradeInput.value >= 10 && gradeInput.value <= 12) {
+        dropDown.style.display = 'none';
         seniorBody.style.display = 'block';
     }
+
 }
 
 /*Do not display the body*/
 function unDisplay() {
       if(gradeInput.value >= 4 && gradeInput.value <= 6) {
-        primaryBody.style.display = 'none';        
+        primaryBody.style.display = 'none';       
     }
     else if(gradeInput.value >= 7 && gradeInput.value <= 9) {
         juniorBody.style.display = 'none';
     }
     else if(gradeInput.value >= 10 && gradeInput.value <= 12) {
-        seniorBody.style.display = 'none';
+        seniorBody.style.display = 'none';  
     }
+    
 }
 
 
 /*demotest javascript program*/
 function displayQuestionbank() {
+    dropDown.style.display = 'none';
     questionbank.style.display = 'flex';
     registerForm.style.display = "none";
     loginForm.style.display = "none";
     welcomMessage.style.display = 'none';
     guildLines.style.display = "none";
-    displayBody();
+    unDisplay();
     showPopUpMessage('This is the demotest page for your pretest');
+    
 }
 
 /* Guildlines page */
 function openGuildlines() {
-    
+    dropDown.style.display = 'none';
     questionbank.style.display = 'none';
     registerForm.style.display = "none";
     loginForm.style.display = "none";
@@ -236,17 +252,20 @@ returnLoginLink.addEventListener('click', () => {
 document.getElementById('logout-btn').addEventListener('click', () => {
     
     if (gradeInput.value >= 4 && gradeInput.value <= 6) {
+        dropDown.style.display = 'none';
         primaryCategorywebsite.style.display = "flex";
         resultPage.style.display = 'none';
         primaryBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
     } else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
+        dropDown.style.display = 'none';
         juniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         juniorBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
     } 
     else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
+        dropDown.style.display = 'none';
         seniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         seniorBody.style.display = 'block'

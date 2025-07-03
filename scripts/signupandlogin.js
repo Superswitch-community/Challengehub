@@ -27,97 +27,115 @@ const db = getFirestore();
 
 
 signupButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    
-        //storing user's email and password
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
 
-    const auth = getAuth();
-    const db = getFirestore();
+                const reference = 'REF-' + Math.random().toString(36).substring(2, 9) + Date.now();
+                 e.preventDefault();
 
-    createUserWithEmailAndPassword(auth, email, password)
-        .then((userCredentail) => {
-            const user = userCredentail.user;
-            const userData = {
-                email: email,
-                paymentStatus: false,
-                examCount: 0,
-                userResult: "0%",
-            };
-            showPopUpMessage("Account Created Successfully");
-            const docRef = doc(db, "users", user.uid);
-            setDoc(docRef, userData)
-                .then(() => {
-                    showPopUpMessage('You are redirected to pay!!!');
-                })
-                .catch((error) => {
-                    showPopUpMessage("error writing document");
-                })
-        })
-        .catch((error) => {
-            const errorCode = error.code;
-            if (errorCode == 'auth/email-already-in-use') {
-                showPopUpMessage('Email Address Already Exists!!!');
-            }
-            else {
-                showPopUpMessage('Unable to create user check your network connection or fill in all details');
-            }
-        })
-            
+                //storing user's email and password
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
 
-   
+                const auth = getAuth();
+                const db = getFirestore();
+
+                createUserWithEmailAndPassword(auth, email, password)
+                    .then((userCredentail) => {
+                        const user = userCredentail.user;
+                        const userData = {
+                            email: email,
+                            paymentStatus: false,
+                            examCount: 0,
+                            userResult: "0%",
+                            reference: `${reference}`,
+                        };
+                        showPopUpMessage("Account Created Successfully");
+                        setTimeout(() => {
+                            showPopUpMessage('You are redirected to pay!!!');
+                            payWithPaystack(reference);
+                        }, 2000);
+
+                        const docRef = doc(db, "users", user.uid);
+                        setDoc(docRef, userData)
+                            .then(() => {
+                                showPopUpMessage('Document has been written!!!');
+
+                            })
+                            .catch((error) => {
+                                showPopUpMessage("error writing document");
+                            })
+                    })
+                    .catch((error) => {
+                        const errorCode = error.code;
+                        if (errorCode == 'auth/email-already-in-use') {
+                            showPopUpMessage('Email Address Already Exists!!!');
+                        }
+                        else {
+                            showPopUpMessage('Unable to create user check your network connection or fill in all details');
+                        }
+                    })
+
 })
 
 
 
 loginButton.addEventListener('click', (e) => {
-   e.preventDefault();
+    e.preventDefault();
 
-  const email = document.getElementById('login-email').value;
-  const password = document.getElementById('login-password').value;
+    const email = document.getElementById('login-email').value;
+    const password = document.getElementById('login-password').value;
 
-  const auth = getAuth();
-  
+    const auth = getAuth();
 
-  signInWithEmailAndPassword(auth, email, password)
-  .then((userCredentail) => {
-    const user = userCredentail.user;
-    showPopUpMessage('Login Successful');
-    loginForm.style.display = 'none';
-    document.querySelector('.exampage').style = 'block';
-    localStorage.setItem('loggedInUserId', user.uid);
-    location.href = 'exampage.html';
-   
-  })
-  .catch((error) => {
-    const errorCode = error.code;
-    if(errorCode == "auth/invalid-credential") {
-      showPopUpMessage("Incorrect Email or password");
-    }
-    else {
-      showPopUpMessage("Account does not Exist !!! or check your internet connection");
-    }
-  })
-                   
-            
+
+    signInWithEmailAndPassword(auth, email, password)
+        .then((userCredentail) => {
+            const user = userCredentail.user;
+            showPopUpMessage('Login Successful');
+            loginForm.style.display = 'none';
+            localStorage.setItem('loggedInUserRef', user.reference);
+            location.href = 'exampage.html';
+
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            if (errorCode == "auth/invalid-credential") {
+                showPopUpMessage("Incorrect Email or password");
+            }
+            else {
+                showPopUpMessage("Account does not Exist !!! or check your internet connection");
+            }
+        })
+
+
 
 
 })
 
 
 
-
+//Check the number of users
 const usersRef = collection(db, 'users');
 
 getDocs(usersRef)
+    .then((QuerySnapshot) => {
+        const userCount = QuerySnapshot.size;
+        console.log(`Users count: ${userCount}`);
+    })
+
+//Delete all users at my decision
+/* db.collection('users').get()
 .then((QuerySnapshot) => {
-    const userCount = QuerySnapshot.size;
-    console.log(`Users count: ${userCount}`);
+    QuerySnapshot.forEach(doc => {
+        doc.ref.delete();
+    });
 })
- 
-
-
+.then(() => {
+    alert('Users deleted');
+})
+.catch(error => {
+    console.error('Error deleting users', error);
+}) 
+ */
 const startExamButton = document.getElementById('startExam');
 
 
@@ -168,17 +186,17 @@ const startExamButton = document.getElementById('startExam');
 
 
 startExamButton.addEventListener('click', async () => {
-    const loggedInUserId = localStorage.getItem('loggedInUserId');
-   
+    const loggedInUserRef = localStorage.getItem('loggedInUserRef');
+
     try {
-         const docRef = doc(db, "users", loggedInUserId);
+        const docRef = doc(db, "users", loggedInUserRef);
         //Get current examCount
         const docSnap = await getDoc(docRef);
-        if(docSnap.exists()) {
+        if (docSnap.exists()) {
             const examCount = docSnap.data().examCount;
 
             //check if the exacount exceeds 2
-            if(examCount >= 2) {
+            if (examCount >= 2) {
                 showPopUpMessage('You have exceeded the maximum attempts');
                 return;
             }

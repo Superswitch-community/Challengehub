@@ -17,7 +17,7 @@ async function startprimaryTest() {
        }
    
        // Display initial countdown time
-       document.getElementById("timer").textContent = formatTime(countdownTime);
+       document.getElementById("timer").textContent = `Time: ${formatTime(countdownTime)}`;
 
        // Start the countdown timer
        const countdownInterval = setInterval(() => {
@@ -25,12 +25,15 @@ async function startprimaryTest() {
                countdownTime--;
    
                // Update the timer display
-               document.getElementById("timer").textContent = formatTime(countdownTime);
+               document.getElementById("timer").textContent = `Time: ${formatTime(countdownTime)}`;
    
                // Stop the timer when countdown reaches zero
                if (countdownTime <= 0) {
                    clearInterval(countdownInterval);
                    showScore();
+               }
+               else if(countdownTime === "300") {
+                document.getElementById("timer").style.color = 'red'; 
                }
            }
    

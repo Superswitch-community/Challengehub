@@ -612,8 +612,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: purple;
-        color: white;
+        background-color: white;
+        color: black;
         /* position: fixed;
         top: 0;
         left: 0;
@@ -651,7 +651,7 @@
         width: 100%;
         min-height: 150vh;
         font-size: 1.5rem;
-        color: white;
+        color: black;
         text-align: center;
     }
 
@@ -660,7 +660,7 @@
     .senior-body-text {
         width: 80%;
         text-align: center;
-        color: white;
+        color: black;
         margin: 50px;
         font-family: var(--FONT-FAMILY);
     }
@@ -719,6 +719,13 @@
         margin-inline: 100px;
     }
 
+    .primarycategory .inner-nav .registerbtn:hover,
+    .juniorcategory .inner-nav .registerbtn:hover,
+    .seniorcategory .inner-nav .registerbtn:hover
+     {
+        background-color: #63a2e6;
+    }
+
     .primarycategory .inner-nav .registerbtn:focus,
     .juniorcategory .inner-nav .registerbtn:focus,
     .seniorcategory .inner-nav .registerbtn:focus {
@@ -736,6 +743,13 @@
         font-size: 1.25rem;
         border-radius: 10px;
         border: none;
+    }
+
+    .primarycategory .inner-nav .loginbtn:hover,
+    .juniorcategory .inner-nav .loginbtn:hover,
+    .seniorcategory .inner-nav .loginbtn:hover
+     {
+        background-color: #eb8371;
     }
 
     .primarycategory .inner-nav .loginbtn:focus,
@@ -774,13 +788,14 @@
         align-items: center;
         width: 1000px;
         min-height: 300px;
-        background-color: #898c8d;
+        background-color: white;
         margin: 50px auto 0;
         border-radius: 10px;
-        z-index: 1000;
+        z-index: -1000;
         position: absolute;
         top: 150px;
         left: 200px;
+        border: 1px solid;
     }
 
     .demotest {
@@ -794,7 +809,7 @@
         margin-top: 20px;
         font-family: var(--FONT-FAMILY);
         font-size: 1.5rem;
-        color: white;
+        color: black;
     }
 
     .demotest button {
@@ -803,6 +818,8 @@
         border-radius: 5px;
         color: green;
         margin-top: 20px;
+        font-family: var(--FONT-FAMILY);
+        font-size: 1.2rem;
     }
 
     .demotest button:hover {
@@ -1248,10 +1265,12 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         opacity: 0;
         transition: opacity 0.2s ease-in-out;
+        display: none;
     }
 
     .show-popup {
-        animation: fadeInFast 0.5s forwards, fadeOutSlow  6s forwards;
+        display: block;
+        animation: fadeInFast 2s forwards, fadeOutSlow  8s forwards;
     }
 
 

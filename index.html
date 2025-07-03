@@ -80,10 +80,30 @@
 
 
   <div class="primarycategory" style="display: none;">
+     
+    
     <nav class="header-nav">
+       <div class="drop-down-menu">
+        <button></button>
+        <button></button>
+        <button></button>
+
+
+         <div class="drop-down" style="display: none;">
+        
+        <ol class="click-to-home" onclick="goToPrimaryHomePage()">Home</ol>
+        <ol onclick="openGuildlines()">Guildlines</ol>
+        <ol onclick="displayQuestionbank()">Demo Test</ol>
+        <ol class="registerbtn" onclick="OpenSignupForm()">Register</ol>
+        <ol class="loginbtn" onclick="OpenLoginForm()">Login</ol>
+      </div>
+    </div>
+
+     
       <img src="./images/chimg2.png" alt="" width="50px" height="50px" class="logo">
       <div class="inner-nav">
-
+        
+  
         <ol class="click-to-home" onclick="goToPrimaryHomePage()">Home</ol>
         <ol onclick="openGuildlines()">Guildlines</ol>
         <ol onclick="displayQuestionbank()">Demo Test</ol>
@@ -92,7 +112,8 @@
       </div>
     </nav>
 
-    <div class="primary-body" style="background-image: url(./images/eduimg8.jpeg);">
+
+    <div class="primary-body">
        <p id="welcome-message">Welcome to the Challengehub primary category</p>
       <div class="primary-body-text">
        This is the primary category page.
@@ -261,9 +282,10 @@
      <p id="return-guildline-btn">Back</p>
     <li>Grades: Grades ranges from 4 - 12(basic 4 to SS3). eg 4 - basic four, 7 - JS1, 12 - SS3 etc.</li>
     <li>Demotest: In each category there are five demotest.</li>
+    <li>Demotest: Please you can off your internet connection when taking the demotest because the website has load all the files for you. we did that for people not to waste their data/wifi.</li>
     <li>Signingup: When signing up, users should input their correct credentials especially your username, email, and password.</li>
     <li>Payment: During payment, users should pay a sum of 1000 naira only. Nothing more nothing less.</li>
-    <li>Payment: You will be redirected to a payment page for operation of payment. please enable a stable network!!! remember it's a money transaction you're doing.<li>
+    <li>Payment: You will be redirected to a payment page for operation of payment. please enable a stable network!!! remember it's a money transaction you're operating.<li>
     <li>Login: Before you login, you must pay by signing up because the server will reject your request or access to the exam page.</li>
     <li>Login: Your username is your email not your name and your password is the very password you used to sign up.</li>
     <li>Demotest: You are not restricted to the demotest. you can take it at any time or repeat a particular demo.</li>
@@ -313,6 +335,7 @@
 <script src="./scripts/juniorsec.js"></script>
 <script src="./scripts/seniorsec.js"></script>
 <script src="./scripts/camera.js"></script>
+<script src="./scripts/payment.js"></script>
 <script type="module" src="./scripts/signupandlogin.js"></script>
 
 </html>

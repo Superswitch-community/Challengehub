@@ -69,8 +69,11 @@
     </div>
    
 </body>
-<script>
-    
+<script type="module">
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
+import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, increment } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
+   
        
    
 async function startExam() {
@@ -79,7 +82,7 @@ async function startExam() {
     function countDown() {
        // Set the countdown time (in seconds)
        let countdownTime = 600;
-       isRunning = true;
+       let isRunning = true;
        // Function to format time as MM:SS
        function formatTime(seconds) {
            const hours = Math.floor(seconds / 3600);
@@ -248,6 +251,22 @@ async function startExam() {
            percentScore.innerHTML = `Percent Score: ${Math.round((score/(randomQuestions.length)) * 100)}%`;
            console.log(incorrectAnswers);
            console.log(correctAnswers);
+
+           const auth = getAuth();
+           const db = getFirestore();
+               //Check user's reference
+
+                    const loggedInUserRef = localStorage.getItem('loggedInUserRef');
+                    const docRef = doc(db, "users", loggedInUserRef);
+
+                    //Check whether user's data exist
+                    const docSnap = getDoc(docRef);
+                    if (docSnap.exists()) {
+                        //Update user's payment status
+                        updateDoc(docRef, {
+                            userResult: `${Math.round((score/(randomQuestions.length)) * 100)}%`,
+                        });
+                    }
 
        }
    

@@ -38,12 +38,14 @@ const popupMessage = document.getElementById('popup-message');
 
 function showPopUpMessage(message) {
     
+    popupDisplay.style.display = 'block';
     popupMessage.textContent = message;
     popupDisplay.classList.add('show-popup');
     console.log('poppedup')
 
     popupDisplay.addEventListener('animationend', () => {
          popupDisplay.classList.remove('show-popup');
+         popupDisplay.style.display = 'none';
     }, {once: true});
       
 
