@@ -47,18 +47,21 @@ function submitGrade() {
             primaryCategorywebsite.style.display = "flex";
             document.title = 'Challengehub primary category';
             primaryBody.style.display = 'block';
+            dropDown.style.display = 'none';
         }
         else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
             mainPage.style.display = "none";
             juniorCategoryWebsite.style.display = "flex";
             document.title = 'Challengehub junior category'
             juniorBody.style.display = 'block';
+            dropDown.style.display = 'none';
         }
         else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
             mainPage.style.display = "none";
             seniorCategoryWebsite.style.display = "flex";
             document.title = 'Challengehub senior category'
             seniorBody.style.display = 'block';
+            dropDown.style.display = 'none';
         }
         else {
            showPopUpMessage("Enter a value between 4 - 12");
@@ -100,6 +103,7 @@ function goToPrimaryHomePage() {
     gradeInput.value = '';
     primaryCategorywebsite.style.display = 'none';
     document.title = 'Challengehub.com';
+    dropDown.style.display = 'none';
     
 }
 
@@ -114,7 +118,7 @@ function goToJuniorHomePage() {
     gradeInput.value = '';
     juniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
-    
+    dropDown.style.display = 'none';
 }
 
 function goToSeniorHomePage() {
@@ -128,7 +132,7 @@ function goToSeniorHomePage() {
     gradeInput.value = '';
     seniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
-    
+    dropDown.style.display = 'none';
 }
 
 /* The drop down menu*/
@@ -178,7 +182,7 @@ function displayQuestionbank() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('This is the demotest page for your pretest');
-    
+    dropDown.style.display = 'none';
 }
 
 /* Guildlines page */
@@ -190,6 +194,7 @@ function openGuildlines() {
     guildLines.style.display = "block";
     unDisplay();
     showPopUpMessage('You are in the guildlines page currently');
+    dropDown.style.display = 'none';
 }
 
 
@@ -285,6 +290,7 @@ function OpenSignupForm() {
     questionbank.style.display = 'none';
     loginForm.style.display = "none";
     guildLines.style.display = "none";
+    dropDown.style.display = 'none';
     unDisplay();
     showPopUpMessage('Your signup form has opened!!!');
     }, 2000)
@@ -295,6 +301,7 @@ function OpenLoginForm() {
     questionbank.style.display = 'none';
     loginForm.style.display = "flex";
     guildLines.style.display = "none";
+    dropDown.style.display = 'none';
     unDisplay();
     showPopUpMessage('Your login form has opened!!!');
     }, 2000)
