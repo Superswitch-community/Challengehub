@@ -34,7 +34,7 @@ html {
 }
 
 /*Mobile responsibility (for laptop sizes)*/
-@media screen and (max-width: 350px) and (min-width: 210px) {
+@media screen and (max-width: 768px)  {
 
 
 
