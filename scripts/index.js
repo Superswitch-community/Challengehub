@@ -182,7 +182,6 @@ function displayQuestionbank() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('This is the demotest page for your pretest');
-    dropDown.style.display = 'none';
 }
 
 /* Guildlines page */

@@ -4,6 +4,7 @@ async function startprimaryTest() {
     document.getElementById('animation-gif').style.display = 'flex';
     document.getElementById('examination-container').style.display = 'none';
 
+
     function countDown() {
        // Set the countdown time (in seconds)
        let countdownTime = 600;
@@ -230,6 +231,7 @@ async function startprimaryTest() {
        
 
        setTimeout(() => {
+        document.body.style.backgroundColor = "aliceblue"
        loadQuestion();
         countDown();
         /* accessCamera(); */

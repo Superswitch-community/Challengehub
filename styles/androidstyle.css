@@ -353,8 +353,12 @@ html {
     }
 
     #welcome-message {
-        color: black;
+        margin: 10px auto;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     
@@ -576,7 +580,7 @@ html {
 
     #timer-frame {
         display: flex;
-        justify-content: right;
+        justify-content: center;
     }
 
     /*For the alternative demo test*/
@@ -635,7 +639,7 @@ html {
         width: 30px;
         height: 30px;
         border-radius: 5px;
-        margin: 5px auto 5px;
+        margin: 7px;
     }
 
 
