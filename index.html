@@ -13,6 +13,20 @@
 
 <body>
 
+  <div class="welcome">
+    These are the list of categories in values
+    <li>1. 4 - basic 4</li>
+    <li>2. 5 - basic 5</li>
+    <li>3. 6 - basic 6</li>
+    <li>4. 7 - Js 1</li>
+    <li>5. 8 - Js 2</li>
+    <li>6. 9 - Js 3</li>
+    <li>7. 10 - Ss1</li>
+    <li>8. 11 - Ss2</li>
+    <li>9. 12 - Ss3</li>
+    <button onclick="removeWelcome()">X</button>
+  </div>
+
   <img src="./images/loading anmation.gif" alt="" id="animation-gif" style="display: none;">
   <video id="video" autoplay style="display: none;"></video>
 
@@ -93,7 +107,7 @@
         <button></button>
 
 
-         <div class="drop-down" style="display: none;">
+         <div class="drop-down">
         
         <ol class="click-to-home" onclick="goToPrimaryHomePage()">Home</ol>
         <ol onclick="openGuildlines()">Guildlines</ol>
@@ -113,6 +127,7 @@
         <ol onclick="displayQuestionbank()">Demo Test</ol>
         <button class="registerbtn" onclick="OpenSignupForm()">Register</button>
         <button class="loginbtn" onclick="OpenLoginForm()">Login</button>
+        <ol class="back-drop-down">Back</ol>
       </div>
     </nav>
 
@@ -327,7 +342,7 @@
 
     <div class="messageDiv" style="display: none;"></div>
      <div class="popup">
-        <span id="popup-message">Account created succesfully</span>
+        <span id="popup-message"></span>
     </div>
 
     <div class="exampage" style="display: none;">

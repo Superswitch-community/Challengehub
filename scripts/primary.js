@@ -231,7 +231,6 @@ async function startprimaryTest() {
        
 
        setTimeout(() => {
-        document.body.style.backgroundColor = "aliceblue"
        loadQuestion();
         countDown();
         /* accessCamera(); */

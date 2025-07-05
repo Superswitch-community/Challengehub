@@ -25,9 +25,19 @@ const seniorBody = document.querySelector('.senior-body');
 const primaryBodyText = document.querySelector('.primary-body-text');
 const juniorBodyText = document.querySelector('.primary-body-text');
 const seniorBodyText = document.querySelector('.primary-body-text');
-const dropMenu = document.querySelector('.drop-down-menu');
-const dropDown = document.querySelector('.drop-down');
+const welcomeMessage = document.querySelector('.welcome');
 
+
+
+function showWelcome() {
+    welcomeMessage.classList.add('show-welcome');
+}
+showWelcome();
+
+function removeWelcome() {
+    welcomeMessage.style.display = "none";
+}
+    
 
 
 window.addEventListener('online', () => {
@@ -47,21 +57,18 @@ function submitGrade() {
             primaryCategorywebsite.style.display = "flex";
             document.title = 'Challengehub primary category';
             primaryBody.style.display = 'block';
-            dropDown.style.display = 'none';
         }
         else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
             mainPage.style.display = "none";
             juniorCategoryWebsite.style.display = "flex";
             document.title = 'Challengehub junior category'
             juniorBody.style.display = 'block';
-            dropDown.style.display = 'none';
         }
         else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
             mainPage.style.display = "none";
             seniorCategoryWebsite.style.display = "flex";
             document.title = 'Challengehub senior category'
             seniorBody.style.display = 'block';
-            dropDown.style.display = 'none';
         }
         else {
            showPopUpMessage("Enter a value between 4 - 12");
@@ -103,7 +110,6 @@ function goToPrimaryHomePage() {
     gradeInput.value = '';
     primaryCategorywebsite.style.display = 'none';
     document.title = 'Challengehub.com';
-    dropDown.style.display = 'none';
     
 }
 
@@ -118,7 +124,6 @@ function goToJuniorHomePage() {
     gradeInput.value = '';
     juniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
-    dropDown.style.display = 'none';
 }
 
 function goToSeniorHomePage() {
@@ -132,26 +137,23 @@ function goToSeniorHomePage() {
     gradeInput.value = '';
     seniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
-    dropDown.style.display = 'none';
 }
 
 /* The drop down menu*/
-dropMenu.addEventListener('click', () => {
-    dropDown.style.display = "flex";
-})
+ document.querySelector('.drop-down-menu').addEventListener('click', () => {
+    document.querySelector('.drop-down').classList.toggle('show');
+    console.log('hhuiu')
+}) 
 
 /* Display the body*/
 function displayBody() {
      if(gradeInput.value >= 4 && gradeInput.value <= 6) {
-        dropDown.style.display = 'none';
         primaryBody.style.display = 'block';     
     }
     else if(gradeInput.value >= 7 && gradeInput.value <= 9) {
-        dropDown.style.display = 'none';
         juniorBody.style.display = 'block';
     }
     else if(gradeInput.value >= 10 && gradeInput.value <= 12) {
-        dropDown.style.display = 'none';
         seniorBody.style.display = 'block';
     }
 
@@ -174,7 +176,6 @@ function unDisplay() {
 
 /*demotest javascript program*/
 function displayQuestionbank() {
-    dropDown.style.display = 'none';
     questionbank.style.display = 'flex';
     registerForm.style.display = "none";
     loginForm.style.display = "none";
@@ -182,18 +183,18 @@ function displayQuestionbank() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('This is the demotest page for your pretest');
+    dropDown.style.display = "none";
 }
 
 /* Guildlines page */
 function openGuildlines() {
-    dropDown.style.display = 'none';
     questionbank.style.display = 'none';
     registerForm.style.display = "none";
     loginForm.style.display = "none";
     guildLines.style.display = "block";
     unDisplay();
     showPopUpMessage('You are in the guildlines page currently');
-    dropDown.style.display = 'none';
+    dropDown.style.display = "none";
 }
 
 
@@ -252,28 +253,33 @@ returnLoginLink.addEventListener('click', () => {
       displayBody();
 })
 
+/* Return back link*/
+document.querySelector(".back-drop-down").addEventListener('click', () => {
+    dropDown.style.display = ''
+})
+
 
 document.getElementById('logout-btn').addEventListener('click', () => {
     
     if (gradeInput.value >= 4 && gradeInput.value <= 6) {
-        dropDown.style.display = 'none';
         primaryCategorywebsite.style.display = "flex";
         resultPage.style.display = 'none';
         primaryBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
+        dropDown.style.display = "none";
     } else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
-        dropDown.style.display = 'none';
         juniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         juniorBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
+        dropDown.style.display = "none";
     } 
     else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
-        dropDown.style.display = 'none';
         seniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         seniorBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
+        dropDown.style.display = "none";
     }
     else {
         return 0;
@@ -289,9 +295,9 @@ function OpenSignupForm() {
     questionbank.style.display = 'none';
     loginForm.style.display = "none";
     guildLines.style.display = "none";
-    dropDown.style.display = 'none';
     unDisplay();
     showPopUpMessage('Your signup form has opened!!!');
+    dropDown.style.display = "none";
     }, 2000)
 }
 function OpenLoginForm() {
@@ -300,8 +306,8 @@ function OpenLoginForm() {
     questionbank.style.display = 'none';
     loginForm.style.display = "flex";
     guildLines.style.display = "none";
-    dropDown.style.display = 'none';
     unDisplay();
     showPopUpMessage('Your login form has opened!!!');
+    dropDown.style.display = "none";
     }, 2000)
 }
