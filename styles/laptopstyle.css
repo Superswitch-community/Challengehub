@@ -15,7 +15,7 @@
 }
 
 /*Mobile responsibility (for laptop sizes)*/
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
     #heading {
         width: 100%;
         height: 50px;
@@ -151,7 +151,7 @@
 
     #timer {
         color: green;
-        width: 150px;
+        min-width: 150px;
         height: 40px;
         border: 2px solid;
         padding: 10px;
@@ -606,13 +606,13 @@
     .juniorcategory .header-nav,
     .seniorcategory .header-nav {
         box-shadow: 0 2px 5px #ddd;
-        width: 100%;
+        min-width: 100%;
         height: 90px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        background-color:white;
         color: black;
         /* position: fixed;
         top: 0;
@@ -653,6 +653,16 @@
         font-size: 1.5rem;
         color: black;
         text-align: center;
+    }
+
+     #welcome-message {
+        margin: 10px auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: green;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
     }
 
     .primary-body-text,
@@ -777,6 +787,10 @@
         font-weight: bold;
         text-decoration: underline;
         color: white;
+    }
+
+    .drop-down {
+        display: none;
     }
 
     /*For the demo test*/
@@ -1043,7 +1057,7 @@
     }
 
     .result-page {
-        width: 1000px;
+        min-width: 1000px;
         height: 600px;
         border: 1px solid;
         border-radius: 5px;
@@ -1055,7 +1069,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         padding: 20px;
+        row-gap: 30px;
     }
 
     #logout-btn {
@@ -1328,6 +1344,34 @@
             border: none;
         }
 
+   /*welcomes the website*/
+    .welcome {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.2s ease-in-out;
+        font-size: 0.9rem;
+        min-width: 200px;
+        opacity: 0;
+    }
+
+    .welcome button {
+        margin: 10px 100px 0;
+        background-color: red;
+        width: 30px;
+        height: 30px;
+        border: none;
+        color: white;
+    }
+
+    .show-welcome {
+        animation: fadeInFast 1s forwards;
+    }
 
 
 

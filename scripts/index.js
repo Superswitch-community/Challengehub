@@ -26,7 +26,7 @@ const primaryBodyText = document.querySelector('.primary-body-text');
 const juniorBodyText = document.querySelector('.primary-body-text');
 const seniorBodyText = document.querySelector('.primary-body-text');
 const welcomeMessage = document.querySelector('.welcome');
-
+const dropDown = document.querySelector('.drop-down');
 
 
 function showWelcome() {
@@ -127,7 +127,7 @@ function goToJuniorHomePage() {
 }
 
 function goToSeniorHomePage() {
-
+    
     seniorBody.style.display = 'none';
     questionbank.style.display = 'none';
     loginForm.style.display = 'none';
@@ -139,11 +139,6 @@ function goToSeniorHomePage() {
     document.title = 'Challengehub.com';
 }
 
-/* The drop down menu*/
- document.querySelector('.drop-down-menu').addEventListener('click', () => {
-    document.querySelector('.drop-down').classList.toggle('show');
-    console.log('hhuiu')
-}) 
 
 /* Display the body*/
 function displayBody() {
@@ -183,7 +178,6 @@ function displayQuestionbank() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('This is the demotest page for your pretest');
-    dropDown.style.display = "none";
 }
 
 /* Guildlines page */
@@ -229,12 +223,15 @@ returnGuildlinesLink.addEventListener('click', () => {
     if (gradeInput.value >= 4 && gradeInput.value <= 6) {
     guildLines.style.display = 'none';
     primaryBody.style.display = 'block';
+    dropDown.style.display = 'flex';
     } else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
     guildLines.style.display = 'none';
     juniorBody.style.display = 'block';
+    dropDown.style.display = 'flex';
     } else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
     guildLines.style.display = 'none';
     seniorBody.style.display = 'block'
+    dropDown.style.display = 'flex';
     }
 })
 
@@ -253,10 +250,13 @@ returnLoginLink.addEventListener('click', () => {
       displayBody();
 })
 
-/* Return back link*/
-document.querySelector(".back-drop-down").addEventListener('click', () => {
-    dropDown.style.display = ''
-})
+/*Drop down menu*/
+
+   document.querySelector('.drop-down')
+        .addEventListener('click', () =>{
+            document.querySelector('.content')
+            .classList.toggle('show')
+        })
 
 
 document.getElementById('logout-btn').addEventListener('click', () => {
@@ -266,20 +266,17 @@ document.getElementById('logout-btn').addEventListener('click', () => {
         resultPage.style.display = 'none';
         primaryBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
-        dropDown.style.display = "none";
     } else if (gradeInput.value >= 7 && gradeInput.value <= 9) {
         juniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         juniorBody.style.display = 'block'
         showPopUpMessage('You logged out!!!');
-        dropDown.style.display = "none";
     } 
     else if (gradeInput.value >= 10 && gradeInput.value <= 12) {
         seniorCategoryWebsite.style.display = "flex";
         resultPage.style.display = 'none';
         seniorBody.style.display = 'block'
-        showPopUpMessage('You logged out!!!');
-        dropDown.style.display = "none";
+        showPopUpMessage('You logged out!!!')
     }
     else {
         return 0;
@@ -297,7 +294,6 @@ function OpenSignupForm() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('Your signup form has opened!!!');
-    dropDown.style.display = "none";
     }, 2000)
 }
 function OpenLoginForm() {
@@ -308,6 +304,5 @@ function OpenLoginForm() {
     guildLines.style.display = "none";
     unDisplay();
     showPopUpMessage('Your login form has opened!!!');
-    dropDown.style.display = "none";
     }, 2000)
 }

@@ -267,9 +267,4 @@
     "question": "A typist can type about 35 words per minute. Estimate to 1 significant figure, how long it will take her to type a paper that is 682 words long",
     "options": ["30 mins", "40 mins", "80 mins", "20 mins"],
     "answer": "D"
-},
-{
-    "question": "",
-    "options": [],
-    "answer": ""
 }]
