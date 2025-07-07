@@ -45,8 +45,7 @@ async function startprimaryTest() {
    
    let response = await fetch('./json files/primarypretestquestions.json');
       let questions = await response.json();
-      
-   
+         
       function getRandomQuestions(questions, numQuestions) {
            let randomQuestions = [];
            let questionCopy = questions;
@@ -151,8 +150,8 @@ async function startprimaryTest() {
                 correctAnswers[currentQuestionIndex] = false;
                 score--;
                }
-               console.log(correctAnswers);
-               console.log(score);
+              /*  console.log(correctAnswers); */
+              /*  console.log(score); */
                
         } catch (error) {
             console.log(error);

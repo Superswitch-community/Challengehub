@@ -147,8 +147,8 @@ async function startseniorsecondaryTest() {
                 correctAnswers[currentQuestionIndex] = false;
                 score--;
                }
-               console.log(correctAnswers);
-               console.log(score);
+               /* console.log(correctAnswers);
+               console.log(score); */
                
         } catch (error) {
             console.log(error);

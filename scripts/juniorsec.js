@@ -147,8 +147,9 @@ async function startjuniorsecondaryTest() {
                 correctAnswers[currentQuestionIndex] = false;
                 score--;
                }
-               console.log(correctAnswers);
-               console.log(score);
+              
+               /* console.log(correctAnswers);
+               console.log(score); */
                
         } catch (error) {
             console.log(error);
@@ -208,6 +209,14 @@ async function startjuniorsecondaryTest() {
          
            /* stopCamera(); */
        });
+
+       /* Check unanwered questions*/
+       function checkUnansweredQuestion(element) {
+        return element = questions[currentQuestionIndex] === "";
+       }
+
+       unansweredQuestion = questions.filter(checkUnansweredQuestion);
+       console.log(unansweredQuestion);
    
     
        //Initialize question navigation

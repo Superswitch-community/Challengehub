@@ -906,7 +906,9 @@ html {
     }  */
 
     /*new one*/
-    .content {
+   .primary-content,
+   .junior-content,
+   .senior-content {
         min-width: 100vw;
         min-height: 300px;
         color: black;
@@ -927,14 +929,18 @@ html {
         display: none;
     }
 
-    .drop-down button {
+    .primary-drop-down button,
+    .junior-drop-down button,
+    .senior-drop-down button {
         width: 20px;
         height: 1px;
         background-color: white;
         border: none;
     }
 
-    .drop-down {
+   .primary-drop-down,
+   .junior-drop-down,
+   .senior-drop-down {
         border: 1px solid white;
         width: 30px;
         height: 30px;
@@ -977,7 +983,7 @@ html {
 
     .popup {
         position: fixed;
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #fff;
