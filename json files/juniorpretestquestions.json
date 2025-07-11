@@ -267,4 +267,222 @@
     "question": "A typist can type about 35 words per minute. Estimate to 1 significant figure, how long it will take her to type a paper that is 682 words long",
     "options": ["30 mins", "40 mins", "80 mins", "20 mins"],
     "answer": "D"
+}, {
+    "question": "The sum of consecutive numbers is 58. Find the numbers",
+    "options": ["12, 13, 14, 15", "13, 14, 15, 16", "14, 15, 16, 17", "15, 16, 17, 18"],
+    "answer": "B"
+},
+{
+    "question": "The difference between 8 and another number is 17. Find the two possible values for the number",
+    "options": ["25 or -9", "26 or -8", "27 or -7", "28 or -6"],
+    "answer": "A"
+},
+{
+    "question": "The sum of three consecutive numbers is 63, find the numbers",
+    "options": ["18, 19, 20, 21", "19, 20, 21", "20, 21, 22", "21, 22, 23"],
+    "answer": "C"
+},
+{
+    "question": "Find the product of -6, 0.7 and 20/3",
+    "options": ["-28", "-21", "5", "18"],
+    "answer": "A"
+},
+{
+    "question": "Find the sum of 0.9 and the product of 1.7 and 3",
+    "options": ["5", "2", "8", "6"],
+    "answer": "D"
+},
+{
+    "question": "Find the product of 1/7 and the sum of 3/5 and 3/2",
+    "options": ["2/10", "3/10", "4/10", "5/10"],
+    "answer": "B"
+},
+{
+    "question": "Find the positive difference between the sum of 1.6 and 2 and the product of 7 and 0.4",
+    "options": ["0.1", "0.3", "0.5", "0.8"],
+    "answer": "D"
+},
+{
+    "question": "Find one-quarter of the positive difference between 29 and 11",
+    "options": ["9/2", "1/2", "5", "6"],
+    "answer": "A"
+},
+{
+    "question": "Divide 40 by the sum of 3 and 5",
+    "options": ["3", "4", "5", "6"],
+    "answer": "C"
+},
+{
+    "question": "Find the one-ninth of the positive difference between 55 and the sum of 12 and 7",
+    "options": ["1", "2", "3", "4"],
+    "answer": "D"
+},
+{
+    "question": "From the product of 10 and 6, subtract 24; then divide the result by 4",
+    "options": ["7", "8", "9", "10"],
+    "answer": "C"
+},
+{
+    "question": "The product of a certain number and 5 is equal to twice the number subtracted from 20. Find the number",
+    "options": ["13/2", "15/4", "20/7", "19/5"],
+    "answer": "C"
+},
+{
+    "question": "The sum of 35 and a certain number is divided by 4. The result is equal to double the number. Find the number",
+    "options": ["0", "10", "3", "5"],
+    "answer": "D"
+},
+{
+    "question": "The sum of two numbers is 22. The sum of 3/4 of one of the numbers and 1/5 of the other number is 11. Find the two numbers",
+    "options": ["8 and 14", "9 and 13", "11 and 11", "10 and 12"],
+    "answer": "D"
+},
+{
+    "question": "A substance which cannot be split into simpler substances by ordinary process is called ___________",
+    "options": ["salt", "mixture", "compound", "element"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is not an element?",
+    "options": ["water", "helium", "SiO2", "Na2CO3"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following is a mixture?",
+    "options": ["urine", "soap", "sand", "common salt"],
+    "answer": "A"
+},
+{
+    "question": "What is the symbol for helium",
+    "options": ["H", "li", "He", "he"],
+    "answer": "C"
+},
+{
+    "question": "What is the symbol for lithium",
+    "options": ["O", "Ne", "He", "Li"],
+    "answer": "D"
+},
+{
+    "question": "What is the symbol for Berylium",
+    "options": ["be", "Be", "bE", "Li"],
+    "answer": "B"
+},
+{
+    "question": "What is the symbol for neon",
+    "options": ["Al", "Kr", "Ne", "LI"],
+    "answer": "C"
+},
+{
+    "question": "Whta is the symbol for aluminium",
+    "options": ["O3", "AL", "aL", "Al"],
+    "answer": "D"
+},
+{
+    "question": "What is the symbol for silicon",
+    "options": ["He", "H", "Be", "Si"],
+    "answer": "D"
+},
+{
+    "question": "What is the symbol for argon",
+    "options": ["ar", "Ar", "none of the above", "all of the above"],
+    "answer": "C"
+},
+{
+    "question": "What is the symbol for calcium",
+    "options": ["none", "kr", "li", "ca"],
+    "answer": "A"
+},
+{
+    "question": "What is the symbol for magnesium",
+    "options": ["Ar", "Cl", "none", "MG"],
+    "answer": "C"
+},
+{
+    "question": "What is the symbol for chlorine",
+    "options": ["cl", "none", "cL", "all of the above"],
+    "answer": "B"
+},
+{
+    "question": "What is the latin name for sodium",
+    "options": ["plumbum", "argentum", "aurum", "natrium"],
+    "answer": "D"
+},
+{
+    "question": "What is the symbol for copper",
+    "options": ["Cu", "cu", "al", "Al"],
+    "answer": "A"
+},
+{
+    "question": "Objects that allow heat and electricity to pass through them is called",
+    "options": ["middle-metals", "semi-metals", "non-metals", "metals"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is not the property of metals ",
+    "options": ["They are shiny", "Thet are malleable", "They are sonorous", "They can't be beaten into shape"],
+    "answer": "D"
+},
+{
+    "question": "A property of metals that allows itself to be drawn into wires is called ________",
+    "options": ["electricity", "sonorousity", "ductility", "malleability"],
+    "answer": "C"
+},{
+    "question": "The abiltiy of a metal to make sound is ________",
+    "options": ["metality", "permeability", "ductility", "sonorousity"],
+    "answer": "D"
+},
+{
+    "question": "Most metals have high melting and boiling points",
+    "options": ["all", "none", "false", "true"],
+    "answer": "D"
+},
+{
+    "question": "Elements that ionize by the gain of electrons is called ___________",
+    "options": ["compounds", "molecule", "metals", "non-metals"],
+    "answer": "D"
+},
+{
+    "question": "Are most non-metals brittle?",
+    "options": ["all of the above", "none of the above", "false", "true"],
+    "answer": "D"
+},
+{
+    "question": "The ability and capability to do work is called ___________",
+    "options": ["speed", "kinetic", "energy", "potential"],
+    "answer": "C"
+},
+{
+    "question": "The energy that is generated by the sensation of vision is called __________ energy",
+    "options": ["light", "sound", "mechanical", "wind"],
+    "answer": "A"
+},
+{
+    "question": "The energy that is generated by the vibration of an object is called",
+    "options": ["sound energy", "wind energy", "light energy", "kinetic energy"],
+    "answer": "A"
+},
+{
+    "question": "The energy that is generated from bio-chemical substances is called __________ energy",
+    "options": ["geothermal", "biomass", "light", "potential"],
+    "answer": "B"
+},
+{
+    "question": "The energy stored in fuel, food etc is ",
+    "options": ["chemical energy", "potential energy", "kinetic energy", "mechanical energy"],
+    "answer": "A"
+},
+{
+    "question": "The energy at rest is called ________",
+    "options": ["light energy", "chemical energy", "kinetic energy", "potential energy"],
+    "answer": "D"
+},
+{
+    "question": "The energy of a moving object is called _________ energy",
+    "options": ["sound", "wind", "kinetic", "potential"],
+    "answer": "C"
+},
+{
+    "question": "The energy generated from a hot object is called _______ energy",
+    "options": ["heat", "chemical", "kinetic", "sound"],
+    "answer": "A"
 }]

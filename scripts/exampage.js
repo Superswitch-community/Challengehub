@@ -1,17 +1,17 @@
 
-
-async function startprimaryTest() {
-    document.getElementById('animation-gif').style.display = 'flex';
-    document.getElementById('examination-container').style.display = 'none';
-
-
-       // Set the countdown time (in seconds)
-       let countdownTime = 600;
-       isRunning = true;
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
+import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, increment } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
+   
        
+   
+async function startExam() {
+    
 
     function countDown() {
-       
+       // Set the countdown time (in seconds)
+       let countdownTime = 600;
+       let isRunning = true;
        // Function to format time as MM:SS
        function formatTime(seconds) {
            const hours = Math.floor(seconds / 3600);
@@ -19,38 +19,28 @@ async function startprimaryTest() {
            const remainingSeconds = seconds % 60;
            return `${hours < 10 ? '0' : ''}${hours}:${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
        }
-
    
        // Display initial countdown time
        document.getElementById("timer").textContent = formatTime(countdownTime);
 
        // Start the countdown timer
-       const  countdownInterval = setInterval(() => {
+       const countdownInterval = setInterval(() => {
            if (isRunning) {
                countdownTime--;
    
                // Update the timer display
                document.getElementById("timer").textContent = formatTime(countdownTime);
-              
    
                // Stop the timer when countdown reaches zero
                if (countdownTime <= 0) {
                    clearInterval(countdownInterval);
                    showScore();
                }
-               else if(countdownTime === "300") {
-                document.getElementById("timer").style.color = "red";
-                showPopUpMessage('Oops!! your remains 5 minutes');
-               }
            }
    
-           
        }, 1000);
-       return countdownInterval;
+       
    }
-
-
-   document.getElementById('question-nav').innerHTML = '';
    
    
    let response = await fetch('./json files/primarypretestquestions.json');
@@ -70,9 +60,9 @@ async function startprimaryTest() {
            return randomQuestions;
         }
      
-        let randomQuestions = getRandomQuestions(questions, 30);
-        console.log(`${randomQuestions.length} questions available for demotest`);
-       
+        let randomQuestions = getRandomQuestions(questions, 50);
+/*         console.log(`${randomQuestions.length} questions available for demotest`);
+ */       
 
        let correctAnswers = [];
        let incorrectAnswers = 0;
@@ -84,7 +74,6 @@ async function startprimaryTest() {
        /* console.log(randomQuestions[currentQuestionIndex][currentQuestionElementIndex].options); */
         
        function loadQuestion() {
-        
         
            let navButtons = document.querySelectorAll('.button');
            navButtons.forEach((button, index) => {
@@ -162,8 +151,7 @@ async function startprimaryTest() {
                 correctAnswers[currentQuestionIndex] = false;
                 score--;
                }
-              
-               /* console.log(correctAnswers);
+              /*  console.log(correctAnswers);
                console.log(score); */
                
         } catch (error) {
@@ -193,6 +181,22 @@ async function startprimaryTest() {
            console.log(incorrectAnswers);
            console.log(correctAnswers);
 
+           const auth = getAuth();
+           const db = getFirestore();
+               //Check user's reference
+
+                    const loggedInUserRef = localStorage.getItem('loggedInUserRef');
+                    const docRef = doc(db, "users", loggedInUserRef);
+
+                    //Check whether user's data exist
+                    const docSnap = getDoc(docRef);
+                    if (docSnap.exists()) {
+                        //Update user's payment status
+                        updateDoc(docRef, {
+                            userResult: `${Math.round((score/(randomQuestions.length)) * 100)}%`,
+                        });
+                    }
+
        }
    
        document.getElementById('prev-btn').addEventListener('click', () => {
@@ -208,32 +212,19 @@ async function startprimaryTest() {
        });
    
       
-       document.getElementById('submit-btn').addEventListener('click', () => {
+        document.getElementById('submit-btn').addEventListener('click', () => {
         confirmDialog('Are you sure you want to submit')
         .then((confirmed) => {
             if(confirmed) {
                 setTimeout(() => {
                      showScore();
-                     countdownTime = 0;
-                    const timer = countDown();
-                    clearInterval(timer);
-              }, 2000)
+                }, 2000)
             }
             else {
                 return 0;
             }
         })
-         
-           /* stopCamera(); */
-       });
-
-       /* Check unanwered questions*/
-       function checkUnansweredQuestion(element) {
-        return element = questions[currentQuestionIndex] === "";
-       }
-
-       unansweredQuestion = questions.filter(checkUnansweredQuestion);
-       console.log(unansweredQuestion);
+       }); 
    
     
        //Initialize question navigation
@@ -251,14 +242,12 @@ async function startprimaryTest() {
            });
            document.getElementById('question-nav').appendChild(button);
        });
-       
 
-       setTimeout(() => {
+       countDown();
        loadQuestion();
-        countDown();
-        /* accessCamera(); */
-       document.getElementById('animation-gif').style.display = 'none';
-       document.getElementById('examination-container').style.display = 'block';
-       }, 5000);
  
     }
+
+ 
+ startExam();
+   

@@ -28,15 +28,12 @@ const db = getFirestore();
 
 signupButton.addEventListener('click', (e) => {
 
-                const reference = 'REF-' + Math.random().toString(36).substring(2, 9) + Date.now();
+                /* const reference = 'REF-' + Math.random().toString(36).substring(2, 9) + Date.now(); */
                  e.preventDefault();
 
                 //storing user's email and password
                 const email = document.getElementById('email').value;
                 const password = document.getElementById('password').value;
-
-                const auth = getAuth();
-                const db = getFirestore();
 
                 createUserWithEmailAndPassword(auth, email, password)
                     .then((userCredentail) => {
@@ -46,12 +43,12 @@ signupButton.addEventListener('click', (e) => {
                             paymentStatus: false,
                             examCount: 0,
                             userResult: "0%",
-                            reference: `${reference}`,
+                            reference: ``,
                         };
                         showPopUpMessage("Account Created Successfully");
                         setTimeout(() => {
                             showPopUpMessage('You are redirected to pay!!!');
-                            payWithPaystack(reference);
+                            payWithPaystack();
                         }, 2000);
 
                         const docRef = doc(db, "users", user.uid);
@@ -84,7 +81,6 @@ loginButton.addEventListener('click', (e) => {
     const email = document.getElementById('login-email').value;
     const password = document.getElementById('login-password').value;
 
-    const auth = getAuth();
 
 
     signInWithEmailAndPassword(auth, email, password)
@@ -92,7 +88,7 @@ loginButton.addEventListener('click', (e) => {
             const user = userCredentail.user;
             showPopUpMessage('Login Successful');
             loginForm.style.display = 'none';
-            localStorage.setItem('loggedInUserRef', user.reference);
+            localStorage.setItem('loggedInUserId', user.uid);
             location.href = 'exampage.html';
 
         })
@@ -186,10 +182,10 @@ const startExamButton = document.getElementById('startExam');
 
 
 startExamButton.addEventListener('click', async () => {
-    const loggedInUserRef = localStorage.getItem('loggedInUserRef');
+    const loggedInUserId = localStorage.getItem('loggedInUserId');
 
     try {
-        const docRef = doc(db, "users", loggedInUserRef);
+        const docRef = doc(db, "users", loggedInUserId);
         //Get current examCount
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {

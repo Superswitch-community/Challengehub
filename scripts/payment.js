@@ -1,7 +1,10 @@
 //For payment requests
 
-async function payWithPaystack(reference) {
+async function payWithPaystack() {
     const email = document.getElementById('email').value;
+    const loggedInUserId = localStorage.getItem('loggedInUserId');
+
+   
     const payloadData = {
         "currency": "NGN",
         "amount": 1050 * 100,
@@ -32,9 +35,27 @@ async function payWithPaystack(reference) {
             //check if authorization  url is available
             if (data && data.status === true && data.data && data.data.authorization_url) {
                 const authorizationUrl = data.data.authorization_url;
+                const reference = data.data.reference;
                 //redirect the user to the authorization URL
                 window.location.href = authorizationUrl;
-                verifyPayment(reference);
+
+            const docRef = doc(db, "users", loggedInUserId);
+            
+            const docSnap =  getDoc(docRef);
+            if (docSnap.exists()) {
+
+                
+                //update user's reference
+                 updateDoc(docRef, {
+                    reference: reference,
+                });
+    
+          }
+            else {
+                //handle user document not found
+                console.log('User document not found');
+            }    
+                
             }
             else {
                 console.error("Authorization URL not found in response");
@@ -45,6 +66,8 @@ async function payWithPaystack(reference) {
         })
 }
 
+const urlParams = new  URLSearchParams(window.location.search);
+const reference = urlParams.get('reference')
 
 async function verifyPayment(reference) {
     /* const urlParams = new URLSearchParams(window.location.search);
@@ -90,3 +113,4 @@ async function verifyPayment(reference) {
     }
 }
 
+verifyPayment(reference);

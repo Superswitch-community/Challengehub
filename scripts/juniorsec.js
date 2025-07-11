@@ -4,10 +4,14 @@ async function startjuniorsecondaryTest() {
     document.getElementById('animation-gif').style.display = 'flex';
     document.getElementById('examination-container').style.display = 'none';
 
-    function countDown() {
+
        // Set the countdown time (in seconds)
        let countdownTime = 600;
        isRunning = true;
+       
+
+    function countDown() {
+       
        // Function to format time as MM:SS
        function formatTime(seconds) {
            const hours = Math.floor(seconds / 3600);
@@ -15,28 +19,37 @@ async function startjuniorsecondaryTest() {
            const remainingSeconds = seconds % 60;
            return `${hours < 10 ? '0' : ''}${hours}:${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
        }
+
    
        // Display initial countdown time
        document.getElementById("timer").textContent = formatTime(countdownTime);
 
        // Start the countdown timer
-       const countdownInterval = setInterval(() => {
+       const  countdownInterval = setInterval(() => {
            if (isRunning) {
                countdownTime--;
    
                // Update the timer display
                document.getElementById("timer").textContent = formatTime(countdownTime);
+              
    
                // Stop the timer when countdown reaches zero
                if (countdownTime <= 0) {
                    clearInterval(countdownInterval);
                    showScore();
+               } else if(countdownTime === "300") {
+                document.getElementById("timer").style.color = "red";
+                showPopUpMessage('Oops!! your remains 5 minutes');
                }
            }
    
+           
        }, 1000);
-       
+       return countdownInterval;
    }
+
+
+   document.getElementById('question-nav').innerHTML = '';
    
    
    let response = await fetch('./json files/juniorpretestquestions.json');
@@ -70,6 +83,7 @@ async function startjuniorsecondaryTest() {
        /* console.log(randomQuestions[currentQuestionIndex][currentQuestionElementIndex].options); */
         
        function loadQuestion() {
+        
         
            let navButtons = document.querySelectorAll('.button');
            navButtons.forEach((button, index) => {
@@ -199,8 +213,10 @@ async function startjuniorsecondaryTest() {
             if(confirmed) {
                 setTimeout(() => {
                      showScore();
-                     isRunning = false;
-                }, 2000)
+                     countdownTime = 0;
+                    const timer = countDown();
+                    clearInterval(timer);
+              }, 2000)
             }
             else {
                 return 0;

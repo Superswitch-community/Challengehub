@@ -612,7 +612,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color:white;
+        background-color: white;
         color: black;
         /* position: fixed;
         top: 0;
@@ -655,7 +655,7 @@
         text-align: center;
     }
 
-     #welcome-message {
+    #welcome-message {
         margin: 10px auto;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: green;
@@ -731,8 +731,7 @@
 
     .primarycategory .inner-nav .registerbtn:hover,
     .juniorcategory .inner-nav .registerbtn:hover,
-    .seniorcategory .inner-nav .registerbtn:hover
-     {
+    .seniorcategory .inner-nav .registerbtn:hover {
         background-color: #63a2e6;
     }
 
@@ -757,8 +756,7 @@
 
     .primarycategory .inner-nav .loginbtn:hover,
     .juniorcategory .inner-nav .loginbtn:hover,
-    .seniorcategory .inner-nav .loginbtn:hover
-     {
+    .seniorcategory .inner-nav .loginbtn:hover {
         background-color: #eb8371;
     }
 
@@ -996,6 +994,8 @@
       background-color: grey;
       color: white;
   } */
+
+
     .button:hover {
         cursor: pointer;
     }
@@ -1286,14 +1286,14 @@
 
     .show-popup {
         display: block;
-        animation: fadeInFast 2s forwards, fadeOutSlow  8s forwards;
+        animation: fadeInFast 2s forwards, fadeOutSlow 8s forwards;
     }
 
-            /*Dropdown menu*/
+    /*Dropdown menu*/
 
     .primary-content,
-   .junior-content,
-   .senior-content {
+    .junior-content,
+    .senior-content {
         min-width: 100vw;
         min-height: 300px;
         color: black;
@@ -1323,25 +1323,14 @@
         border: none;
     }
 
-   .primary-drop-down,
-   .junior-drop-down,
-   .senior-drop-down {
-        border: 1px solid white;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        border-radius: 1px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 5px;
+    .primary-drop-down,
+    .junior-drop-down,
+    .senior-drop-down {
+        display: none;
     }
 
 
-   /*welcomes the website*/
+    /*welcomes the website*/
     .welcome {
         position: fixed;
         top: 40%;
