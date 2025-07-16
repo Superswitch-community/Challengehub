@@ -1,0 +1,50 @@
+[{
+    "question": "How many cm are there in n metres?",
+    "options": ["1000n cm","100n cm","10n cm","0.1n cm"],
+    "answer": "B"
+},
+{
+    "question": "David has #80 more than Mary. If Mary has #340, how much does David have?",
+    "options":["-260","260","-430","-420"],
+    "answer": "D"
+},
+{
+    "question": "Baba is 13 years old. How old will he be 8 years from now?",
+    "options":["18 years","19 years","34 years","21 years"],
+    "answer": "D"
+},
+{
+    "question": "A farmer has 6 goats and z cows, how many animals did he have all together?",
+    "options":["6 + z goats","6 + z cows","6 + z cattle","6 + z goats"],
+    "answer": "C"
+},
+{
+    "question": "Last year, the body mass of a student was 48kg. The increase in the student's body mass this year is Mkg. What is student's body mass thus year?",
+    "options":["(48 + m)g","(48 - m)g","(48/m)kg","(48 + m)kg"],
+    "answer": "D"
+},
+{
+    "question": "A man has k kolanuts. A friend gives him one more kolanuts. How many kolanuts does he have now?",
+    "options":["(k + 1)kolanuts","(k - 1)kolanuts","(k + 1)kolanut","(k - 1)kolanut"],
+    "answer": "A"
+},
+{
+    "question": "If today is sixth of september. What will be the date in n days time? (assume that the month will still be september)",
+    "options":["(3 + n)th of september","(16 + n)th of september","(6 + n)th of september","(6 + n)th of august"],
+    "answer": "C"
+},
+{
+    "question": "Each side of a square board is d centimetres long. What is the total length of the sides of the board?",
+    "options":["no value","4d cm","5d cm","2d cm"],
+    "answer": "B"
+},
+{
+    "question": "In a test mohamed got 7 marks more than emmanuel. emmanuel got x marks. How many marks did mohamed get and how many marks did fatima get if fatima got y marks?",
+    "options":["(x + 7)marks, (x + 7 + y)marks","(7 + y)marks,(7 - y + x)marks","(x + y)marks, (x + 7)marks","(x + y + 7 - 1)marks,(y + 7)marks"],
+    "answer": "A"
+},
+{
+    "question": "",
+    "options":["","","",""],
+    "answer": ""
+}]

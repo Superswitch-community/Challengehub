@@ -1,12 +1,10 @@
-
-
 async function startseniorsecondaryTest() {
     document.getElementById('animation-gif').style.display = 'flex';
     document.getElementById('examination-container').style.display = 'none';
 
 
        // Set the countdown time (in seconds)
-       let countdownTime = 600;
+       let countdownTime = 1500;
        isRunning = true;
        
 
@@ -75,7 +73,7 @@ async function startseniorsecondaryTest() {
 
        let correctAnswers = [];
        let incorrectAnswers = 0;
-       let unansweredQuestion = 0;
+      /*  let unansweredQuestion = 0; */
        let score = 0;
        let answerQuestion = [];
        let currentQuestionElementIndex = 0;
@@ -186,11 +184,9 @@ async function startseniorsecondaryTest() {
            percentScore.classList.add('percentscore');
            result.classList.add('question-number');
            incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
-           unansweredQuestionHtml.innerHTML = `Unanswered questions: ${unansweredQuestion}/${randomQuestions.length}`;
+         /*   unansweredQuestionHtml.innerHTML = `Unanswered questions: ${unansweredQuestion}/${randomQuestions.length}`; */
            result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
            percentScore.innerHTML = `Percent Score: ${Math.round((score/(randomQuestions.length)) * 100)}%`;
-           console.log(incorrectAnswers);
-           console.log(correctAnswers);
 
        }
    
@@ -227,12 +223,12 @@ async function startseniorsecondaryTest() {
        });
 
        /* Check unanwered questions*/
-       function checkUnansweredQuestion(element) {
+       /* function checkUnansweredQuestion(element) {
         return element = questions[currentQuestionIndex] === "";
        }
 
        unansweredQuestion = questions.filter(checkUnansweredQuestion);
-       console.log(unansweredQuestion);
+       console.log(unansweredQuestion); */
    
     
        //Initialize question navigation

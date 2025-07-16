@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="exampage.css">
+    <link rel="stylesheet" href="./styles/exampage.css">
 </head>
 
 <body>
 
     <div class="user-portal">
-        <nav>
-            User: Ajoku Great Ubamara
-        </nav>
+        <h1>User: Ajoku Great Ubamara</h1>
         <h1>This is your portal great</h1>
 
         <div class="social-site">
@@ -33,21 +31,11 @@
         </div>
     </div>
 
-   <div class="main-exam-page" style="display: none">
-      <div class="details-block">
-        <p>Name: Ajoku great ubamara</p>
-        <p>Time: 1 hour</p>
-        <p>Category: Primary category</p>
-        <p>Number of question: 50</p>
-        <p>Email: ubamaragreat@gmail.com</p>
-        <p>Password: God2008@</p>
-
-        <button id="submit-btn">submit</button>
-    </div>
+   <div class="main-exam-page" style="display: none"> 
    
   <div class="container">
     <nav>
-    <p>👥 User : Ajoku Great Ubamara</p>
+    <p id="user-name">👥 User : Ajoku Great Ubamara</p>
   <p id="timer">Remaining time: 00:00:00</p>
    </nav> 
 
@@ -70,7 +58,7 @@
        
         <div id="question-nav"></div>
 
-
+        <button id="submit-btn">submit</button>
     </div>
 
  <div class="result-page" style="display: none;">
@@ -85,7 +73,7 @@
    </div>
 
       <div class="confirm-container" style="display: none;">
-        <p id="confirm-message"></p>
+        <p id="confirm-message"></p>yu
         <div class="buttons-container">
             <button id="confirm-ok">Yes</button>
             <button id="confirm-no">No</button>
@@ -96,6 +84,6 @@
    
 </body>
 
-<script src="./scripts/confirmmessage.js"></script>
-<script type="module" src="exampage.js"></script>
+<script src="./scripts/exampage.js"></script>
+<script type="module" src="./scripts/signupandlogin.js"></script>
 </html>

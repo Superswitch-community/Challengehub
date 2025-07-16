@@ -4,13 +4,15 @@ async function payWithPaystack() {
     const email = document.getElementById('email').value;
     const loggedInUserId = localStorage.getItem('loggedInUserId');
 
-   
+
     const payloadData = {
         "currency": "NGN",
         "amount": 1050 * 100,
         "email": email,
         "callback_url": "https://superswitch-community.github.io/Challengehub/",
-        "reference": reference,
+        "metadata": {
+            userId: loggedInUserId,
+        }
     }
 
     //POST a request
@@ -36,38 +38,44 @@ async function payWithPaystack() {
             if (data && data.status === true && data.data && data.data.authorization_url) {
                 const authorizationUrl = data.data.authorization_url;
                 const reference = data.data.reference;
+
                 //redirect the user to the authorization URL
                 window.location.href = authorizationUrl;
+                verifyPayment(reference)
 
-            const docRef = doc(db, "users", loggedInUserId);
-            
-            const docSnap =  getDoc(docRef);
-            if (docSnap.exists()) {
 
-                
-                //update user's reference
-                 updateDoc(docRef, {
-                    reference: reference,
-                });
-    
-          }
-            else {
-                //handle user document not found
-                console.log('User document not found');
-            }    
-                
+                /*   const docRef = doc(db, "users", loggedInUserId);
+                  
+                  const docSnap =  getDoc(docRef);
+                  if (docSnap.exists()) {
+      
+                      
+                      //update user's reference
+                       updateDoc(docRef, {
+                          reference: reference,
+                      });
+          
+                }
+                  else {
+                      //handle user document not found
+                      console.log('User document not found');
+                  }     */
+
             }
             else {
                 console.error("Authorization URL not found in response");
             }
+
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation', error);
         })
 }
 
-const urlParams = new  URLSearchParams(window.location.search);
-const reference = urlParams.get('reference')
+/* const urlParams = new  URLSearchParams(window.location.search);
+const reference = urlParams.get('reference') */
+
 
 async function verifyPayment(reference) {
     /* const urlParams = new URLSearchParams(window.location.search);
@@ -84,20 +92,24 @@ async function verifyPayment(reference) {
             .then(data => {
                 if (data.data.status === "success") {
                     showPopUpMessage('Payment Successful');
+                    const loggedInUserId = localStorage.getItem('loggedInUserId');
+                    updateUserPaymentStatus(loggedInUserId, "true");
 
-                     //Check user's reference
+                    //Check user's Id
 
-                    const loggedInUserRef = localStorage.getItem('loggedInUserRef');
-                    const docRef = doc(db, "users", loggedInUserRef);
-
-                    //Check whether user's data exist
-                    const docSnap = getDoc(docRef);
-                    if (docSnap.exists()) {
-                        //Update user's payment status
-                        updateDoc(docRef, {
-                            paymentStatus: true,
-                        });
-                    }
+                    /*    const loggedInUserId = localStorage.getItem('loggedInUserId');
+                       const docRef = doc(db, "users", loggedInUserId);
+   
+                       //Check whether user's data exist
+                       const docSnap = getDoc(docRef);
+                       if (docSnap.exists()) {
+                           const paymentstatus = docSnap.data().paymentStatus;
+                           //Update user's payment sta7tus
+                           updateDoc(docRef, {
+                               paymentStatus: true,
+                           });
+                           return paymentstatus
+                       } */
                 }
                 else {
                     showPopUpMessage('Payment Failed');
@@ -109,8 +121,19 @@ async function verifyPayment(reference) {
             })
     }
     else {
-        showPopUpMessage('Refrence not found please singup again');
+        showPopUpMessage('Reference not found please singup again');
     }
 }
 
-verifyPayment(reference);
+
+const updateUserPaymentStatus = async (userId, paymentStatus) => {
+    try {
+        const userRef = doc('users', userId);
+        await updateDoc(userRef, {
+            paymentStatus: paymentStatus
+        });
+        showPopUpMessage("User payment status updated");
+    } catch (error) {
+        showPopUpMessage("Error updating user payment status");
+    }
+}

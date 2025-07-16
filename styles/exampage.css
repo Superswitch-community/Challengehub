@@ -1,175 +1,190 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media screen and (max-width: 1099px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 
     input {
-    margin-right: 20px;
-}
-
-.controls {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    column-gap: 30px;
-    margin: 20px;
-}
-
-
-#prev-btn {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #9aeabc;
-    border: none;
-}
-
-#prev-btn:hover {
-    background-color: #4ce68f;
-}
-
-#next-btn:hover {
-    background-color: #e75a5a;
-}
-
-
-
-#next-btn {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #ff9393;
-    border: none;
-    margin-left: 10px;
-}
-
-
-#question-nav {
-    min-width: 500px;
-    min-height: 20px;
-    border: 1px solid;
-    padding: 1px;
-    margin: 20px;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.button {
-    background-color: white;
-    border: 1px solid;
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.current {
-    color: green;
-}
-
-.answered {
-    background-color: green;
-    border: none;
-    color: white;
-}
-
-#timer {
-    font-family: monospace;
-}
-
-.confirm-container {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.buttons-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.buttons-container button {
-    margin: 50px;
-    border: none;
-    width: 50px;
-    height: 30px;
-    border-radius: 1px;
-    cursor: pointer;
-}
-
-
-/*nav for the user's portal*/
-
-.user-portal nav {
-    min-width: inherit;
-    height: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.25rem;
-    border-bottom: 1px solid;
-}   
-
-.user-portal h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.25rem;
-    margin: 30px;
-}
-
-.user-portal p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.1rem;
-    margin: 30px;
-}
-
-.user-portal li {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1rem;
-    list-style-type: none;
-    margin: 30px;
-}
-
-.user-portal a {
-    color: green;
-}
-
-.user-portal .social-site {
-    border-bottom: 1px solid;
-}
-
-@keyframes dance {
-    0% {
-        transform: translateX(0);
-    }
-    20% {
-        transform: translateX(-5px);
-    }
-    40% {
-        transform: translateX(5px);
-    }
-    60% {
-        transform: translateX(-5px);
-    }
-    80% {
-        transform: translateY(5px);
-    }
-    100% {
-        transform: translateX(0);
+        margin-right: 20px;
     }
 
-}
+    .controls {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 30px;
+        margin: 20px;
+    }
 
-#upload-button {
+
+    #prev-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #9aeabc;
+        border: none;
+    }
+
+    #prev-btn:hover {
+        background-color: #4ce68f;
+    }
+
+    #next-btn:hover {
+        background-color: #e75a5a;
+    }
+
+
+
+    #next-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #ff9393;
+        border: none;
+        margin-left: 10px;
+    }
+
+
+    #question-nav {
+        min-width: 500px;
+        min-height: 20px;
+        border: 1px solid;
+        padding: 1px;
+        margin: 20px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .button {
+        background-color: white;
+        border: 1px solid;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .current {
+        color: green;
+    }
+
+    .answered {
+        background-color: green;
+        border: none;
+        color: white;
+    }
+
+    #timer {
+        font-family: monospace;
+    }
+
+    .confirm-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons-container button {
+        margin: 50px;
+        border: none;
+        width: 50px;
+        height: 30px;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+
+
+    /*nav for the user's portal*/
+
+   /*  .user-portal {
+        min-width: inherit;
+    }
+
+    .user-portal nav {
+        min-width: inherit;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+        border-bottom: 1px solid;
+    } */
+
+    .user-portal h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+        margin: 30px;
+    }
+
+    .user-portal p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.1rem;
+        margin: 30px;
+    }
+
+    .user-portal li {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        list-style-type: none;
+        margin: 30px;
+    }
+
+    .user-portal a {
+        color: green;
+    }
+
+    .user-portal .social-site {
+        border-bottom: 1px solid;
+    }
+
+    .user-portal .social-site p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @keyframes dance {
+        0% {
+            transform: translateX(0);
+        }
+
+        20% {
+            transform: translateX(-5px);
+        }
+
+        40% {
+            transform: translateX(5px);
+        }
+
+        60% {
+            transform: translateX(-5px);
+        }
+
+        80% {
+            transform: translateY(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+
+    }
+
+    #upload-button {
         animation: dance 2s infinite;
         animation-timing-function: ease-in-out;
         width: 160px;
@@ -185,7 +200,541 @@
         cursor: pointer;
     }
 
-#upload-button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+    .stopped {
+        animation: none;
+    }
+
+
+    #upload-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
 }
+
+
+@media screen and (min-width: 1100px) {
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    input {
+        margin-right: 20px;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 30px;
+        margin: 20px;
+    }
+
+
+    #prev-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #9aeabc;
+        border: none;
+    }
+
+    #prev-btn:hover {
+        background-color: #4ce68f;
+    }
+
+    #next-btn:hover {
+        background-color: #e75a5a;
+    }
+
+
+
+    #next-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #ff9393;
+        border: none;
+        margin-left: 10px;
+    }
+
+
+    #question-nav {
+        min-width: 500px;
+        min-height: 20px;
+        border: 1px solid;
+        padding: 1px;
+        margin: 20px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .button {
+        background-color: white;
+        border: 1px solid;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .current {
+        color: green;
+    }
+
+    .answered {
+        background-color: green;
+        border: none;
+        color: white;
+    }
+
+    #timer {
+        font-family: monospace;
+        color: purple;
+        margin: 20px;
+    }
+
+    .confirm-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons-container button {
+        margin: 50px;
+        border: none;
+        width: 50px;
+        height: 30px;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+
+
+    /*nav for the user's portal*/
+
+   /*  .user-portal {
+        min-width: inherit;
+    }
+
+    .user-portal nav {
+        min-width: inherit;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+        border-bottom: 1px solid;
+    } */
+
+    .user-portal h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+        margin: 30px;
+    }
+
+    .user-portal p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.1rem;
+        margin: 30px;
+    }
+
+    .user-portal li {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        list-style-type: none;
+        margin: 30px;
+    }
+
+    .user-portal a {
+        color: green;
+    }
+
+    .user-portal .social-site {
+        border-bottom: 1px solid;
+    }
+
+    .user-portal .social-site p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @keyframes dance {
+        0% {
+            transform: translateX(0);
+        }
+
+        20% {
+            transform: translateX(-5px);
+        }
+
+        40% {
+            transform: translateX(5px);
+        }
+
+        60% {
+            transform: translateX(-5px);
+        }
+
+        80% {
+            transform: translateY(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+
+    }
+
+    #upload-button {
+        animation: dance 2s infinite;
+        animation-timing-function: ease-in-out;
+        width: 160px;
+        border: none;
+        height: 30px;
+        border-radius: 3px;
+        margin: 30px;
+        color: black;
+        background-color: yellow;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .stopped {
+        animation: none;
+    }
+
+
+    #upload-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    /*Main examination page*/
+
+    .container nav {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    p {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 1.25rem; 
+    }
+
+    #examination-container {
+        margin-top: 50px;
+    }
+
+    #question {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.3rem;
+    }
+
+    #options {
+        margin: 30px;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 1.1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+         'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+         Verdana, sans-serif;
+    }
+
+    #submit-btn {
+        position: absolute;
+        left: 40%;
+        width: 150px;
+        height: 30px;
+        border: none;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-family: 'monospace';
+    }
+
+    #submit-btn:hover {
+        background-color: #f133f1;
+    }
+}
+
+/* 
+@media screen and (max-width: 399px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    .user-portal nav {
+        min-width: inherit;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.75rem;
+        border-bottom: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-portal h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.9rem;
+        margin: 10px;
+    }
+
+    .user-portal p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.1rem;
+        margin: 30px;
+    }
+
+    .user-portal li {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.7rem;
+        list-style-type: none;
+        margin: 30px;
+    }
+
+    .user-portal a {
+        color: green;
+    }
+
+    .user-portal .social-site {
+        border-bottom: 1px solid;
+    }
+
+    @keyframes dance {
+        0% {
+            transform: translateX(0);
+        }
+
+        20% {
+            transform: translateX(-5px);
+        }
+
+        40% {
+            transform: translateX(5px);
+        }
+
+        60% {
+            transform: translateX(-5px);
+        }
+
+        80% {
+            transform: translateY(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+
+    }
+
+
+
+    #upload-button {
+        animation: dance 2s infinite;
+        animation-timing-function: ease-in-out;
+        width: 160px;
+        border: none;
+        height: 30px;
+        border-radius: 3px;
+        margin: 30px;
+        color: black;
+        background-color: yellow;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .stopped {
+        animation: none;
+    }
+
+
+    #upload-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+  */
+
+/* @media screen and (max-width: 1099px) {
+
+      .main-exam-page {
+        width: 100%;
+    } 
+
+    .container {
+        min-width: 100vh;
+    }
+
+    .container nav {
+        display: flex;
+        border-bottom: 1px solid;
+        padding: 10px;
+    }
+
+#user-name {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.5rem;
+    }
+
+    #question-container {
+        margin: 10px;
+    }
+
+    #question-container #question{
+        margin: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    } 
+
+    #question-container li {
+        list-style-type: none;
+        margin: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input {
+        margin-right: 20px;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 30px;
+        margin: 20px;
+    }
+
+
+
+    #prev-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #9aeabc;
+        border: none;
+    }
+
+    #prev-btn:hover {
+        background-color: #4ce68f;
+    }
+
+    #next-btn:hover {
+        background-color: #e75a5a;
+    }
+
+
+
+    #next-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #ff9393;
+        border: none;
+        margin-left: 10px;
+    }
+
+
+    #question-nav {
+        max-width: 200px;
+        min-height: inherit;
+        border: 1px solid;
+        margin: 20px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .button {
+        background-color: white;
+        border: 1px solid;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .current {
+        color: green;
+    }
+
+    .answered {
+        background-color: green;
+        border: none;
+        color: white;
+    }
+
+    #timer {
+        font-family: monospace;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        color: purple;
+    }
+
+    .confirm-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons-container button {
+        margin: 50px;
+        border: none;
+        width: 50px;
+        height: 30px;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+
+
+}
+ */
+/*  @media screen and (min-width: 1100px) {
+   
+}  */

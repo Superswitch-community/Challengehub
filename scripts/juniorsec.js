@@ -6,7 +6,7 @@ async function startjuniorsecondaryTest() {
 
 
        // Set the countdown time (in seconds)
-       let countdownTime = 600;
+       let countdownTime = 900;
        isRunning = true;
        
 
@@ -75,7 +75,7 @@ async function startjuniorsecondaryTest() {
 
        let correctAnswers = [];
        let incorrectAnswers = 0;
-       let unansweredQuestion = 0;
+      /*  let unansweredQuestion = 0; */
        let score = 0;
        let answerQuestion = [];
        let currentQuestionElementIndex = 0;
@@ -186,11 +186,11 @@ async function startjuniorsecondaryTest() {
            percentScore.classList.add('percentscore');
            result.classList.add('question-number');
            incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
-           unansweredQuestionHtml.innerHTML = `Unanswered questions: ${unansweredQuestion}/${randomQuestions.length}`;
+           /* unansweredQuestionHtml.innerHTML = `Unanswered questions: ${unansweredQuestion}/${randomQuestions.length}`; */
            result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
            percentScore.innerHTML = `Percent Score: ${Math.round((score/(randomQuestions.length)) * 100)}%`;
-           console.log(incorrectAnswers);
-           console.log(correctAnswers);
+           /* console.log(incorrectAnswers);
+           console.log(correctAnswers); */
 
        }
    
@@ -227,12 +227,12 @@ async function startjuniorsecondaryTest() {
        });
 
        /* Check unanwered questions*/
-       function checkUnansweredQuestion(element) {
+      /*  function checkUnansweredQuestion(element) {
         return element = questions[currentQuestionIndex] === "";
        }
 
        unansweredQuestion = questions.filter(checkUnansweredQuestion);
-       console.log(unansweredQuestion);
+       console.log(unansweredQuestion); */
    
     
        //Initialize question navigation
