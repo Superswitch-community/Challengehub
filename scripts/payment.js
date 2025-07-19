@@ -1,6 +1,7 @@
 //For payment requests
+document.addEventListener('DOMContentLoaded', HandleCallback);
 
-async function payWithPaystack() {
+export async function payWithPaystack() {
     const email = document.getElementById('email').value;
     const loggedInUserId = localStorage.getItem('loggedInUserId');
 
@@ -38,10 +39,10 @@ async function payWithPaystack() {
             if (data && data.status === true && data.data && data.data.authorization_url) {
                 const authorizationUrl = data.data.authorization_url;
                 const reference = data.data.reference;
-
+                localStorage.setItem('reference', reference);
                 //redirect the user to the authorization URL
                 window.location.href = authorizationUrl;
-                verifyPayment(reference)
+
 
 
                 /*   const docRef = doc(db, "users", loggedInUserId);
@@ -71,6 +72,12 @@ async function payWithPaystack() {
         .catch(error => {
             console.error('There was a problem with the fetch operation', error);
         })
+}
+
+async function HandleCallback() {
+    const reference = localStorage.getItem('reference');
+    verifyPayment(reference);
+    localStorage.removeItem('reference');
 }
 
 /* const urlParams = new  URLSearchParams(window.location.search);
@@ -121,7 +128,7 @@ async function verifyPayment(reference) {
             })
     }
     else {
-        showPopUpMessage('Reference not found please singup again');
+        showPopUpMessage('Your reference has not been generated please signup and pay');
     }
 }
 

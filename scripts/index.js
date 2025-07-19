@@ -30,6 +30,7 @@ const primaryDropDown = document.querySelector('.primary-drop-down')
 const juniorDropDown = document.querySelector('.junior-drop-down')
 const seniorDropDown = document.querySelector('.senior-drop-down')
 
+
 function showWelcome() {
     welcomeMessage.classList.add('show-welcome');
 }
@@ -51,6 +52,8 @@ window.addEventListener('offline', () => {
 
 
 function submitGrade() {
+
+localStorage.setItem('gradeInput', gradeInput.value);
 
     setTimeout(() => {
         if (gradeInput.value >= 4 && gradeInput.value <= 6) {

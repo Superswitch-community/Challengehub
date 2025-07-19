@@ -177,7 +177,7 @@ async function startjuniorsecondaryTest() {
            let incorrectquestions = document.querySelector('.incorrect-questions');
            let percentScore = document.querySelector('.percentscore');
            let examcontainer = document.getElementById('examination-container');
-           let unansweredQuestionHtml = document.querySelector('.unansweredquestions');
+           /* let unansweredQuestionHtml = document.querySelector('.unansweredquestions'); */
            examcontainer.style.display = 'none';
            resultPage.style.display = 'block';
            incorrectAnswers = randomQuestions.length - score;

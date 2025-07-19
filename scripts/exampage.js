@@ -1,11 +1,56 @@
-import firebase from "../firebase/compat/app";
+/* import firebase from "firebase/compat/app"; */
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
 import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, increment } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
 
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAbFVn9wUxFnqrW8qDD09hlcPebkPShDuY",
+    authDomain: "login-project-3e591.firebaseapp.com",
+    projectId: "login-project-3e591",
+    storageBucket: "login-project-3e591.firebasestorage.app",
+    messagingSenderId: "415326082872",
+    appId: "1:415326082872:web:fd9918e92abc81a6ba53cd"
+};
+
+//accessing the singup and login buttons
+const signupButton = document.querySelector('.signup-button')
+const loginButton = document.querySelector('.login-button')
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth();
+const db = getFirestore();
+
+const email = localStorage.getItem('useremail');
+console.log(email);
+
+document.getElementById('usersname').textContent = `User: ${email}`
+document.getElementById('welcome-portal').textContent=  `This is your portal ${email}`;
 
 
-export async function startPrimaryExam() {
+const popupDisplay = document.querySelector('.popup');
+const popupMessage = document.getElementById('popup-message');
+
+function showPopUpMessage(message) {
+
+    popupDisplay.style.display = 'block';
+    popupMessage.textContent = message;
+    popupDisplay.classList.add('show-popup');
+    console.log('poppedup')
+
+    popupDisplay.addEventListener('animationend', () => {
+        popupDisplay.classList.remove('show-popup');
+        popupDisplay.style.display = 'none';
+    }, { once: true });
+
+
+
+}
+
+async function startPrimaryExam() {
 
 
     function countDown() {
@@ -35,10 +80,10 @@ export async function startPrimaryExam() {
                 if (countdownTime <= 0) {
                     clearInterval(countdownInterval);
                     showScore();
-                } else if(countdownTime === "300") {
-                document.getElementById("timer").style.color = "red";
-                showPopUpMessage('🤨Oops!! your remains 5 minutes');
-               }
+                } else if (countdownTime === "300") {
+                    document.getElementById("timer").style.color = "red";
+                    showPopUpMessage('🤨Oops!! your time remains 5 minutes');
+                }
             }
 
         }, 1000);
@@ -180,8 +225,8 @@ export async function startPrimaryExam() {
         percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
 
 
-        const user = firebase.auth().currentUser;
-        const db = getFirestore();
+        const user = auth.currentUser;
+
 
         if (user) {
             const userId = user.uid;
@@ -191,7 +236,7 @@ export async function startPrimaryExam() {
                     //Check whether user's data exist
                     if (docSnap.exists()) {
                         //Update user's payment status
-                        updateDoc(docRef, {
+                        updateDoc(courseDocRef, {
                             userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
                         });
                     }
@@ -199,56 +244,76 @@ export async function startPrimaryExam() {
 
         }
 
-        document.getElementById('prev-btn').addEventListener('click', () => {
-            checkAnswer();
-            currentQuestionIndex--;
-            loadQuestion();
-        });
-
-        document.getElementById('next-btn').addEventListener('click', () => {
-            checkAnswer();
-            currentQuestionIndex++;
-            loadQuestion();
-        });
-
-
-        document.getElementById('submit-btn').addEventListener('click', () => {
-            confirmDialog('Are you sure you want to submit')
-                .then((confirmed) => {
-                    if (confirmed) {
-                        setTimeout(() => {
-                            showScore();
-                        }, 2000)
-                    }
-                    else {
-                        return 0;
-                    }
-                })
-        });
-
-
-        //Initialize question navigation
-
-        randomQuestions.forEach((question, index) => {
-            let button = document.createElement('button');
-            button.textContent = index + 1;
-            button.classList.add("button");
-
-
-            button.addEventListener('click', () => {
-                checkAnswer();
-                currentQuestionIndex = index;
-                loadQuestion();
-            });
-            document.getElementById('question-nav').appendChild(button);
-        });
-
-        countDown();
-        loadQuestion();
-
+        /*  onAuthStateChanged(auth, (user) => {
+             const userId = user.uid;
+             if (userId) {
+                 const docRef = doc(db, "users", userId);
+                 getDoc(docRef)
+                     .then((docSnap) => {
+                         if (docSnap.exists()) {
+ 
+                             //Update user's payment status
+                             updateDoc(docRef, {
+                                 userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                             });
+                         }
+ 
+                     })
+             }
+ 
+         }) */
     }
+
+    document.getElementById('prev-btn').addEventListener('click', () => {
+        checkAnswer();
+        currentQuestionIndex--;
+        loadQuestion();
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+        checkAnswer();
+        currentQuestionIndex++;
+        loadQuestion();
+    });
+
+
+    document.getElementById('submit-btn').addEventListener('click', () => {
+        confirmDialog('Are you sure you want to submit')
+            .then((confirmed) => {
+                if (confirmed) {
+                    setTimeout(() => {
+                        showScore();
+                    }, 2000)
+                }
+                else {
+                    return 0;
+                }
+            })
+    });
+
+
+    //Initialize question navigation
+
+    randomQuestions.forEach((question, index) => {
+        let button = document.createElement('button');
+        button.textContent = index + 1;
+        button.classList.add("button");
+
+
+        button.addEventListener('click', () => {
+            checkAnswer();
+            currentQuestionIndex = index;
+            loadQuestion();
+        });
+        document.getElementById('question-nav').appendChild(button);
+    });
+
+    countDown();
+    loadQuestion();
+    document.querySelector('.main-exam-page').style.display = 'block';
+    document.querySelector('.user-portal').style.display = 'none';
 }
-export async function startJuniorExam() {
+async function startJuniorExam() {
 
 
     function countDown() {
@@ -278,10 +343,10 @@ export async function startJuniorExam() {
                 if (countdownTime <= 0) {
                     clearInterval(countdownInterval);
                     showScore();
-                } else if(countdownTime === "300") {
-                document.getElementById("timer").style.color = "red";
-                showPopUpMessage('🤨Oops!! your remains 5 minutes');
-               }
+                } else if (countdownTime === "300") {
+                    document.getElementById("timer").style.color = "red";
+                    showPopUpMessage('🤨Oops!! your time remains 5 minutes');
+                }
             }
 
         }, 1000);
@@ -423,8 +488,7 @@ export async function startJuniorExam() {
         percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
 
 
-        const user = firebase.auth().currentUser;
-        const db = getFirestore();
+        const user = auth.currentUser;
 
         if (user) {
             const userId = user.uid;
@@ -434,7 +498,7 @@ export async function startJuniorExam() {
                     //Check whether user's data exist
                     if (docSnap.exists()) {
                         //Update user's payment status
-                        updateDoc(docRef, {
+                        updateDoc(courseDocRef, {
                             userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
                         });
                     }
@@ -442,56 +506,76 @@ export async function startJuniorExam() {
 
         }
 
-        document.getElementById('prev-btn').addEventListener('click', () => {
-            checkAnswer();
-            currentQuestionIndex--;
-            loadQuestion();
-        });
-
-        document.getElementById('next-btn').addEventListener('click', () => {
-            checkAnswer();
-            currentQuestionIndex++;
-            loadQuestion();
-        });
-
-
-        document.getElementById('submit-btn').addEventListener('click', () => {
-            confirmDialog('Are you sure you want to submit')
-                .then((confirmed) => {
-                    if (confirmed) {
-                        setTimeout(() => {
-                            showScore();
-                        }, 2000)
-                    }
-                    else {
-                        return 0;
-                    }
-                })
-        });
-
-
-        //Initialize question navigation
-
-        randomQuestions.forEach((question, index) => {
-            let button = document.createElement('button');
-            button.textContent = index + 1;
-            button.classList.add("button");
-
-
-            button.addEventListener('click', () => {
-                checkAnswer();
-                currentQuestionIndex = index;
-                loadQuestion();
-            });
-            document.getElementById('question-nav').appendChild(button);
-        });
-
-        countDown();
-        loadQuestion();
-
+        /*     onAuthStateChanged(auth, (user) => {
+                const userId = user.uid;
+                if (userId) {
+                    const docRef = doc(db, "users", userId);
+                    getDoc(docRef)
+                        .then((docSnap) => {
+                            if (docSnap.exists()) {
+    
+                                //Update user's payment status
+                                updateDoc(docRef, {
+                                    userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                                });
+                            }
+    
+                        })
+                }
+    
+            }) */
     }
+
+    document.getElementById('prev-btn').addEventListener('click', () => {
+        checkAnswer();
+        currentQuestionIndex--;
+        loadQuestion();
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+        checkAnswer();
+        currentQuestionIndex++;
+        loadQuestion();
+    });
+
+
+    document.getElementById('submit-btn').addEventListener('click', () => {
+        confirmDialog('Are you sure you want to submit')
+            .then((confirmed) => {
+                if (confirmed) {
+                    setTimeout(() => {
+                        showScore();
+                    }, 2000)
+                }
+                else {
+                    return 0;
+                }
+            })
+    });
+
+
+    //Initialize question navigation
+
+    randomQuestions.forEach((question, index) => {
+        let button = document.createElement('button');
+        button.textContent = index + 1;
+        button.classList.add("button");
+
+
+        button.addEventListener('click', () => {
+            checkAnswer();
+            currentQuestionIndex = index;
+            loadQuestion();
+        });
+        document.getElementById('question-nav').appendChild(button);
+    });
+
+    countDown();
+    loadQuestion();
+    document.querySelector('.main-exam-page').style.display = 'block';
+    document.querySelector('.user-portal').style.display = 'none';
 }
-export async function startSeniorExam() {
+async function startSeniorExam() {
 
 
     function countDown() {
@@ -521,10 +605,10 @@ export async function startSeniorExam() {
                 if (countdownTime <= 0) {
                     clearInterval(countdownInterval);
                     showScore();
-                } else if(countdownTime === "300") {
-                document.getElementById("timer").style.color = "red";
-                showPopUpMessage('🤨Oops!! your remains 5 minutes');
-               }
+                } else if (countdownTime === "300") {
+                    document.getElementById("timer").style.color = "red";
+                    showPopUpMessage('🤨Oops!! your time remains 5 minutes');
+                }
             }
 
         }, 1000);
@@ -666,8 +750,8 @@ export async function startSeniorExam() {
         percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
 
 
-        const user = firebase.auth().currentUser;
-        const db = getFirestore();
+        const user = auth.currentUser;
+
 
         if (user) {
             const userId = user.uid;
@@ -677,13 +761,32 @@ export async function startSeniorExam() {
                     //Check whether user's data exist
                     if (docSnap.exists()) {
                         //Update user's payment status
-                        updateDoc(docRef, {
+                        updateDoc(courseDocRef, {
                             userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
                         });
                     }
                 });
 
         }
+
+        /*   onAuthStateChanged(auth, (user) => {
+              const userId = user.uid;
+              if (userId) {
+                  const docRef = doc(db, "users", userId);
+                  getDoc(docRef)
+                      .then((docSnap) => {
+                          if (docSnap.exists()) {
+  
+                              //Update user's payment status
+                              updateDoc(docRef, {
+                                  userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                              });
+                          }
+  
+                      })
+              }
+  
+          }) */
 
         document.getElementById('prev-btn').addEventListener('click', () => {
             checkAnswer();
@@ -731,8 +834,154 @@ export async function startSeniorExam() {
 
         countDown();
         loadQuestion();
-
+        document.querySelector('.main-exam-page').style.display = 'block';
+        document.querySelector('.user-portal').style.display = 'none';
     }
 }
+console.log(localStorage.getItem('gradeInput'))
+
+const startButton = document.querySelector('.start-button')
+
+startButton.addEventListener('click', () => {
+
+    startButton.disabled = true;
+    startButton.style.animation = "none";
+    const auth = getAuth();
+
+    const currentUser = auth.currentUser;
+    const userId = currentUser.uid;
+
+    const docRef = doc(db, 'users', userId);
+    getDoc(docRef)
+        .then((docSnap) => {
+            if (docSnap.exists()) {
+                const userData = docSnap.data();
+                let examCount = userData.examCount;
+                const isNotUploading = false;
+                console.log(userData);
+
+                if (isNotUploading) {
+                    showPopUpMessage('Oops!!😮 Examination will not upload till the date of Examination');
+                } else {
+                    //increment examcount
+                    updateDoc(docRef, {
+                        examCount: increment(1),
+                    });
+
+                    //check if the exacount exceeds 2
+                    if (examCount >= 2) {
+                        showPopUpMessage('You have exceeded the maximum attempts');
+                        return;
+                    }
+                    else {
+
+                        //upload successful
+                        showPopUpMessage('Exam uploaded successfully');
+                        const gradeInput = localStorage.getItem('gradeInput');
+
+                        if (gradeInput >= 4 && gradeInput <= 6) {
+                            startPrimaryExam();
+                        } else if (gradeInput >= 7 && gradeInput <= 9) {
+                            startJuniorExam();
+                        } else if (gradeInput >= 10 && gradeInput <= 12) {
+                            startSeniorExam();
+                        }
+                    }
 
 
+                }
+
+
+
+                /*    else {
+                       //increment examcount
+                       updateDoc(docRef, {
+                           examCount: increment(1),
+                       });
+ 
+                       if (gradeInput.value >= 4 && gradeInput <= 6) {
+                           startPrimaryExam();
+                       } else if (gradeInput.value >= 7 && gradeInput <= 9) {
+                           startJuniorExam();
+                       } else if (gradeInput.value >= 10 && gradeInput <= 12) {
+                           startSeniorExam();
+                       }
+                       //check if the exacount exceeds 2
+                       else if (examCount >= 2) {
+                           showPopUpMessage('You have exceeded the maximum attempts');
+                           return;
+                       }
+ 
+                       //upload successful
+                       showPopUpMessage('Exam uploaded successfully');
+                       showPopUpMessage('Check your connection');
+                   }  */
+            }
+        }).catch(error => {
+            showPopUpMessage("Error Unhealthy Network Connection ", error);
+            startButton.disabled = false;
+        })
+
+
+    /*  catch (error) {
+         showPopUpMessage('Error uploading exam', error);
+     } */
+})
+
+/*  onAuthStateChanged(auth, (user) => {
+            const userId = user.uid;
+            if (userId) {
+                const docRef = doc(db, "users", userId);
+                getDoc(docRef)
+                    .then((docSnap) => {
+                        if (docSnap.exists()) {
+                            const userData = docSnap.data();
+                            let examCount = userData.examCount;
+
+                            if (isUploading) {
+                                showPopUpMessage('Oops!!😮 Examination will not upload till the date of Examination');
+
+                            }
+                            else {
+                                //increment examcount
+                                updateDoc(docRef, {
+                                    examCount: increment(1),
+                                });
+
+                                if (gradeInput.value >= 4 && gradeInput <= 6) {
+                                    startPrimaryExam();
+                                } else if (gradeInput.value >= 7 && gradeInput <= 9) {
+                                    startJuniorExam();
+                                } else if (gradeInput.value >= 10 && gradeInput <= 12) {
+                                    startSeniorExam();
+                                }
+                                //check if the exacount exceeds 2
+                                else if (examCount >= 2) {
+                                    showPopUpMessage('You have exceeded the maximum attempts');
+                                    return;
+                                }
+
+                                //upload successful
+                                showPopUpMessage('Exam uploaded successfully');
+                                showPopUpMessage('Check your connection');
+                                console.log(examCount);
+                            }
+
+                        }
+                        else {
+                            //handle user document not found
+                            showPopUpMessage('User document not found');
+                        }
+
+
+                    })
+            }
+
+        }) */
+/* function reloadExam() {
+   
+}
+ */
+/* const reloadExam = () => {
+  
+} */
