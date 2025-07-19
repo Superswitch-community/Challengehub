@@ -122,6 +122,8 @@ function goToPrimaryHomePage() {
     guildLines.style.display = 'none';
     gradeInput.value = '';
     primaryCategorywebsite.style.display = 'none';
+    juniorCategoryWebsite.style.display = 'none';
+    seniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
     primaryDropDown.style.display = 'none';
     juniorDropDown.style.display = 'none';
@@ -138,6 +140,8 @@ function goToJuniorHomePage() {
     guildLines.style.display = 'none';
     gradeInput.value = '';
     juniorCategoryWebsite.style.display = 'none';
+    primaryCategorywebsite.style.display = 'none';
+    seniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
     juniorDropDown.style.display = 'none'; 
     primaryDropDown.style.display = 'none';
@@ -154,6 +158,8 @@ function goToSeniorHomePage() {
     guildLines.style.display = 'none';
     gradeInput.value = '';
     seniorCategoryWebsite.style.display = 'none';
+    primaryCategorywebsite.style.display = 'none';
+    juniorCategoryWebsite.style.display = 'none';
     document.title = 'Challengehub.com';
     seniorDropDown.style.display = 'none'; 
     primaryDropDown.style.display = 'none';

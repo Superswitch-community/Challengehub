@@ -857,8 +857,8 @@ startButton.addEventListener('click', () => {
             if (docSnap.exists()) {
                 const userData = docSnap.data();
                 let examCount = userData.examCount;
-                const isNotUploading = false;
-                console.log(userData);
+                const isNotUploading = true;
+               /*  console.log(userData); */
 
                 if (isNotUploading) {
                     showPopUpMessage('Oops!!😮 Examination will not upload till the date of Examination');
