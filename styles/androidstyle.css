@@ -413,7 +413,7 @@ html {
     .junior-body-text,
     .senior-body-text {
         color: black;
-        margin: 100px 20px;
+        margin: 30px 20px;
         line-height: 3;
         font-family: var(--FONT-FAMILY);
         font-size: 0.9rem;
@@ -777,6 +777,7 @@ html {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         font-size: 0.9rem;
         min-width: 200px;
+        line-height: 2;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -998,6 +999,13 @@ html {
         align-items: center;
         row-gap: 5px;
     }
+
+     .primary-drop-down ol,
+   .junior-drop-down ol,
+   .senior-drop-down ol {
+    display: block;
+    width: 100%;
+   }
 
     .show {
         display: flex;

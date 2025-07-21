@@ -676,7 +676,7 @@
         line-height: 2;
     }
 
-     .primary-body-text::first-letter,
+    .primary-body-text::first-letter,
     .junior-body-text::first-letter,
     .senior-body-text::first-letter {
         font-size: 2rem;
@@ -1064,7 +1064,7 @@
     }
 
     .result-page {
-       /*  max-width: 500px;
+        /*  max-width: 500px;
         height: 600px;
         border: 1px solid;
         border-radius: 5px;
@@ -1080,7 +1080,7 @@
         padding: 20px;
         row-gap: 30px;
         color: red; */
-        
+
         position: fixed;
         top: 40%;
         left: 50%;
@@ -1090,6 +1090,7 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         font-size: 0.9rem;
+        line-height: 2;
         min-width: 200px;
         display: flex;
         flex-direction: column;
@@ -1348,6 +1349,13 @@
         height: 1px;
         background-color: white;
         border: none;
+    }
+
+    .primary-drop-down ol,
+    .junior-drop-down ol,
+    .senior-drop-down ol {
+        display: block;
+        width: 100%;
     }
 
     .primary-drop-down,

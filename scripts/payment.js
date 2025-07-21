@@ -128,7 +128,7 @@ async function verifyPayment(reference) {
             })
     }
     else {
-        showPopUpMessage('Your reference has not been generated please signup and pay');
+        showPopUpMessage('Your reference has not been generated please signup and pay at the same time or else 😮 the account you created will be useless and will not be used again');
     }
 }
 

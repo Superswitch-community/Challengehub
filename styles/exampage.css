@@ -48,10 +48,9 @@
 
 
     #question-nav {
-        min-width: 500px;
+        min-width: 200px;
         min-height: 20px;
         border: 1px solid;
-        padding: 1px;
         margin: 20px;
         border-radius: 5px;
         background-color: white;
@@ -79,6 +78,9 @@
 
     #timer {
         font-family: monospace;
+        font-size: 0.9rem;
+        margin: 10px;
+        color: purple;
     }
 
     .confirm-container {
@@ -200,6 +202,12 @@
         cursor: pointer;
     }
 
+    #user-name {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.75rem;
+        color: green;
+    }
+
     .stopped {
         animation: none;
     }
@@ -210,46 +218,94 @@
         cursor: not-allowed;
     }
 
-      /*Popup message*/
-    @keyframes fadeInFast {
-        from {
-            opacity: 0;
-        }
+     /*Main examination page*/
 
-        to {
-            opacity: 1;
-        }
+    .container nav {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    p {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 1.25rem; 
     }
 
-    @keyframes fadeOutSlow {
-        from {
-            opacity: 1;
-        }
-
-        to {
-            opacity: 0;
-        }
+    #examination-container {
+        margin-top: 50px;
     }
 
-    .popup {
+    #question {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0.9rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    #options {
+        margin: 30px;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 0.75rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+         'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+         Verdana, sans-serif;
+    }
+
+    #submit-btn {
+        position: absolute;
+        left: 40%;
+        width: 150px;
+        height: 30px;
+        border: none;
+        background-color: purple;
+        color: white;
+        border-radius: 1px;
+        font-size: 1.2rem;
+        font-family: 'monospace';
+    }
+
+    #submit-btn:hover {
+        background-color: #f133f1;
+    }
+
+    .result-page {
         position: fixed;
-        top: 30%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #fff;
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        opacity: 0;
         transition: opacity 0.2s ease-in-out;
-        display: none;
+        font-size: 0.9rem;
+        min-width: 200px;
+       /*  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: red;
+        /* row-gap: 100px; */
+        line-height: 3;
     }
 
-    .show-popup {
-        display: block;
-        animation: fadeInFast 2s forwards, fadeOutSlow 8s forwards;
+     .result-page #logout-btn {
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: green;
+        border: none;
+        border-radius: 2px;
     }
-
 
 }
 
@@ -442,6 +498,12 @@
 
     }
 
+    #user-name {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+        color: green;
+    }
+
     #upload-button {
         animation: dance 2s infinite;
         animation-timing-function: ease-in-out;
@@ -511,7 +573,7 @@
         border: none;
         background-color: purple;
         color: white;
-        border-radius: 5px;
+        border-radius: 1px;
         font-size: 1.2rem;
         font-family: 'monospace';
     }
@@ -520,46 +582,38 @@
         background-color: #f133f1;
     }
 
-      /*Popup message*/
-    @keyframes fadeInFast {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    @keyframes fadeOutSlow {
-        from {
-            opacity: 1;
-        }
-
-        to {
-            opacity: 0;
-        }
-    }
-
-    .popup {
+    .result-page {
         position: fixed;
-        top: 30%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #fff;
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        opacity: 0;
         transition: opacity 0.2s ease-in-out;
-        display: none;
+        font-size: 0.9rem;
+        min-width: 200px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: red;
+        /* column-gap: 30px; */
+        line-height: 3;
     }
 
-    .show-popup {
-        display: block;
-        animation: fadeInFast 2s forwards, fadeOutSlow 8s forwards;
+    .result-page #logout-btn {
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: green;
+        border: none;
     }
-
 }
 
 /* 
