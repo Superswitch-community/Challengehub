@@ -34,7 +34,7 @@ signupButton.addEventListener('click', (e) => {
 
     /* const reference = 'REF-' + Math.random().toString(36).substring(2, 9) + Date.now(); */
     e.preventDefault();
-    
+    signupButton.disabled = true;
 
     //storing user's email and password
    const email = document.getElementById('email').value;
@@ -50,8 +50,8 @@ signupButton.addEventListener('click', (e) => {
                 examCount: 0,
                 userResult: "0%",
             };
-            signupButton.disabled = true;
-            const loggedInUserId = localStorage.setItem('loggedInUserId', user.uid);
+            signupButton.disabled = false;
+            localStorage.setItem('loggedInUserId', user.uid);
             showPopUpMessage("Account Created Successfully");
             setTimeout(() => {
                 showPopUpMessage('You are redirected to pay!!!');
@@ -104,7 +104,7 @@ loginButton.addEventListener('click', (e) => {
                     if (docSnap.exists()) {
                         const paymentStatus = docSnap.data().paymentStatus;
                         console.log(paymentStatus);
-                        if (paymentStatus === true) {
+                        if (paymentStatus === true) {       1``
                             showPopUpMessage('Login Successful');
                             loginForm.style.display = 'none';
                             location.href = 'exampage.html';

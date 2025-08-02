@@ -28,8 +28,11 @@ const email = localStorage.getItem('useremail');
 console.log(email);
 
 document.getElementById('usersname').textContent = `User: ${email}`
-document.getElementById('welcome-portal').textContent=  `This is your portal ${email}`;
+document.getElementById('welcome-portal').textContent =  `This is your portal ${email}`;
 
+function displayUsername() {
+    document.getElementById('user-name').textContent = `👥 User: ${email}`;
+}
 
 const popupDisplay = document.querySelector('.popup');
 const popupMessage = document.getElementById('popup-message');
@@ -52,10 +55,12 @@ function showPopUpMessage(message) {
 
 async function startPrimaryExam() {
 
+    displayUsername();
+
 
     function countDown() {
         // Set the countdown time (in seconds)
-        let countdownTime = 900;
+        let countdownTime = 600;
         let isRunning = true;
         // Function to format time as MM:SS
         function formatTime(seconds) {
@@ -108,7 +113,7 @@ async function startPrimaryExam() {
         return randomQuestions;
     }
 
-    let randomQuestions = getRandomQuestions(questions, 30);
+    let randomQuestions = getRandomQuestions(questions, 20);
     /*         console.log(`${randomQuestions.length} questions available for demotest`);
      */
 
@@ -222,7 +227,7 @@ async function startPrimaryExam() {
         result.classList.add('question-number');
         incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
         result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
-        percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
+        percentScore.innerHTML = `Percent Score: ${((score / (randomQuestions.length)) * 100).toFixed(2)}%`;
 
 
         const user = auth.currentUser;
@@ -237,7 +242,7 @@ async function startPrimaryExam() {
                     if (docSnap.exists()) {
                         //Update user's payment status
                         updateDoc(courseDocRef, {
-                            userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                            userResult: `${((score / (randomQuestions.length)) * 100).toFixed(2)}%`,
                         });
                     }
                 });
@@ -312,13 +317,17 @@ async function startPrimaryExam() {
     loadQuestion();
     document.querySelector('.main-exam-page').style.display = 'block';
     document.querySelector('.user-portal').style.display = 'none';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        showScore();
+    })
 }
 async function startJuniorExam() {
-
+    displayUsername();
 
     function countDown() {
         // Set the countdown time (in seconds)
-        let countdownTime = 900;
+        let countdownTime = 600;
         let isRunning = true;
         // Function to format time as MM:SS
         function formatTime(seconds) {
@@ -371,7 +380,7 @@ async function startJuniorExam() {
         return randomQuestions;
     }
 
-    let randomQuestions = getRandomQuestions(questions, 30);
+    let randomQuestions = getRandomQuestions(questions, 20);
     /*         console.log(`${randomQuestions.length} questions available for demotest`);
      */
 
@@ -485,7 +494,7 @@ async function startJuniorExam() {
         result.classList.add('question-number');
         incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
         result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
-        percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
+        percentScore.innerHTML = `Percent Score: ${((score / (randomQuestions.length)) * 100).toFixed(2)}%`;
 
 
         const user = auth.currentUser;
@@ -499,7 +508,7 @@ async function startJuniorExam() {
                     if (docSnap.exists()) {
                         //Update user's payment status
                         updateDoc(courseDocRef, {
-                            userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                            userResult: `${((score / (randomQuestions.length)) * 100).toFixed(2)}%`,
                         });
                     }
                 });
@@ -574,9 +583,14 @@ async function startJuniorExam() {
     loadQuestion();
     document.querySelector('.main-exam-page').style.display = 'block';
     document.querySelector('.user-portal').style.display = 'none';
+
+     document.addEventListener('DOMContentLoaded', () => {
+        showScore();
+    })
 }
 async function startSeniorExam() {
 
+    displayUsername();
 
     function countDown() {
         // Set the countdown time (in seconds)
@@ -633,7 +647,7 @@ async function startSeniorExam() {
         return randomQuestions;
     }
 
-    let randomQuestions = getRandomQuestions(questions, 30);
+    let randomQuestions = getRandomQuestions(questions, 20);
     /*         console.log(`${randomQuestions.length} questions available for demotest`);
      */
 
@@ -747,7 +761,7 @@ async function startSeniorExam() {
         result.classList.add('question-number');
         incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
         result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
-        percentScore.innerHTML = `Percent Score: ${Math.round((score / (randomQuestions.length)) * 100)}%`;
+        percentScore.innerHTML = `Percent Score: ${((score / (randomQuestions.length)) * 100).toFixed(2)}%`;
 
 
         const user = auth.currentUser;
@@ -762,7 +776,7 @@ async function startSeniorExam() {
                     if (docSnap.exists()) {
                         //Update user's payment status
                         updateDoc(courseDocRef, {
-                            userResult: `${Math.round((score / (randomQuestions.length)) * 100)}%`,
+                            userResult: `${((score / (randomQuestions.length)) * 100).toFixed(2)}%`,
                         });
                     }
                 });
@@ -836,6 +850,10 @@ async function startSeniorExam() {
         loadQuestion();
         document.querySelector('.main-exam-page').style.display = 'block';
         document.querySelector('.user-portal').style.display = 'none';
+
+         document.addEventListener('DOMContentLoaded', () => {
+        showScore();
+    })
     }
 }
 console.log(localStorage.getItem('gradeInput'))
@@ -891,9 +909,19 @@ startButton.addEventListener('click', () => {
 
                 }
 
+            }
+        }).catch(error => {
+            showPopUpMessage("Error Unhealthy Network Connection", error);
+            startButton.disabled = false;
+        })
 
 
-                /*    else {
+    /*  catch (error) {
+         showPopUpMessage('Error uploading exam', error);
+     } */
+})
+
+  /*    else {
                        //increment examcount
                        updateDoc(docRef, {
                            examCount: increment(1),
@@ -916,17 +944,6 @@ startButton.addEventListener('click', () => {
                        showPopUpMessage('Exam uploaded successfully');
                        showPopUpMessage('Check your connection');
                    }  */
-            }
-        }).catch(error => {
-            showPopUpMessage("Error Unhealthy Network Connection ", error);
-            startButton.disabled = false;
-        })
-
-
-    /*  catch (error) {
-         showPopUpMessage('Error uploading exam', error);
-     } */
-})
 
 /*  onAuthStateChanged(auth, (user) => {
             const userId = user.uid;

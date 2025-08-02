@@ -161,7 +161,7 @@
         "answer": "B"
     },
     {
-        "question": "A room is heated by means of a chracoal fire. A man standing away from the fire is warmed by",
+        "question": "A room is heated by means of a charcoal fire. A man standing away from the fire is warmed by",
         "options":["reflection","conduction","convention","radiation"],
         "answer": "D"
     },
@@ -192,7 +192,7 @@
     },
     {
         "question": "Which of the following is not a way of producing charges?",
-        "options":["friction","contact","induction","electrons"],
+        "options":["friction","contact","induction","electronic contact"],
         "answer": "D"
     },
     {
@@ -238,12 +238,34 @@
     {
         "question": "_______________ is a tissue found in the skeleton of complex vertebrates taht consists of living cells(chrondoblasts), carbohydrates and protein fibres",
         "options":["bone","cartilage","skeleton","exo-skeleton"],
-        "answer": ""
+        "answer": "B"
     }
     ,{
         "question": "What type of skeleton does earthworms have?",
         "options":["hydrostatic","exo-skeleton","endo-skeleton","cuticle"],
         "answer": "A"
-    }
-
+    },{
+    "question": "The 16th term of an AP is 93 and its common difference is 6. Find the first term of the AP and hence, calculate the 30th term of the AP.",
+    "options":["173","174","175","177"],
+    "answer": "D"
+},
+{
+    "question": "If the first term of an AP is -1 and the common difference is 0.5, the 6th term is ____________",
+    "options":["1.5","2.5","3.5","5.5"],
+    "answer": "A"
+},{
+    "question": "If the first term of an AP is equal to one-half of the common difference, d, find the 8th term of the AP",
+    "options":["4d","6d","13d/2","17d/2"],
+    "answer": "D"
+},
+{
+    "question": "Find the values of P and Q in the arithmetic progreesion: -12, P, Q, 18",
+    "options":["1, 11","-1, 8","-2, 8","0, 9"],
+    "answer": "C"
+},
+{
+    "question": "The first term of an arithmetic progression is 3 and the last term is 9. Find the number of terms in the progression if the common difference is 3/2",
+    "options":["4 terms","5 terms","6 terms","7 terms"],
+    "answer": "B"
+}
 ]

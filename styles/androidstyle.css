@@ -111,6 +111,9 @@ html {
         font-size: 0.9rem;
         min-width: 200px;
         opacity: 0;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1.2;
     }
 
     .welcome button {
@@ -156,6 +159,7 @@ html {
         height: 40px;
         border-color: var(--DARK-BLUE-BORDER);
         color: var(--DARK-BLUE-COLOR);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1rem;
     }
 
@@ -967,7 +971,7 @@ html {
         position: absolute;
         top: 30px;
         left: 0px;
-        background-color: #f1f1f1;
+        background-color: #fffcfc;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 10px;
         z-index: 1;
@@ -1024,11 +1028,22 @@ html {
     }
 
     @keyframes fadeOutSlow {
-        from {
+        0% {
             opacity: 1;
         }
-
-        to {
+        20% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
             opacity: 0;
         }
     }
@@ -1049,7 +1064,7 @@ html {
     }
 
     .show-popup {
-        animation: fadeInFast 2s forwards, fadeOutSlow 8s forwards;
+        animation: fadeInFast 5s forwards, fadeOutSlow 10s forwards;
     }
 
 

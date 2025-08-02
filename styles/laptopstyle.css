@@ -655,6 +655,40 @@
         text-align: center;
     }
 
+    /*welcomes the website*/
+    .welcome {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.2s ease-in-out;
+        font-size: 0.9rem;
+        min-width: 200px;
+        opacity: 0;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1.2;
+    }
+
+    .welcome button {
+        margin: 10px 100px 0;
+        background-color: red;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+    }
+
+    .show-welcome {
+        animation: fadeInFast 1s forwards;
+    }
+
+
     #welcome-message {
         margin: 10px auto;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1289,11 +1323,22 @@
     }
 
     @keyframes fadeOutSlow {
-        from {
+        0% {
             opacity: 1;
         }
-
-        to {
+        20% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
             opacity: 0;
         }
     }
@@ -1314,7 +1359,7 @@
 
     .show-popup {
         display: block;
-        animation: fadeInFast 2s forwards, fadeOutSlow 8s forwards;
+        animation: fadeInFast 5s forwards, fadeOutSlow 15s forwards;
     }
 
     /*Dropdown menu*/
@@ -1335,7 +1380,7 @@
         position: absolute;
         top: 30px;
         left: 0px;
-        background-color: #f1f1f1;
+        background-color: #fffcfc;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 10px;
         z-index: 1;

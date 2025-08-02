@@ -100,7 +100,7 @@ async function verifyPayment(reference) {
                 if (data.data.status === "success") {
                     showPopUpMessage('Payment Successful');
                     const loggedInUserId = localStorage.getItem('loggedInUserId');
-                    updateUserPaymentStatus(loggedInUserId, "true");
+                    updateUserPaymentStatus(loggedInUserId, true);
 
                     //Check user's Id
 

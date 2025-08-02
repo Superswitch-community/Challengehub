@@ -1,0 +1,35 @@
+[{
+    "question": "A machine is defined as anything that can be used to",
+    "options":["Sow clothes easier nad faster","Cut trees easier and faster","Make work easier and faster","Travel easier and faster"],
+    "answer": "C"
+},{
+    "question": "In which of the following places can we see machines",
+    "options":["Homes","Schools","Workshops","Offices"],
+    "answer": "C"
+},
+{
+    "question":"The different kinds of simple machines include the following except",
+    "options":["Lever","Pulley","Wedge","Bicycle"],
+    "answer": "D"
+},
+{
+    "question":"The part of the human body that serves as a lever is the",
+    "options":["Arm","Head","Teeth","Eye"],
+    "answer": "A"
+},
+{
+    "question":"There are _______ classes of lever",
+    "options":["2","3","4","5"],
+    "answer": "B"
+},
+{
+    "question":"In which of the classes of lever does the fulcrum lie between the load and the effort",
+    "options":["1st","2nd","3rd","4th"],
+    "answer": "C"
+},
+{
+    "question":"",
+    "options":["","","",""],
+    "answer": ""
+}
+]

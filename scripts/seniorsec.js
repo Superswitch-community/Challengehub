@@ -186,7 +186,7 @@ async function startseniorsecondaryTest() {
            incorrectquestions.innerHTML = `Incorrect questions: ${incorrectAnswers}/${randomQuestions.length}`;
          /*   unansweredQuestionHtml.innerHTML = `Unanswered questions: ${unansweredQuestion}/${randomQuestions.length}`; */
            result.innerHTML = `correct questions: ${score}/${randomQuestions.length}`;
-           percentScore.innerHTML = `Percent Score: ${Math.round((score/(randomQuestions.length)) * 100)}%`;
+           percentScore.innerHTML = `Percent Score: ${((score/(randomQuestions.length)) * 100).toFixed(2)}%`;
 
        }
    
