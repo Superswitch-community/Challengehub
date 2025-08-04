@@ -104,7 +104,7 @@ loginButton.addEventListener('click', (e) => {
                     if (docSnap.exists()) {
                         const paymentStatus = docSnap.data().paymentStatus;
                         console.log(paymentStatus);
-                        if (paymentStatus === true) {       1``
+                        if (paymentStatus) {
                             showPopUpMessage('Login Successful');
                             loginForm.style.display = 'none';
                             location.href = 'exampage.html';

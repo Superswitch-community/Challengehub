@@ -92,10 +92,15 @@
         transform: translate(-50%, -50%);
         background-color: #fff;
         padding: 20px;
+        font-size: 0.75rem;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .confirm-container  p{
+        font-size: 0.75rem;
     }
 
     .buttons-container {
@@ -195,7 +200,7 @@
         border-radius: 3px;
         margin: 30px;
         color: black;
-        background-color: yellow;
+        background-color: green;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: bold;
         font-size: 1.1rem;
@@ -259,17 +264,18 @@
     #submit-btn {
         position: absolute;
         left: 40%;
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: 20px;
         border: none;
         background-color: purple;
         color: white;
-        border-radius: 1px;
-        font-size: 1.2rem;
-        font-family: 'monospace';
+        border-radius: 3px;
+        margin: auto;
+        font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-    #submit-btn:hover {
+    #submit-btn:focus {
         background-color: #f133f1;
     }
 
@@ -305,6 +311,58 @@
         background-color: green;
         border: none;
         border-radius: 2px;
+    }
+
+    /*Popup meassage*/
+     /*Popup message*/
+    @keyframes fadeInFast {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeOutSlow {
+        0% {
+            opacity: 1;
+        }
+        20% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .popup {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+        font-size: 0.9rem;
+        min-width: 200px;
+    }
+
+    .show-popup {
+        animation: fadeInFast 5s forwards, fadeOutSlow 10s forwards;
     }
 
 }
@@ -408,7 +466,10 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        min-width: inherit;
     }
+
+    
 
     .buttons-container {
         display: flex;
@@ -507,13 +568,13 @@
     #upload-button {
         animation: dance 2s infinite;
         animation-timing-function: ease-in-out;
-        width: 160px;
+        width: 150px;
         border: none;
         height: 30px;
         border-radius: 3px;
         margin: 30px;
         color: black;
-        background-color: yellow;
+        background-color: green;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: bold;
         font-size: 1.1rem;
@@ -568,14 +629,14 @@
     #submit-btn {
         position: absolute;
         left: 40%;
-        width: 150px;
+        width: 100px;
         height: 30px;
         border: none;
         background-color: purple;
         color: white;
-        border-radius: 1px;
+        border-radius: 5px;
         font-size: 1.2rem;
-        font-family: 'monospace';
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     #submit-btn:hover {
@@ -613,6 +674,57 @@
         color: white;
         background-color: green;
         border: none;
+    }
+
+     /*Popup message*/
+    @keyframes fadeInFast {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeOutSlow {
+        0% {
+            opacity: 1;
+        }
+        20% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .popup {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+        font-size: 0.9rem;
+        min-width: 200px;
+    }
+
+    .show-popup {
+        animation: fadeInFast 5s forwards, fadeOutSlow 10s forwards;
     }
 }
 

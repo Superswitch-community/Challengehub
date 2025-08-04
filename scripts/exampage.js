@@ -71,7 +71,7 @@ async function startPrimaryExam() {
         }
 
         // Display initial countdown time
-        document.getElementById("timer").textContent = formatTime(countdownTime);
+        document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
         // Start the countdown timer
         const countdownInterval = setInterval(() => {
@@ -79,7 +79,7 @@ async function startPrimaryExam() {
                 countdownTime--;
 
                 // Update the timer display
-                document.getElementById("timer").textContent = formatTime(countdownTime);
+                document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
                 // Stop the timer when countdown reaches zero
                 if (countdownTime <= 0) {
@@ -338,7 +338,7 @@ async function startJuniorExam() {
         }
 
         // Display initial countdown time
-        document.getElementById("timer").textContent = formatTime(countdownTime);
+        document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
         // Start the countdown timer
         const countdownInterval = setInterval(() => {
@@ -346,7 +346,7 @@ async function startJuniorExam() {
                 countdownTime--;
 
                 // Update the timer display
-                document.getElementById("timer").textContent = formatTime(countdownTime);
+                document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
                 // Stop the timer when countdown reaches zero
                 if (countdownTime <= 0) {
@@ -605,7 +605,7 @@ async function startSeniorExam() {
         }
 
         // Display initial countdown time
-        document.getElementById("timer").textContent = formatTime(countdownTime);
+        document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
         // Start the countdown timer
         const countdownInterval = setInterval(() => {
@@ -613,7 +613,7 @@ async function startSeniorExam() {
                 countdownTime--;
 
                 // Update the timer display
-                document.getElementById("timer").textContent = formatTime(countdownTime);
+                document.getElementById("timer").textContent = `Remaining Time:${formatTime(countdownTime)}`;
 
                 // Stop the timer when countdown reaches zero
                 if (countdownTime <= 0) {
@@ -880,6 +880,7 @@ startButton.addEventListener('click', () => {
 
                 if (isNotUploading) {
                     showPopUpMessage('Oops!!😮 Examination will not upload till the date of Examination');
+                     startButton.disabled = false;
                 } else {
                     //increment examcount
                     updateDoc(docRef, {
@@ -889,6 +890,7 @@ startButton.addEventListener('click', () => {
                     //check if the exacount exceeds 2
                     if (examCount >= 2) {
                         showPopUpMessage('You have exceeded the maximum attempts');
+                         startButton.disabled = false;
                         return;
                     }
                     else {
@@ -919,6 +921,11 @@ startButton.addEventListener('click', () => {
     /*  catch (error) {
          showPopUpMessage('Error uploading exam', error);
      } */
+})
+
+
+document.getElementById('logout-btn').addEventListener('click', () => {
+    location.href= "exampage.html"; 
 })
 
   /*    else {
