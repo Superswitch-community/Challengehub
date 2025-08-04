@@ -875,7 +875,7 @@ startButton.addEventListener('click', () => {
             if (docSnap.exists()) {
                 const userData = docSnap.data();
                 let examCount = userData.examCount;
-                const isNotUploading = false;
+                const isNotUploading = true;
                /*  console.log(userData); */
 
                 if (isNotUploading) {
