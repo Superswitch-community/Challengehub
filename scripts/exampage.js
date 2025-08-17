@@ -875,7 +875,7 @@ startButton.addEventListener('click', () => {
             if (docSnap.exists()) {
                 const userData = docSnap.data();
                 let examCount = userData.examCount;
-                const isNotUploading = true;
+                const isNotUploading = false;
                /*  console.log(userData); */
 
                 if (isNotUploading) {
@@ -1009,3 +1009,4 @@ document.getElementById('logout-btn').addEventListener('click', () => {
 /* const reloadExam = () => {
   
 } */
+
