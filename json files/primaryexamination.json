@@ -1,0 +1,145 @@
+[{
+    "question": "A machine is defined as anything that can be used to",
+    "options":["Sow clothes easier nad faster","Cut trees easier and faster","Make work easier and faster","Travel easier and faster"],
+    "answer": "C"
+},{
+    "question": "In which of the following places can we see machines",
+    "options":["Homes","Schools","Workshops","Offices"],
+    "answer": "C"
+},
+{
+    "question":"The different kinds of simple machines include the following except",
+    "options":["Lever","Pulley","Wedge","Bicycle"],
+    "answer": "D"
+},
+{
+    "question":"The part of the human body that serves as a lever is the",
+    "options":["Arm","Head","Teeth","Eye"],
+    "answer": "A"
+},
+{
+    "question":"There are _______ classes of lever",
+    "options":["2","3","4","5"],
+    "answer": "B"
+},
+{
+    "question":"In which of the classes of lever does the fulcrum lie between the load and the effort",
+    "options":["1st","2nd","3rd","4th"],
+    "answer": "C"
+},
+{
+    "question":"Which of the following does not reduce friction (i) Flat surface (ii) Wheels (iii) Grease",
+    "options":["i only","ii only","iii only","i, ii, iii only"],
+    "answer": "A"
+},
+{
+    "question":"When water is poured on a floor and a boy walking on it falls down, this is because",
+    "options":["There is no friction between his soles and the floor","There is reduced friction between his soles and the floor","He is too light, and therefore has no weight","His weight is not enough to keep him walking"],
+    "answer": "A"
+},
+{
+    "question":"If you roll a ball on the ground it starts to move after sometime it stops. What makes it stop?",
+    "options":["Gravity","Friction","Force","Pressure"],
+    "answer": "B"
+},
+{
+    "question":"Find the total of 1 week 5 days, 6 days and 3 weeks 4 days. Give your answer in days",
+    "options":["40 days","41 days","42 days","43 days"],
+    "answer": "D"
+},
+{
+    "question":"Find the number of seconds in 3 mins 49s",
+    "options":["123s","229s","547s","97s"],
+    "answer": "B"
+},
+{
+    "question":"How many seconds make a minute?",
+    "options":["60","90","45","10"],
+    "answer": "A"
+},
+{
+    "question":"What number does MDCLXXVIII represent",
+    "options":["1254","1685","1678","1986"],
+    "answer": "C"
+},
+{
+    "question":"What number does CCXC represent",
+    "options":["190","460","340","290"],
+    "answer": "D"
+},
+{
+    "question":"Write the year 1934 in Roman numerals",
+    "options":["MCMXIV","MCMXXXIV","MCMXXII","MCMXXIV"],
+    "answer": "B"
+},
+{
+    "question":"What does (6, 1, 20) (2, 15, 25) mean using alphabetical code",
+    "options":["FTA BYO","FAT BOY","BOY FAT","FAT FAT"],
+    "answer": "B"
+},
+{
+    "question":"Translate I LOVE YOU into simple code using alphabetical code",
+    "options":["(12, 5, 22, 15)(25, 5, 15)","(12, 22, 15, 5)(25, 21, 15)","(5, 12, 15, 22)(12, 25, 21)","(12, 15, 22, 5)(25, 15, 21)"],
+    "answer": "D"
+},
+{
+    "question":"Find the LCM of 24, 28, 36 nad 59",
+    "options":["12890","12600","12500","12540"],
+    "answer": "B"
+},
+{
+    "question":"Find the between 4 and 6",
+    "options":["10","12","18","24"],
+    "answer": "B"
+},
+{
+    "question":"Find the LCM between 6 and 8",
+    "options":["48","56","None","12"],
+    "answer": "C"
+},
+{
+    "question":"Find the LCM between 6 and 9",
+    "options":["54","24","36","None"],
+    "answer": "D"
+},
+{
+    "question":"Find the LCM between 7 and 8",
+    "options":["None","49","112","15"],
+    "answer": "A"
+},
+{
+    "question":"Find the LCM between 2, 3, and 4",
+    "options":["24","None","11","8"],
+    "answer": "B"
+},
+{
+    "question":"The fators of 9 are",
+    "options":["1, 3, and 9","1 and 3 only","1 and 9","0, 1, 3, and 9"],
+    "answer": "A"
+},
+{
+    "question":"Add these fracions 2/9 + 5/9",
+    "options":["3/9","7/9","8/9","10/9"],
+    "answer": "B"
+},
+{
+    "question":"Simplify 5/6 + 3/8",
+    "options":["29/21","29/22","29/23","29/24"],
+    "answer": "D"
+},
+{
+    "question":"Simplify 7/10 - 4/15",
+    "options":["13/20","14/10","34/56","8/9"],
+    "answer": "A"
+},
+{
+    "question":"A girl spends 1/4 of her pocket money on Monday and 3/8 on Wednesday, what fraction of her money is left?",
+    "options":["7/10","3/4","3/8","7/9"],
+    "answer": "C"
+},
+{
+    "question":"",
+    "options":["","","",""],
+    "answer": ""
+}
+]

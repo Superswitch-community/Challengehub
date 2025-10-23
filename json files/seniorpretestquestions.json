@@ -1,0 +1,776 @@
+[{
+    "question": "find the compound interest on $600  for 2 years at 8%",
+    "options": ["$98.94", "$99.84", "$99.89", "$97.84"],
+    "answer": "B"
+},
+{
+    "question": "the smallest particle of an element is",
+    "options": ["radical", "ion", "molecule", "atom"],
+    "answer": "D"
+},
+{
+    "question": "the smallest particle of a substance is",
+    "options": ["radical", "ion", "molecule", "atom"],
+    "answer": "C"
+},
+{
+    "question": "find the principal that will earn #29.19 in the 6 years 3 months at 3.5% per annum",
+    "options": ["#133.44", "#199.84", "#134.89", "#135.84"],
+    "answer": "A"
+},
+{
+    "question": "Which of the following is a fundamental quantity",
+    "options": ["seconds", "acceleration", "metre", "luminous intensity"],
+    "answer": "D"
+},
+{
+    "question": "which of the following is not present in a plant cell",
+    "options": ["chloroplast", "cell wall", "vacoules", "cell membrane"],
+    "answer": "D"
+},
+{
+    "question": "a television costing #24,000 depreciate by 25% in the first year and by 20% in the second year. find its value after 2 years",
+    "options": ["#14,400", "#14,500", "#14.600", "#14,700"],
+    "answer": "A"
+},
+{
+    "question": "which of the following is not present in an organized nucleus",
+    "options": ["RNA", "chromosone", "DNA", "mitochondrion"],
+    "answer": "D"
+},
+{
+    "question": "if a varies bc where b = 4, c = 9, and a = 6. the value of a when b = 3",
+    "options": ["2", "3", "4", "5"],
+    "answer": "D"
+},
+{
+    "question": "what is the dimension of work",
+    "options": ["MLT¯¹", "MLT¯⁴", "MLT¯³", "MLT¯⁵"],
+    "answer": "A"
+},
+{
+    "question": "which of the following is a derived quantity",
+    "options": ["frequency", "length", "amount", "current"],
+    "answer": "A"
+},
+{
+    "question": "How many fundamental quantity do we have?",
+    "options": ["5", "8", "6", "7"],
+    "answer": "D"
+},
+{
+    "question": "A man makes a journey of 150Km, 60Km of it by bus at 45Km per hour and the rest by bicycle at 25Km per hour. find the ratio of the times taken on the two parts of the journey",
+    "options": ["1.2:3.4", "3.4:2.3", "4.5:5.3", "1.3:3.6"],
+    "answer": "D"
+},
+{
+    "question": "Is spirogyra a colonial cell?",
+    "options": ["maybe", "no", "yes", "i don't know"],
+    "answer": "C"
+},
+{
+    "question": "which of the following cell exists as a free living organism",
+    "options": ["volvox", "spirogyra", "pandorina", "amoeba"],
+    "answer": "D"
+},
+{
+    "question": "What branch of biology deals with the study of the external part of plant/animal",
+    "options": ["zoology", "physiology", "morphology", "anatomy"],
+    "answer": "C"
+},
+{
+    "question": "which of the folowing organism is not filamentous",
+    "options": ["volvox", "oscillatoria", "oedogonium", "zygnema"],
+    "answer": "A"
+},
+{
+    "question": "which scientist proposed that plants are made up cells",
+    "options": ["mathais schleiden", "theodor shwann", "felix dujardin", "robert hooke"],
+    "answer": "A"
+},
+{
+    "question": "which of the following is the correct formular for engergy",
+    "options": ["work / time", "power / time", "mass x time", "force x distance"],
+    "answer": "D"
+},
+{
+    "question": "The SI unit of electric current is",
+    "options": ["charge", "coulombs", "ampere", "faraday"],
+    "answer": "C"
+},
+{
+    "question": "How many type of endoplasmic reticulum do we have?",
+    "options": ["3", "1", "4", "2"],
+    "answer": "D"
+},
+{
+    "question": "if the first term of an A.P is 6 and the fourth term is 12. find the common difference",
+    "options": ["2", "3", "4", "5"],
+    "answer": "A"
+},
+{
+    "question": "What charge does sulphate ion carry",
+    "options": ["both", "nuetral", "negative", "positive"],
+    "answer": "C"
+},
+{
+    "question": "what part of an element is its image",
+    "options": ["proton", "ion", "molecule", "atom"],
+    "answer": "C"
+},
+{
+    "question": "what is the valence electron of magnesuim",
+    "options": ["2", "3", "4³", "5"],
+    "answer": "A"
+},
+{
+    "question": "what is the valence electron of calcium",
+    "options": ["4", "5", "3", "2"],
+    "answer": "D"
+},
+{
+    "question": "How many oxidation states does oxygen have?",
+    "options": ["4", "5", "3", "2"],
+    "answer": "D"
+},
+{
+    "question": "which of the follwing number is not the oxidation number nitrogen",
+    "options": ["8", "5", "3", "2"],
+    "answer": "A"
+},
+{
+    "question": "what type of separation technique is used to separate liquids of close boiling point",
+    "options": ["seiving", "crystallization", "distillation", "fractional distillation"],
+    "answer": "D"
+},
+{
+    "question": "What is the chemical formulae for sand",
+    "options": ["carbon monooxide", "calcite", "silicon dioxide", "hydrate"],
+    "answer": "C"
+},
+{
+    "question": "What is the chemical formulae for glucose",
+    "options": ["C6H1206", "CaCO3", "CH20", "C5H11O"],
+    "answer": "A"
+},
+{
+    "question": "What is the chemical formulae for limestone",
+    "options": ["SiO2", "Ca(HCO3)2", "H20", "CaCO3"],
+    "answer": "D"
+},
+{
+    "question": "What is the chemical formulae for  hard soap",
+    "options": ["NaHCO3", "NaCO3", "NaCl", "HCl"],
+    "answer": "A"
+},
+{
+    "question": "Which of the motion invloves two objects",
+    "options": ["relative ", "random", "translational", "oscillatory"],
+    "answer": "A"
+},
+{
+    "question": "How many kingdoms are there in taxonomy",
+    "options": ["8", "5", "3", "2"],
+    "answer": "B"
+},
+{
+    "question": "what kingdom does bacteria belong to",
+    "options": ["monera", "protista", "fungi", "plantea"],
+    "answer": "A"
+},
+{
+    "question": "Which of the follwing is not a colonial cell",
+    "option" : ["pandorina", "coral", "zygnema", "volvox"],
+    "answer": "A"
+},
+{
+    "question": "what seperation technique is used to separate solids of different sizes",
+    "options": ["magnetization", "distillation", "filtration", "seiving"],
+    "answer": "D"
+},
+{
+    "question": "what is the oxidation number of carbon in Na2CO3",
+    "options": ["4", "5", "3", "2"],
+    "answer": "A"
+},
+{
+    "question": "what is the oxidation number of oxygen in peroxides",
+    "options": ["1", "-2", "1", "-1"],
+    "answer": "D"
+},
+{
+    "question": "what is the chemical formular for ammonium hydroxide",
+    "options": ["NH4(OH)2", "NH4Cl", "NH4OH", "NH4OH2"],
+    "answer": "C"
+},
+{
+    "question": "which of the following is the difference between distance and displacement",
+    "options": ["one is scalar, the other is vector", "they have the same unit", "both are vectors", "both are scalars"],
+    "answer": "A"
+},
+{
+    "question": "A car moves 6Km eastwards and 8Km northwards , find the displacement",
+    "options": ["10Km", "9Km", "4Km", "5Km"],
+    "answer": "A"
+},
+{
+    "question": "which of the following may be a to and fro motion",
+    "options": ["circular", "random", "translational", "vibratory"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is a scalar quantity",
+    "options": ["force", "velocity", "displacement", "distance"],
+    "answer": "D"
+},
+{
+    "question": "if 2/5 of a certain amount of money is #14, how much is the money?",
+    "options": ["#35", "#30", "#36", "#37"],
+    "answer": "A"
+},
+{
+    "question": "what value of x would satisfy that the equation 40 = 7x - 9",
+    "options": ["6/5", "6/4", "7/4", "7/3"],
+    "answer": "D"
+},
+{
+    "question": "find the value of q in the equation: 0.12q + 0.08 = 0.06q - 0.04",
+    "options": ["0", "-1", "-2", "-3"],
+    "answer": "C"
+},
+{
+    "question": "solve the equation 7x - 4(x + 3) = 6",
+    "options": ["5", "6", "4", "3"],
+    "answer": "B"
+},
+{
+    "question": "solve the equation x = 12 - (11 + 4x)",
+    "options": ["1/3", "1/4", "1/2", "1/5"],
+    "answer": "D"
+},
+{
+    "question": "solve the equation 5(y + 1) - 3(y - 2) + 2(y - 10) = 3",
+    "options": ["1", "2", "3", "4"],
+    "answer": "C"
+},
+{
+    "question": "4n - [4(1 + n) - 2n] = 4",
+    "options": ["4", "5", "6", "7"],
+    "answer": "A"
+},
+{
+    "question": "solve (x - 7)/2 = 5",
+    "options": ["16", "17", "18", "20"],
+    "answer": "B"
+},
+{
+    "question": "solve the equation (a - 4)/5 = 2 - a/2",
+    "options": ["1", "6", "5", "4"],
+    "answer": "D"
+},
+{
+    "question": "The circulation of protoplasm in cells is called",
+    "options": ["homeostatis", "motion", "cyclosis", "movement"],
+    "answer": "C"
+},
+{
+    "question": "which of the following is not the factors that affect diffusion",
+    "options": ["state of matter", "temperature", "concentration", "molecule strength"],
+    "answer": "D"
+},
+{
+    "question": "The increase in temperature _________ the rate of diffusion",
+    "options": ["none of the above", "remians constant", "increases", "decreases"],
+    "answer": "C"
+},
+{
+    "question": "What state of matter has the highest rate of diffusion",
+    "options": ["aqeous", "solid", "liquid", "gas"],
+    "answer": "D"
+},
+{
+    "question": "Diffusion occurs in living things only",
+    "options": ["all of the above", "none of the above", "no", "yes"],
+    "answer": "C"
+},
+{
+    "question": "The movement of ions and molecules of a substance from a region of a high concentration to a low concentration is called _________",
+    "options": ["diffusion", "osmosis", "concentration", "cyclosis"],
+    "answer": "A"
+},
+{
+    "question": "which of the following is not true about the differences between diffusion and osmosis",
+    "options": ["diffusion occurs in gases and liquids", "osmosis occurs naturally in living organisms", "osmosis require a permeable membrane", "diffusion occurs in living things"],
+    "answer": "D"
+},
+{
+    "question": "In a class of 50 students, 40 can play football and 23 lawn tennis . if all the students can play at least one of the games, how many students play both games?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "D"
+},
+{
+    "question": "In an examination, 31 candidates passed chemistry, 29 passed physics and 3 failed both subjects . if 50 candidates sat for the examination, how many of them passed chemistry only?",
+    "options": ["18", "17", "16", "19"],
+    "answer": "A"
+},
+{
+    "question": "Every staff in an office owns either a mercedes and/or toyota car, 20 own mercedes, 15 own toyota and 5 own both, how many staff are there in the office?",
+    "options": ["29", "30", "31", "32"],
+    "answer": "B"
+},
+{
+    "question": "5/6 of a class of 60 students study mathematics and 3/5 study economics. every student studies at least one of these subjects. how many students study both subjects",
+    "options": ["25", "26", "27", "28"],
+    "answer": "B"
+},
+{
+    "question": "In a market survey, 100 traders selll fruits, 40 sell apples, 46 oranges, 50 mangoes, 14 apples and oranges, 15 apples and mangoes and 10 sell the three fruits. each of the 100 traders sells at least one of the three fruits. find the number that sell oranges and mangoes only",
+    "options": ["5", "6", "7", "8"],
+    "answer": "C"
+},
+{
+    "question": "The correct symbol for the element tin is ",
+    "options": ["W", "Sb", "Ti", "Sn"],
+    "answer": "D"
+},
+{
+    "question": "The correct symbol for the element antimony is ",
+    "options": ["Pb", "Li", "Au", "Sb"],
+    "answer": "D"
+},
+{
+    "question": "The correct symbol for the element mecury is ",
+    "options": ["Sn", "Li", "Hg", "Sb"],
+    "answer": "C"
+},
+{
+    "question": "Identify the INCORRECT statement below",
+    "options": ["the atomic weight is the number of atoms in one mole", "the electron and proton have opposite charges", "the atomic number is the number of protons in the nucleus", "an atom is the smallest particle of an element"],
+    "answer": "A"
+},
+{
+    "question": "The number of protons in silicon atom is",
+    "options": ["28", "14", "32", "16"],
+    "answer": "B"
+},
+{
+    "question": "The number of protons in copper atom is",
+    "options": ["23", "29", "12", "24"],
+    "answer": "B"
+},
+{
+    "question": "which of the following is not an ionic compound",
+    "options": ["LiF", "CCl4", "NaCl", "FeSO4"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following compounds undergoe ionic bonding",
+    "options": ["MgCl2", "CCl4", "CH4", "NH4+"],
+    "answer": "A"
+},
+{
+    "question": "what type of bond form new substance",
+    "options": ["ionic bonding", "covalent bonding", "hydrogen bonding", "mettalic bonding"],
+    "answer": "D"
+},
+{
+    "question": "what type of bond present in water that makes water hard to break at solid state",
+    "options": ["covalent bond", "ionic bond", "mettalic bond", "hydrogen bond"],
+    "answer": "D"
+},
+{
+    "question": "which of the following is not part of the process of heat transfer",
+    "options": ["conduction", "insulation", "convention", "radiation"],
+    "answer": "B"
+},
+{
+    "question": "The shrinking of a plant cell is called",
+    "options": ["plasmolysis", "diffusion", "shrinkylis", "haemolysis"],
+    "answer": "A"
+},
+{
+    "question": "The shrinking of an animal cell is called",
+    "options": ["plasmolysis", "haemolysis", "noe of the above", "all of the above"],
+    "answer": "C"
+},
+{
+    "question": "The bursting of the red blood cell when full streched is called",
+    "options": ["flaccidity", "turgidity", "haemolysis", "osmosis"],
+    "answer": "C"
+},
+{
+    "question": "In what solution does plasmolysis takes place",
+    "options": ["hypotonic", "isotonic", "hypertonic", "none"],
+    "answer": "C"
+},
+{
+    "question": "In what solution does heammolysis takes place",
+    "options": ["hypotonic", "isotonic", "hypertonic", "all solution"],
+    "answer": "A"
+},
+{
+    "question": "The unit of concentration is",
+    "options": ["mol/dm3", "moldm3", "g/mol", "mml"],
+    "answer": "A"
+},
+{
+    "question": "The oxidation number of Cr in K2Cr2O7 is",
+    "options": ["-6", "+6", "+2", "-2"],
+    "answer": "B"
+},
+{
+    "question": "solids are classified as ",
+    "options": ["crystalline and ionic solids", "mettaliic and amorphous soiids", "moleculecular and covalent solids", "crystalline and and amorphous solids"],
+    "answer": "D"
+},
+{
+    "question": "Atomic radii __________ along the periods",
+    "options": ["increases", "decreases", "remians constant", "irregular"],
+    "answer": "A"
+},{
+    "question": "The ionization energy of an atom ________ across the periods",
+    "options": ["increases", "decreases", "remians constant", "none of the above"],
+    "answer": "A"
+},
+{
+    "question": "A man walked for 4 hours at a certain speed. he then cycled at 6 times that speed for 8 hours. he went 106Km altogether. find the speed at which he walked",
+    "options": ["106/52Km/h", "107/53Km/h", "108/54Km/h", "109/55Km/h"],
+    "answer": "A"
+},
+{
+    "question": "A cyclist cycled bKm at a certain average speed. he then increased his speed by 2Km/h and took the same time to travel 9Km. find his speeds(in m/s)",
+    "options": ["6.3m/s, 3m/s", "2m/s, 7m/s", "4.4m/s, 5m/s", "2.3m/s, 5m/s"],
+    "answer": "C"
+},
+{
+    "question": "Two boys share 54 oranges, one of them has 8 oranges les than the other, find how the oranges were share",
+    "options": ["boy a 31 oranges, boy b 23 oranges", "boy a 20 oranges, boy b 34 oranges", "boy a 45 oranges, boy b 9 oranges", "boy a 10 oranges, boy b 44 ornages"],
+    "answer": "A"
+},
+{
+    "question": "Musa ,is 11 years older than obi. in 5 years time, musa will be twice as old as obi. find their present age",
+    "options": ["6, 17", "7, 18", "8, 19", "9, 20"],
+    "answer": "A"
+},
+{
+    "question": "if x = 5 and y = 2, find the value of 4x - 3xy + 6y",
+    "options": ["1", "2", "3", "4"],
+    "answer": "B"
+},
+{
+    "question": "Make y subject of the formular: y/r + b = k",
+    "options": ["y = 1/2r(b - k)", "y = r(k - b)", "y = k(b - r)", "y - b(r - k)"],
+    "answer": "B"
+},
+{
+    "question": "q = ((p - r)/(p - a))½, make p subject of the formular",
+    "options": ["p = (q²a - r)/(q² - 1)", "p = (2qa + r)/(q + 1)", "p = (2q - r)/(q - 1)", "p = (2p - r)/(q + 1)"],
+    "answer": "A"
+},{
+    "question": "Factorize (a + m)(2a - 5m) - (a + m)²",
+    "options": ["(a + m)(a - 6m)", "(6m - a)(a + m)", "(a + m)(2a - m)", "(a + m)(3a + 3m)"],
+    "answer": "A"
+},
+{
+    "question": "Factorize 2d³ + d²(3d - 1)",
+    "options": ["d(5d² - 1)", "d²(5d - 1)", "d³(5d + 1)", "d(5d -1)"],
+    "answer": "B"
+},
+{
+    "question": "Find the value of x for which the farction 1/(x - 2) is undefined",
+    "options": ["5", "3", "1", "2"],
+    "answer": "D"
+},
+{
+    "question": "find the value of x for which (7x + 15)/(3x - 12) is undefined",
+    "options": ["2", "3", "4", "5"],
+    "answer": "C"
+},
+{
+    "question": "for what value of x is the fraction (2x + 3)/(x² - 36) not defined?",
+    "options": ["-6", "+6", "neither -6 nor +6", "either -6 or +6"],
+    "answer": "D"
+},
+{
+    "question": "for what value of x is the fraction (2x + 3)²/(2x² + 13x + 15) not defined?",
+    "options": ["-5", "-6", "4", "1"],
+    "answer": "A"
+},
+{
+    "question": "find the value of x for which the expression 18/x + (x² + 1)/(x² - 9) is undefined",
+    "options": ["-3", "both", "+3", "none"],
+    "answer": "C"
+},
+{
+    "question": "Factorize x² - 25",
+    "options": ["(x - 4)(x + 4)", "(x - 5)(x + 5)", "(x - 25)(x + 25)", "(x - 125)(x + 125)"],
+    "answer": "B"
+},
+{
+    "question": "Factorize 25r² - 60rt + 36t²",
+    "options": ["(5r - 6t)(5r + 6t)", "(25r - 6t)(25r + 6t)", "(5r - 36t)(5r + 36t)", "(5r - 36t)(r - t)"],
+    "answer": "A"
+},
+{
+    "question": "what is th SI unit for length",
+    "options": ["m", "cm", "mm", "km"],
+    "answer": "A"
+},
+{
+    "question": "what is the SI unit for mass",
+    "options": ["N", "cg", "g", "Kg"],
+    "answer": "D"
+},
+{
+    "question": "what is the SI unit for time",
+    "options": ["Hrs", "Min", "S", "Ms"],
+    "answer": "C"
+},
+{
+    "question": "When the velocity of a body is constant, the acceleration is _____",
+    "options": ["constant", "zero", "undefined", "none of the above"],
+    "answer": "B"
+}, {
+    "question": "which of the following is correct when a body is thrown upwards",
+    "options": ["the velocity reduces to zero at maximum height", "the velocity is constant", "the velocity is zero", "none of the above"],
+    "answer": "A"
+},
+{
+    "question": "when a car is at rest and starts moving the final velocity is ______",
+    "options": ["all of the above", "constant", "zero", "variable"],
+    "answer": "D"
+},
+{
+    "question": "The time taken to go up is equal to the time taken to come down in a projectile",
+    "options": ["false", "true", "none of the above", "all of the above"],
+    "answer": "A"
+},
+{
+    "question": "when a body is going upwards ______",
+    "options": ["its weight decreases", "its weight increases", "its weight remains constant", "its weight becomes zero"],
+    "answer": "A"
+},
+{
+    "question": "when a body is under free fall its weight is ________",
+    "options": ["low", "high", "variable", "0"],
+    "answer": "D"
+},
+{
+    "question": "when a body starts to descend, what occurs to the weight _______",
+    "options": ["increases", "decreases", "remians constant", "zero"],
+    "answer": ""
+},
+{
+    "question": "when a body is going upwards ______",
+    "options": ["its mass becomes zero", "its mass remains constant", "its mass decreases", "its mass increases"],
+    "answer": "B"
+},
+{
+    "question": "when a body is under free fall its mass is ________",
+    "options": ["constant", "zero", "variable", "none of the above"],
+    "answer": "A"
+},
+{
+    "question": "Mr Akpan, a mathematics teacher added two numbers and got 9. he multiplied the two numbers and got 20. he asked an ss1 student to find the two numbers",
+    "options": ["3 and 6", "4 and 5", "2 and 10", "2 and 7"],
+    "answer": "B"
+},
+{
+    "question": "In measuring out a rectangular lawn, a games master found out that the perimeter is 64m while the area is 240m². he then stopped the measurement and asked a student to find the breadth of the lawn. assuming you are the student, what is the breadth of the lawn",
+    "options": ["10m", "11m", "12m", "13m"],
+    "answer": "C"
+},
+{
+    "question": "A boy bought some packets of biscuits for #1.20. if the biscuits had been 3K a packet cheaper, hw would have received 2 more packets for his money. how many packets did he buy?",
+    "options": ["-10 packets", "8 packets", "6 packets", "2 packets"],
+    "answer": "B"
+},
+{
+    "question": "The distance from owerri to asaba is 160km. if an express train were 16Km/h slower, it would take 20 minutes longer on the journey. find the average speed of the express train",
+    "options": ["30Km/h", "96Km/h", "-80Km/h", "40Km/h"],
+    "answer": "B"
+},
+{
+    "question": "A right-angled triangle has side x - 5, x + 12, and x + 13 centimetres. find the area of the triangle",
+    "options": ["84cm²", "90cm²", "87cm²", "92cm²"],
+    "answer": "A"
+},{
+    "question": "A woman bought bars of truck soap for $280. if a bar is $2.50 more expensive, she would have bought 2 less. how many bars did she buy?",
+    "options": ["15", "16", "17", "18"],
+    "answer": "B"
+},
+{
+    "question": "The sum of two numbers is 8; their product is 15, find the numbers",
+    "options": ["3, 5", "4, 4", "1, 7", "-9, 17"],
+    "answer": "A"
+},
+{
+    "question": "solve the pair of equatins 3m + 2n = 12, 5m - 3n = 1",
+    "options": ["m = 2, n = 3", "m = 3, n = 2", "m = 1, n = 4", "m = 4, n = 1"],
+    "answer": "A"
+},
+{
+    "question": "solve 3y = 4 - 4x, 2x = 5y + 15",
+    "options": ["x = 2, y = -1", "x = 5/2, y = 2", "x = 5/2, y = -2", "x = 2/3, y = 4"],
+    "answer": "C"
+},
+{
+    "question": "Soive the pair of equations x/2 + y/3 = 17/6, x - y/2 = 1",
+    "options": ["x = 1, y = 2", "x = 3, y = 4", "x = 2, y = 7", "x = 1, y = 9"],
+    "answer": "B"
+},
+{
+    "question": "Solve the equations 3(x + y) = 7(y - x) and 5(3x - y) = x + 3",
+    "options": ["x = 4, y = 10", "x = 2, y = 6", "x = 3, y = 5", "x = 2, y = 5"],
+    "answer": "D"
+},
+{
+    "question": "Solve the equation 3p - 5q - 4 = 5p + 8 = 2p + q + 7",
+    "options": ["p = -1, q = -2", "p = -2, q = -1", "p = -2, q = -3", "p = -3, q = -2"],
+    "answer": "A"
+},
+{
+    "question": "*Solve the equations 2.3m + 1.8m = 5.1 and 0.9m + 2.4n = 0.3",
+    "option" : ["m = 6, n = 6", "m = 9, n = -1", "m = 3, n = -1, ", "m = -4, n = -3"],
+    "answer": "C"
+},
+{
+    "question": "Two oranges and four mangoes cost #150 altogether. three oranges and four oranges cost #160 altogether. find the cost of one orange and one mango",
+    "options": ["x = 10, y = 65/2", "x = 11, y = 54/2", "x = 9, y = 11/2", "x = 8, y = 9/2"],
+    "answer": "A"
+},
+{
+    "question": "In 10 years time, a mother will be twice as old as her duaghter. 10 years age, she was six times as old as her daughter. how old is each of them now",
+    "options": ["40, 16", "40, 15", "40, 17", "40, 18"],
+    "answer": ""
+},
+{
+    "question": "Solve the equations x + y = 3, x² - y²",
+    "options": ["x = 1, y = 2", "x = 2, y = 3", "x = 2, y = 1", "x = 3 = y = 2"],
+    "answer": "A"
+},
+{
+    "question": "Solve 3x + 4y = 11, xy = 2",
+    "options": ["(1,4)(2/3,1/8)", "(1,3)(4/6,3/4)", "(2,1)(2/3,5/6)", "(1,2),(8/3,3/4),"],
+    "answer": "D"
+},
+{
+    "question": "Two numbers have a difference of 3, the sum of their squares is 89. find the numbers",
+    "options": ["3, 6", "5, 8", "4, 7", "6, 9"],
+    "answer": "B"
+},
+{
+    "question": "A man is x years old while his son is y years old. the sum of their ages is equal to twice the difference of their ages. the product of their ages is 675. what is the age of the man",
+    "options": ["45", "15", "30", "35"],
+    "answer": "A"
+},
+{
+    "question": "Which of the noble gases has the greatest oinization energy?",
+    "options": ["He", "Ar", "Xe", "Kr"],
+    "answer": "A"
+},
+{
+    "question": "Which of the actinides is commonly used as a nuclear fuel?",
+    "options": ["Uranium", "Actinium", "Thorium", "Palladium"],
+    "answer": "A"
+},
+{
+    "question": "The chemical symbol for tungsten is",
+    "options": ["Ti", "W", "Ir", "Y"],
+    "answer": "B"
+},
+{
+    "question": "Mendelev periodic table was arranged in the order of their",
+    "options": ["atomic numbers", "molecular shapes and orbitals", "increasing relative atomic mass", "orbital configuration"],
+    "answer": "C"
+},
+{
+    "question": "S-block elements of the periodic table are made up of",
+    "options": ["groups 1,2,3", "groups 1 and 2", "group 3", "groups 3 to 7"],
+    "answer": "B"
+},
+{
+    "question": "Special properties of the transition elements are as a result of ",
+    "options": ["ability to produce colored ions", "ability to have variable valencies", "ability to posses partially filled d-orbitals", "inert octet electrons"],
+    "answer": "B"
+},
+{
+    "question": "The phenomenom whereby the atmospheric pressure equals the saturated vapour pressure is called",
+    "options": ["freezing", "latent heat", "boiling", "normal pressure"],
+    "answer": "C"
+},
+{
+    "question": "Water (H2O) exists as a solid, liquid, and gas respectively because",
+    "options": ["water is colorless", "water is electrovalent", "water in any state posseses a certain degree of motion in the molecules", "water is molecular"],
+    "answer": "C"
+},
+{
+    "question": "Which of these does not support the phenomenom of kinetic theory",
+    "options": ["brownian motion", "diffusion", "osmosis", "linear expansivity"],
+    "answer": "D"
+},
+{
+    "question": "Which of the follwing substances is a mixture?",
+    "options": ["sulphur powder", "bronze", "distilled water", "ethanol"],
+    "answer": "B"
+},
+{
+    "question": "Sugar is separated from its impurities by",
+    "options": ["distillation", "evaporation", "precipitation", "crystallization"],
+    "answer": "D"
+},
+{
+    "question": "The chromatographic seperation ink is based on the ability of the components to",
+    "options": ["react with each other", "react with the solvent", "dissolve in each other in the column", "move at different speeds in the column"],
+    "answer": "D"
+},
+{
+    "question": "Sieving technique is used to separate mixtures containing solid particles of",
+    "options": ["small sizes", "large sizes", "the same size", "different sizes"],
+    "answer": "D"
+},
+{
+    "question": "Which is the odd - one out?",
+    "options": ["Air", "Urine", "Brass", "Sand"],
+    "answer": "D"
+},
+{
+    "question": "The separation of a mixture of CaCO3 and Na2CO3 is most easily carried out by using the differences in their",
+    "options": ["solubility", "melting points", "boiling points", "floatation"],
+    "answer": "A"
+},
+{
+    "question": "The addition of water to calcium oxide leads to",
+    "options": ["A physical change", "A chemical change", "The formation of a mixture", "An endothermic change"],
+    "answer": "B"
+},
+{
+    "question": "A heterogenous mixture can be defined as any mixture",
+    "options": ["Whose composition is uniform", "Whose composition is not unniform", "Formed by solids and liquids", "Of a solute and solvent"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following substances is not a homogenous mixture",
+    "options": ["Filtered seawater", "Soft drink", "Flood water", "Writing ink"],
+    "answer": "C"
+},
+{
+    "question": "Separation of mixtures of solids with various sizes include",
+    "options": ["Magnetic seperation", "Coarsing", "Sublimation", "Sieving"],
+    "answer": "D"
+},
+{
+    "question": "Fractional crystallization is a method of separating",
+    "options": ["Crude oil", "liquid mixture", "Coal", "Solids of different solubilities in a liquid"],
+    "answer": "D"
+},
+{
+    "question": "ACBM is a segment of a circle such tah CM is the perpendicular bisector of AB. If CM = 4cm and AB = 16cm, calculate: the raduis of the circle of which ACBM is a segment",
+    "options": ["9", "10", "11", "12"],
+    "answer": "B"
+},
+{
+    "question": "A cylindrical drain pip has internal and external diameters of 6.4cm and 7.6cm respectively, calculate the mass of the bowl if the is of density 0.8g/cm³",
+    "options": ["4.12kg", "4.13kg", "4.14kg", "4.15kg"],
+    "answer": "A"
+}]  

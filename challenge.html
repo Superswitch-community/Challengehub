@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/large.png">
+  <title>Challenge - challengehub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<style>
+  .nav-item a {
+    color: white;
+  }
+
+  .nav-item a:hover {
+    color: green;
+  }
+</style>
+
+<body class="p-3" style="background-color: aliceblue;">
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/large.png" alt="" style="border-radius: 50%; width: 50px; height: 50px;"
+          class="img-fluid"></a>
+      </a>
+      <button class="navbar-toggler bg-white  border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex flex-direction-column justify-content-center">
+
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./dashboard.html">Dashboard</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./results.html">Result</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./challenge.html">Challenge</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+              aria-controls="offcanvasExample">Payments</a>
+          </li>
+
+        </ul>
+        <div class="d-flex flex-direction-column justify-content-center mb-3" role="search">
+
+          <button class="btn btn-outline-success mx-3" type="submit" id="signout-button">
+            SignOut
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+  </nav>
+
+
+  <div id="liveAlertPlaceholder" class="mx-3 mt-3"></div>
+
+
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Make Payments</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        <div class="container-fluid">
+          <div class="container-fluid text-white bg-success mt-3 p-3">
+            <div class="row" id="dashboard-payment-status">
+
+            </div>
+          </div>
+          <div class="container-fluid text-white bg-info mt-3 p-3">
+            Before you make payments, please read the instructions carefully.
+          </div>
+          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
+            <p class="text-info col-12">Payment instrucctions: </p>
+            <p class="col-12">
+              To make a payment, you will be redirected to a secure payment page hosted
+              by Paystack. You can pay using your card, bank account, or other available
+              payment options.
+            </p>
+          </div>
+          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
+            <div class="text-info col-12">
+              Important:
+            </div>
+            <div class="col-12">
+              Pleas do not close this window or shut down your browser while the payment
+              is being processed. Doing so amy cause error or delays in your payments. Our system willl automatically
+              redirect you back to our website after payment is completed.
+            </div>
+          </div>
+          <div class="container-fluid mt-3">
+            <button class="btn btn-success" id="payment-button">Click to make payment</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-fluid bg-white rounded-1 h5 text-success mt-3 p-3 " id="challenge-welcome">
+
+    </div>
+
+    <div class="container-fluid bg-white rounded-1 text-success mt-3 p-3">
+      <p id="challenge-name"></p>
+      <p id="challenge-category"></p>
+      <p id="challenge-email"></p>
+      <p id="challenge-payment-status"></p>
+      <p id="challenge-challengecount"></p>
+
+      <a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button"
+        aria-controls="offcanvasExample">Start Test</a>
+
+
+    </div>
+
+    <div class="container-fluid bg-white rounded-1 mt-3 p-3">
+      <P class="text-success">Note: If you haven't paid for the test, you can't take the Test and if
+        the test date is not reached yet, you can't start your test. Goodluck!
+      </P>
+    </div>
+  </div>
+
+  <!-- 
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">End Exam</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to end Exam?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+          <button type="button" class="btn btn-success" id="submit-btn" data-bs-toggle="modal"
+            data-bs-target="#exampleModal1">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ -->
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Test</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" style="background-color: aliceblue;">
+      <div>
+        <div class="container-fluid bg-white text-success rounded-1 mt-3 mb-3 p-3">
+          Note: Before you click the start button this be sure
+          that you are ready to take the test
+        </div>
+
+        <div class="container-fluid bg-white rounded-1 mb-3 mt-3 p-3">
+          <button class="btn btn-success" id="start-button">
+            Begin Test
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+<script src="./scripts/challenge.js" type="module" defer></script>
+<script src="./scripts/payment.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+  integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+</html>

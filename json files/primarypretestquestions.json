@@ -1,0 +1,838 @@
+[{
+    "question": "What is the value of 4 + 7?",
+    "options": ["11", "34", "12", "10"],
+    "answer": "A"
+}
+,{
+    "question": "What is the value of 21 + 6?",
+    "options": ["11", "34", "27", "10"],
+    "answer": "C"
+},
+{
+    "question": "What is the value of 2 x 7?",
+    "options": ["11", "14", "12", "10"],
+    "answer": "B"
+},
+{
+    "question": "What is the value of 4 x 9?",
+    "options": ["11", "34", "12", "36"],
+    "answer": "D"
+},
+{
+    "question": "What is the value of 0 x 5?",
+    "options": ["1", "4", "2", "0"],
+    "answer": "D"
+},
+{
+    "question": "What is the value of 0 + 9?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "D"
+},
+{
+    "question": "What is the innermost part of the earth?",
+    "options": ["core", "air", "stone", "water"],
+    "answer": "A"
+},
+{
+    "question": "What is outermost part of the earth atmosphere?",
+    "options": ["lithosphere", "mesophere", "stratosphere", "ionosphere"],
+    "answer": "B"
+},
+{
+    "question": "What part of atmosphere contains oxygen?",
+    "options": ["lithosphere", "mesophere", "stratosphere", "ionosphere"],
+    "answer": "C"
+},
+{
+    "question": "What is 2 * 5?",
+    "options": ["11", "12", "10", "9"],
+    "answer": "C"
+},{
+    "question": "I have 500 oranges and my friend took 250 oranges from me, what do i have left?",
+    "options": ["200 oranges", "300 oranges", "250 oranges", "150 oranges"],
+    "answer": "C"
+},
+{
+    "question": "How many religions are there in nigeria?",
+    "options": ["3", "4", "5", "2"],
+    "answer": "A"
+},
+{
+    "question": "3/5 + 4/5 = ",
+    "options": ["2/5", "7/5", "8/5", "10/5"],
+    "answer": "B"
+},
+{
+    "question": "3/6 + 7/6 = ",
+    "options": ["3/6", "4/6", "5/6", "10/6"],
+    "answer": "D"
+},
+{
+    "question": "1/3 + 2/3 = ",
+    "options": ["1", "2", "3", "4"],
+    "answer": "A"
+},
+{
+    "question": "How many legs does an insect have?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "D"
+},
+{
+    "question": "The value of 45 / 9 is",
+    "options": ["3", "4", "5", "6"],
+    "answer": "C"
+},
+{
+    "question": "The value of 15 / 5 is",
+    "options": ["3", "4", "5", "6"],
+    "answer": "A"
+},
+{
+    "question": "What is the square root of 9",
+    "options": ["3", "4", "5", "6"],
+    "answer": "A"
+}
+,{
+    "question": "Estimate 955 to the nearest tens",
+    "options": ["950", "960", "940", "1000"],
+    "answer": "B"
+},
+{
+    "question": "Estimate 2.5 to the nearest whole number",
+    "options": ["3", "4", "5", "6"],
+    "answer": "A"
+},
+{
+    "question": "Estimate 1.4 to the nearest whole number?",
+    "options": ["3", "4", "5", "1"],
+    "answer": "D"
+},
+{
+    "question": "What is xxxix in roman numerals?",
+    "options": ["39", "34", "35", "31"],
+    "answer": "A"
+},
+{
+    "question": "What is xxxix + xciv in roman numerals?",
+    "options": ["139", "133", "135", "131"],
+    "answer": "B"
+},
+{
+    "question": "What is the area of a circle with raduis of 7m",
+    "options": ["154m²", "22m²", "7m²", "153m²"],
+    "answer": "A"
+},
+{
+    "question": "What is the formular for speed?",
+    "options": ["distance/velocity", "distance/time", "distance/hour", "distance/energy"],
+    "answer": "B"
+},
+{
+    "question": "What is the formular for distance?",
+    "options": ["speed x velocity", "speed x time", "speed x hour", "speed x energy"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following is correct about the formular for time?",
+    "options": ["distance/velocity", "distance/speed", "distance/hour", "distance/energy"],
+    "answer": "B"
+},
+{
+    "question": "Two cars were moving at the same time. but after moving a distance, car A was moving with a velocity of 35m/s and car B 40m/s. find the differeces in velocity?",
+    "options": ["5m/s", "6m/s", "75m/s", "76m/s"],
+    "answer": "A"
+},
+{
+    "question": "How many diagonals are there in a rectangle?",
+    "options": ["3", "2", "4", "1"],
+    "answer": "B"
+},
+{
+    "question": "What is the area of a triangle ABC with length of sides AB = 3cm, BC = 4cm, and AC = 5cm?",
+    "options": ["6cm²", "7.5cm²", "7cm²", "10cm²"],
+    "answer": "A"
+},
+{
+    "question": "How many values are there in the neutral point on a number line?",
+    "options": ["6", "2", "3", "1"],
+    "answer": "D"
+},
+{
+    "question": "The ability of a plant to use carbon dioxide, water, and chlorophyll in the presence of sunlight is called",
+    "options": ["chemosynthesis", "photosynthesis", "hydrosynthesis", "thigmosynthesis"],
+    "answer": "B"
+},
+{
+    "question": "What is mixture of solute and solvent?",
+    "options": ["solution", "aerosol", "pigment", "liquid"],
+    "answer": "A"
+},
+{
+    "question": "Express your value in decimal 4/5",
+    "options": ["0.8", "0.7", "0.6", "0.5"],
+    "answer": "A"
+},
+{
+    "question": "A business man sells a house for $4.50. How much will he sell 10 houses",
+    "options": ["$46.00", "$22.00", "$70.00", "$45.00"],
+    "answer": "D"
+},
+{
+    "question": "The finger bone is called",
+    "options": ["metatasars", "phalanges", "femur", "humerus"],
+    "answer": "B"
+},
+{
+    "question": "The lap bone is called?",
+    "options": ["femur", "tibia", "fibula", "ulna"],
+    "answer": "A"
+},
+{
+    "question": "Find the simple interest on a principal of #200 in three years at a rate of 2%?",
+    "options": ["#12.00", "#22.00", "#1200", "#2200"],
+    "answer": "A"
+},
+{
+    "question": "How many classes of lever do we have?",
+    "options": ["3", "2", "4", "5"],
+    "answer": "A"
+},
+{
+    "question": "calculate the power of a water pump pushing a water of mass 10kg at a height of 100m from underground at 5seconds (given g = 9.8ms-²)",
+    "options": ["11000w", "10000w", "7000w", "4500w"],
+    "answer": "B"
+},
+{
+    "question": "How many lines of symetry does a rectangle has?",
+    "options": ["2", "4", "3", "1"],
+    "answer": "A"
+},
+{
+    "question": "When a square is folded, it is called a",
+    "options": ["rectangle", "parallelogram", "rhombus", "trapezoid"],
+    "answer": "C"
+},
+{
+    "question": "The bony framework that protects the brain is called the",
+    "options": ["skull", "eyesocket", "cranuim", "clavicle"],
+    "answer": "C"
+},
+{
+    "question": "The chemical substance that protect the skin from dirt of lubricates it is called?",
+    "options": ["keratin", "hormone", "latin", "prolactin"],
+    "answer": "A"
+},
+{
+    "question": "The best soil for planting is called the ________?",
+    "options": ["loamy", "clayey", "sandy", "silt"],
+    "answer": "A"
+},
+{
+    "question": "-10000 is greater than 400?",
+    "options": ["true", "false", "neither true nor false", "either true or false"],
+    "answer": "B"
+},
+{
+    "question": "A debtor is owing $4.00 to his creditor. if he has $120, how much is left for debtor?",
+    "options": ["$117", "$114", "$113", "$116"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is true about the advantages of friction?",
+    "options": ["it causes wear and tear", "it aids walking", "it produces heat", "none of the above"],
+    "answer": "A"
+},
+{
+    "question": "A boy is walking. How many forces are on him?",
+    "options": ["2", "4", "3", "1"],
+    "answer": "B"
+},
+{
+    "question": "What gender of mosquito is responsible for the transfer of malaria ?",
+    "options": ["female", "Male", "none", "all"],
+    "answer": "A"
+},
+{
+    "question": "The loss of water from the body is called?",
+    "options": ["dehydration", "hydration", "water loss", "water gain"],
+    "answer": "A"
+},
+{
+    "question": "The fatest means of transportation is by ______?",
+    "options": ["air", "water", "land", "rail"],
+    "answer": "A"
+},
+{
+    "question": "The chemical formular for water is?",
+    "options": ["H20", "H30", "H2O2", "HO"],
+    "answer": "A"
+},
+{
+    "question": "A man decided to share $45,0000 in the ratio of 2:3:5, what is the smallest share?",
+    "options": ["$20,000", "$40,000", "$16,000", "$18,000"],
+    "answer": "D"
+},
+{
+    "question": "which of the following is not component of carbonhydrate?",
+    "options": ["carbon", "hydrogen", "nitrogen", "oxygen"],
+    "answer": "C"
+},
+{
+    "question": "We breathe in ________ and breathe out carbon dioxide?",
+    "options": ["air", "oxygen", "nitrogen", "hydrogen"],
+    "answer": "B"
+},
+{
+    "question": "How many planets are there in the solar system?",
+    "options": ["8", "9", "7", "10"],
+    "answer": "B"
+},
+{
+    "question": "The star that is the source of our heat, light, and energy to the erath is?",
+    "options": ["sun", "moon", "pluto", "mars"],
+    "answer": "A"
+},
+{
+    "question": "The neighbouring miniplanet to the earth is the?",
+    "options": ["mars", "moon", "mecury", "venus"],
+    "answer": "B"
+},
+{
+    "question": "How many sense organ are there in the body?",
+    "options": ["4", "5", "7", "8"],
+    "answer": "B"
+},
+{
+    "question": "How many hours makes a day?",
+    "options": ["24hours", "25hours", "23hours", "22hours"],
+    "answer": "A"
+},
+{
+    "question": "How many milimetres make a metre?",
+    "options": ["1mm", "10mm", "100mm", "1000mm"],
+    "answer": "C"
+},
+{
+    "question": "How many milimetres make a metre?",
+    "options": ["1mm", "10mm", "100mm", "1000mm"],
+    "answer": "C"
+},
+{
+    "question": "What is the place value of 7 in the number 732?",
+    "options": ["hundreds", "tens", "thousnads", "ten thousands"],
+    "answer": "A"
+},
+{
+    "question": "What is the place value of 4 in 567.453?",
+    "options": ["hundreth", "hundreds", "tens", "tenth"],
+    "answer": "D"
+},
+{
+    "question": "Simplify 412 + 8 + 61?",
+    "options": ["481", "480", "482", "483"],
+    "answer": "A"
+},
+{
+    "question": "Add together 102, 7, 54, 3006?",
+    "options": ["3166", "3167", "3168", "3169"],
+    "answer": "D"
+},
+{
+    "question": "Multiply 254 by 43?",
+    "options": ["10,922", "10,923", "10,924", "10,925"],
+    "answer": "A"
+},
+{
+    "question": "Multiply 374 by 100",
+    "options": ["37400", "10000", "24300", "41000"],
+    "answer": "A"
+},
+{
+    "question": "Subtract 344 from 655?",
+    "options": ["311", "181", "302", "110"],
+    "answer": "A"
+},
+{
+    "question": "Subtract 19 from 200?",
+    "options": ["181", "303", "111", "101"],
+    "answer": "A"
+},
+{
+    "question": "Divide 46 by 2?",
+    "options": ["21", "22", "23", "24"],
+    "answer": "C"
+},
+{
+    "question": "Divide 915 by 3?",
+    "options": ["302", "303", "304", "305"],
+    "answer": "D"
+},
+{
+    "question": "Divide 652 by 5?",
+    "options": ["124", "125", "126", "127"],
+    "answer": "B"
+},
+{
+    "question": "Which number is not a part of the natural number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "A"
+},
+{
+    "question": "Which number is not part of whole numbers?",
+    "options": ["1.0", "4.0", "3.0", "2.4"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is an integer?",
+    "options": ["+1.1", "-0.4", "-3.4", "-2.0"],
+    "answer": "D"
+},
+{
+    "question": "Which of the following is part of the prime numbers' set?",
+    "options": ["6", "4", "3", "2.4"],
+    "answer": "C"
+},
+{
+    "question": "Which of the following is correct?",
+    "options": ["Natural or counting numbers starts form 1 to infinity", "Whole numbers begins from 1 to infinity", "Integers starts from 1 to infinity", "Prime numbers starts from negative to the positive"],
+    "answer": "a"
+},
+{
+    "question": "Which of the following is the correct definition of odd numbers?",
+    "options": ["these are numbers that can divide 2 with a remainder", "these are numbers that cannot divide 2 without a remainder", "these are numbers that can divide themselves without remainder", "none of the above"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following is true about odd numbers",
+    "options": ["they are numbers that cannot divide 2 with a remainder", "they are number that divide themselves with a remainder", "they are numbers that can possesses power", "they are like even numbers"],
+    "answer": "B"
+},
+{
+    "question": "Any number that can be divided by two is called _______?",
+    "options": ["prime nunmber", "odd number", "even number", "whole numbers"],
+    "answer": "C"
+},
+{
+    "question": "floating point numbers are called ______?",
+    "options": ["natural numbers", "integers", "float numbers", "decimal numbers"],
+    "answer": "D"
+},
+{
+    "question": "When zero is add to a decimal does the value changes?",
+    "options": ["yes", "no", "i don't know", "maybe"],
+    "answer": "B"
+},
+{
+    "question": "When a number is added to zero",
+    "options": ["the value is divided", "the value is multiplied", "the value remains constant", "the value changes"],
+    "answer": "C"
+},
+{
+    "question": "When zero is multiplied by a number",
+    "options": ["the value is divided", "the value remains constant", "the value is the number", "the value is zero"],
+    "answer": "D"
+},
+{
+    "question": "Add 1.2 and 3.01",
+    "options": ["6.03", "4.21", "3.45", "2.46"],
+    "answer": "B"
+},
+{
+    "question": "Add 5, 1.001, and 24",
+    "options": ["6.0340", "4.53210", "3.4954", "30.001"],
+    "answer": "D"
+},
+{
+    "question": "The more the digits of the number formed",
+    "options": ["the higher the value of the number", "the lower the value of the number", "the value remains constant", "the value is divided"],
+    "answer": "A"
+},
+{
+    "question": "Numbers belonging to hundreds have how many digits?",
+    "options": ["6", "4", "3", "2"],
+    "answer": "C"
+},
+{
+    "question": "Twenty seven thousand and one, what figure?",
+    "options": ["60,506", "44,596", "33,001", "27,001"],
+    "answer": "D"
+},
+{
+    "question": "Thirty thousand, seven hundred and five, what figure?",
+    "options": ["62,345", "40,001", "30,705", "27,001"],
+    "answer": "C"
+},
+{
+    "question": "Write LX in arabic figure",
+    "options": ["60", "40", "30", "50"],
+    "answer": "A"
+},
+{
+    "question": "Write CX in arabic figure",
+    "options": ["130", "100", "110", "120"],
+    "answer": "C"
+},
+{
+    "question": "Write MDCLXXV in arabic figures",
+    "options": ["1,675", "1,345", "3,754", "1,235"],
+    "answer": "A"
+},
+{
+    "question": "What is X in arabic figure?",
+    "options": ["60", "40", "10", "50"],
+    "answer": "C"
+},
+{
+    "question": "What is L in arabic figure?",
+    "options": ["60", "40", "30", "50"],
+    "answer": "D"
+},
+{
+    "question": "What is XXX in arabic figure",
+    "options": ["30", "40", "50", "60"],
+    "answer": "A"
+},
+{
+    "question": "What XX in arabic figure?",
+    "options": ["20", "40", "30", "50"],
+    "answer": "A"
+},
+{
+    "question": "What is XL in arabic figure?",
+    "options": ["60", "40", "30", "50"],
+    "answer": "B"
+},
+{
+    "question": "What is XC in arabic figure?",
+    "options": ["60", "90", "30", "50"],
+    "answer": "B"
+},
+{
+    "question": "The equivalent fraction to 5/10 is",
+    "options": ["1/4", "1/5", "1/3", "1/2"],
+    "answer": "D"
+},
+{
+    "question": "What is XC in arabic figure?",
+    "options": ["60", "90", "30", "50"],
+    "answer": "B"
+},
+{
+    "question": "How many quadrants are there in a circle?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "C"
+},
+{
+    "question": "House wiring work is done by a/an ",
+    "options": ["carpenter", "electrician", "plumber", "welder"],
+    "answer": "B"
+},
+{
+    "question": "A mortar is a mixture of sand, water, and ________",
+    "options": ["cement", "clay", "gravel", "mud"],
+    "answer": "A"
+},
+{
+    "question": "Three sisters shared some mangoes in the ratio 5:3:2. if the one with the smallest ratio received 25 mangoes, find the number of mangoes shared?",
+    "options": ["80", "120", "125", "130"],
+    "answer": "C"
+},
+{
+    "question": "Arrange the following fractions in ascending order 3/4, 5/8, 7/12, 2/3",
+    "options": ["2/3, 3/4, 5/8, 7/12", "3/4, 5/8, 7/12, 2/3", "7/12, 5/8, 2/3, 3/4", "5/8, 7/12, 3/4, 2/3"],
+    "answer": "B"
+},
+{
+    "question": "The product of three numbers is 216 if the product of two of the numbers is 36, find the third number",
+    "options": ["6", "8", "12", "16"],
+    "answer": "A"
+},
+{
+    "question": "If a car travels with an average speed of 48Km/h and covered a distance of 96Km. calculate the time taken in minutes",
+    "options": ["2", "4", "360", "120"],
+    "answer": "D"
+},
+{
+    "question": "Find the sum of #1.62, #2.52, #3.42, #1.12, and 96k",
+    "options": ["#104.68", "#96.40", "#10.47", "#0.96"],
+    "answer": "D"
+},
+{
+    "question": "Write in figures, one hundred and forty-eight thousand and sixty",
+    "options": ["148,660", "148,600", "148,060", "148,860"],
+    "answer": "C"
+},
+{
+    "question": "Approximate 50.025 to the nearest thousand and subtract from 26,800",
+    "options": ["-10,200", "-11,000", "-36,800", "-24,200"],
+    "answer": "C"
+},
+{
+    "question": "In 954,716, what does 5 stand for?",
+    "options": ["5,000,000", "500,000", "50,000", "5,000"],
+    "answer": "C"
+},
+{
+    "question": "Which of the following is a perfect square?",
+    "options": ["30", "56", "130", "121"],
+    "answer": "D"
+},
+{
+    "question": "The expression x < y implies that ",
+    "options": ["x is greater than y", "x is greater than or equal to y", "x is less than y", "x is less than or equal to y"],
+    "answer": "C"
+},
+{
+    "question": "Thr product of two numbers is 24 if one of the numbers is 3, find the second number",
+    "options": ["-8", "-6", "4", "6"],
+    "answer": "A"
+},
+{
+    "question": "36pq/18q = x, what is x?",
+    "options": ["2p", "2q", "3p", "3q"],
+    "answer": "A"
+},
+{
+    "question": "Write 1993 in roman numbers",
+    "options": ["MMCXCIII", "MCMXCIII", "MCMIIICX", "CMXCMXCIII"],
+    "answer": "B"
+},
+{
+    "question": "if 4:15 = a:5/2, find the value of a",
+    "options": ["1/2", "2/3", "2", "3"],
+    "answer": "B"
+},
+{
+    "question": "Find the value of m in the equation m/4 = 42/2",
+    "options": ["21", "16", "84", "42"],
+    "answer": "C"
+},
+{
+    "question": "if z + 2 = 8, what is z² + 5?",
+    "options": ["10", "25", "36", "41"],
+    "answer": "D"
+},
+{
+    "question": "if 6x + 3x - x = 24, find the value of x?",
+    "options": ["9", "8", "3", "2"],
+    "answer": "B"
+},
+{
+    "question": "Simplify 4x + 45y - 3x - 40y",
+    "options": ["x - 4y", "x + 5y", "7x + 5y", "7x + 4y"],
+    "answer": "B"
+},
+{
+    "question": "Find the square root of 36/9",
+    "options": ["10/3", "6/3", "5/3", "7/3"],
+    "answer": "B"
+},
+{
+    "question": "If the volume of a cude is 216cm³, find the length of the cube",
+    "options": ["3cm", "4cm", "6cm", "7cm"],
+    "answer": "C"
+},
+{
+    "question": "A square is of length 15cm and has an area of 225cm², find its breadth",
+    "options": ["13cm", "15cm", "30cm", "60cm"],
+    "answer": "B"
+},
+{
+    "question": "Find x if (7x + 4)/2 = 9",
+    "options": ["2", "4", "3", "5"],
+    "answer": "A"
+},
+{
+    "question": "Solve the equation 2a + 7a + 3 = 30",
+    "options": ["3", "2", "4", "1"],
+    "answer": "A"
+},
+{
+    "question": "Find the value of m² if m + 50 = 40",
+    "options": ["100", "90", "10", "-10"],
+    "answer": "C"
+},
+{
+    "question": "How many weeks are there in 49 days ",
+    "options": ["7", "8", "9", "6"],
+    "answer": "A"
+},
+{
+    "question": "find the sum of all odd numbers between 24 and 36",
+    "options": ["238", "180", "178", "60"],
+    "answer": "B"
+},
+{
+    "question": "If y = 11, whta is the value of x in x = (8 - y)/3",
+    "options": ["1", "10", "2", "-1"],
+    "answer": "D"
+},
+{
+    "question": "Find the HCF of 96, 120, and 144",
+    "options": ["24", "144", "48", "42"],
+    "answer": "A"
+},
+{
+    "question": "Find 40  + 60 in roman numerals",
+    "options": ["XL", "XC", "C", "X"],
+    "answer": "C"
+},
+{
+    "question": "A line tha divides a circle into two equal parts is called a ___________",
+    "options": ["segment", "raduis", "diameter", "circumference"],
+    "answer": "C"
+},
+{
+    "question": "The sum of angles on a straight line is _______",
+    "options": ["90°", "120°", "360°", "180°"],
+    "answer": "D"
+},
+{
+    "question": "A plane figure bounded by three lines is called a __________",
+    "options": ["hexagon", "pentagon", "square", "triangle"],
+    "answer": "D"
+},
+{
+    "question": "A cube has how many edges",
+    "options": ["2", "4", "8", "6"],
+    "answer": "C"
+},
+{
+    "question": "The length of a rectangle is twice the breadth; if the perimeter of the rectangle is 36cm, find the length of the rectangle",
+    "options": ["12cm", "18cm", "6cm", "8cm"],
+    "answer": "A"
+},
+{
+    "question": "What is the circumference of a circle whise raduis is 7/2cm? π = 22/7",
+    "options": ["44cm", "33cm", "22cm", "21cm"],
+    "answer": "C"
+},
+{
+    "question": "if y = 1, x = 3, and z = 5, find the value of m in m = (x/(y + 9)) x 2z",
+    "options": ["3", "1", "2", "4"],
+    "answer": "A"
+},
+{
+    "question": "Find the mode in the set of numbers: 5,8,6,9,4,3,7,5,8,2,6,1,6",
+    "options": ["6", "2", "5", "4"],
+    "answer": "A"
+},
+{
+    "question": "The control of the body is the  _________",
+    "options": ["eye", "brain", "heart", "lung"],
+    "answer": "B"
+},
+{
+    "question": "Purification methods include the following except _________",
+    "options": ["crystallization", "filtration", "ovation", "sublimation"],
+    "answer": "C"
+},
+{
+    "question": "The instrument used for measuring air pressure is the _________",
+    "options": ["barometer", "hydrometer", "anemometer", "thermometer"],
+    "answer": "A"
+},
+{
+    "question": "Which of the following is the greatest source of energy?",
+    "options": ["coal", "electricity", "fuel", "sun"],
+    "answer": "D"
+},
+{
+    "question": "Diabetes means excess __________",
+    "options": ["blood in the body", "fat in the body", "sugar in the body", "none of the above"],
+    "answer": "C"
+},
+{
+    "question": "Which of the following will not prevent erosion",
+    "options": ["cutting trees", "planting cover crops", "planting trees", "reducing grazing"],
+    "answer": "A"
+},
+{
+    "question": "A load in an electric circuit is also called a ________",
+    "options": ["switch", "coil", "wire", "bulb"],
+    "answer": "D"
+},
+{
+    "question": "The major agent of soil erosion in the desert region is ___________",
+    "options": ["glacia ice", "sun", "water", "wind"],
+    "answer": "C"
+},
+{
+    "question": "The proces whereby water is changed to steam is __________",
+    "options": ["boiling", "condensation", "evaporation", "freezing"],
+    "answer": "A"
+},
+{
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": "A"
+},
+{
+    "question": "What is 50% 0f 200?",
+    "options": ["50", "100", "90", "110"],
+    "answer": "B"
+},
+{
+    "question": "What is XXXIV in roman numerals?",
+    "options": ["12", "34", "67", "21"],
+    "answer": "B"
+},
+{
+    "question": "A man bought a car for #20.00 and sold it for #40.00, find the percentage profit?",
+    "options": ["40%", "60%", "30%", "50%"],
+    "answer": "D"
+},
+{
+    "question": "A business man borrowed a loan from a company of $500.00 and decided to pay in two years at a rate of 5%, find the Interest?",
+    "options": ["$50", "$60", "$70", "$80"],
+    "answer": "A"
+},
+{
+    "question": "find the difference between 100 and 50?",
+    "options": ["30", "20", "50", "60"],
+    "answer": "C"
+},
+{
+    "question": "The micoscopic part of an organism that produces the green pigment is called?",
+    "options": ["Chloroplast", "Chlorophyll", "Nucleus", "Mitochondrion"],
+    "answer": "A"
+},
+{
+    "question": "The longest bone in the body is the ___________?",
+    "options": ["Tibia", "Femur", "Humerus", "Raduis"],
+    "answer": "B"
+},
+{
+    "question": "The shoulder bone in is called __________?",
+    "options": ["Clavicle", "Sternum", "Scapula", "Metatasars"],
+    "answer": "B"
+},
+{
+    "question": "The potential energy of a body of mass 5kg dropped at a hieght of 5m (given g = 9.8ms-¹) is.",
+    "options": ["125j", "120j", "124j", "126j"],
+    "answer": "A"
+},
+{
+    "question": "During conversation of energy, the kinetic energy is eqaul to the _____________ energy",
+    "options": ["Chemical", "Potential", "Light", "Sound"],
+    "answer": "B"
+},
+{
+    "question": "The triangle with all sides and angles equal is.",
+    "options": ["Scalene", "Right angled", "Issoceles", "Equilateral"],
+    "answer": "D"
+},{
+    "question": "Simplify 2x - 1 = 39",
+    "options": ["30", "20", "10", "15"],
+    "answer": "B"
+},
+{
+    "question": "If 3x - 8 = 4x + 9, find the value of 5x - 3?",
+    "options": ["-89", "-45", "-10", "15"],
+    "answer": "A"
+},
+{
+    "question": "What is the formular to determine the sum of angles in a polygon",
+    "options": ["(n - 3)180", "(n - 2)180", "(n - 1)100", "(n - 2)90"],
+    "answer": "B"
+}]

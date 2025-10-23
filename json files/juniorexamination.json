@@ -1,0 +1,200 @@
+[{
+    "question": "How many cm are there in n metres?",
+    "options": ["1000n cm","100n cm","10n cm","0.1n cm"],
+    "answer": "B"
+},
+{
+    "question": "David has #80 more than Mary. If Mary has #340, how much does David have?",
+    "options":["-260","260","-430","-420"],
+    "answer": "D"
+},
+{
+    "question": "Baba is 13 years old. How old will he be 8 years from now?",
+    "options":["18 years","19 years","34 years","21 years"],
+    "answer": "D"
+},
+{
+    "question": "A farmer has 6 goats and z cows, how many animals did he have all together?",
+    "options":["6 + z goats","6 + z cows","6 + z cattle","6 + z goats"],
+    "answer": "C"
+},
+{
+    "question": "Last year, the body mass of a student was 48kg. The increase in the student's body mass this year is Mkg. What is student's body mass thus year?",
+    "options":["(48 + m)g","(48 - m)g","(48/m)kg","(48 + m)kg"],
+    "answer": "D"
+},
+{
+    "question": "A man has k kolanuts. A friend gives him one more kolanuts. How many kolanuts does he have now?",
+    "options":["(k + 1)kolanuts","(k - 1)kolanuts","(k + 1)kolanut","(k - 1)kolanut"],
+    "answer": "A"
+},
+{
+    "question": "If today is sixth of september. What will be the date in n days time? (assume that the month will still be september)",
+    "options":["(3 + n)th of september","(16 + n)th of september","(6 + n)th of september","(6 + n)th of august"],
+    "answer": "C"
+},
+{
+    "question": "Each side of a square board is d centimetres long. What is the total length of the sides of the board?",
+    "options":["no value","4d cm","5d cm","2d cm"],
+    "answer": "B"
+},
+{
+    "question": "In a test mohamed got 7 marks more than emmanuel. emmanuel got x marks. How many marks did mohamed get and how many marks did fatima get if fatima got y marks?",
+    "options":["(x + 7)marks, (x + 7 + y)marks","(7 + y)marks,(7 - y + x)marks","(x + y)marks, (x + 7)marks","(x + y + 7 - 1)marks,(y + 7)marks"],
+    "answer": "A"
+},
+{
+    "question": "Which of the followng is not the componenet of an electric circuit?",
+    "options":["none","conductor","load","control"],
+    "answer": "none"
+},
+{
+    "question": "What is the chemical formular for tetraoxosulphate VI acid?",
+    "options":["HSO","HCL","H2SO3","H2SO4"],
+    "answer": "D"
+},
+{
+    "question": "What is the name gievn to the compound CH4",
+    "options":["ammonia","methane","carbon","hydrogen"],
+    "answer": "B"
+},{
+    "question": "The chemical formular for lead oxide",
+    "options":["AlCl","PbO","PbO2","AlO2"],
+    "answer": "B"
+},
+{
+    "question": "The chemcal formular for magnesium oxide",
+    "options":["MgO","PbO","MgO2","none"],
+    "answer": "A"
+},
+{
+    "question": "What is the valency for Cl in sodium chloride",
+    "options":["-4","-3","-2","-1"],
+    "answer": "D"
+},
+{
+    "question": "What is the valency for HCO3",
+    "options":["0","-1","1","-2"],
+    "answer": "B"
+},
+{
+    "question": "A wooden door is 2.1m high and 0.8m wide. find the area of the door and the cost of the door if the wood costs #3500 per m²",
+    "options":["1.78m², #5680","1.68m², #5880","1.24m², #5900","1.90m², #5800"],
+    "answer": "B"
+},
+{
+    "question": "A page in a photogragh album measures 30cm by 20cm. It contains six square photos, each of side 6cm. Calculate the area of the page which is not covered by the photos",
+    "options":["569cm²","124cm²","285cm²","384cm²"],
+    "answer": "D"
+},
+{
+    "question": "The seconds hand on a watch is 14mm long. What area does it sweep through in 30seconds?",
+    "options":["3.08cm²","2.09cm²","4.56cm²","1.23cm²"],
+    "answer": "A"
+},
+{
+    "question": "A goat is tied by a rope 5/2m long to a peg in some grass. The goat eats 1m² of grass in 28min, How long does it take to eat all that it can reach?",
+    "options":["9h 10min","5h 4min","10 11min","9h 12min"],
+    "answer": "A"
+},
+{
+    "question": "A thin silver disc of diameter 10cm costs #3300. What is cost per m²?",
+    "options":["#400,000","#420,000","#450,000","#480,000"],
+    "answer": "B"
+},
+{
+    "question": "What is the diameter of a circle of area 3850m²",
+    "options":["40m","50m","60m","70m"],
+    "answer": "D"
+},
+{
+    "question": "What is the area of a dish washer 4.8cm in outside diameter, the hole being of diameter 2.2cm",
+    "options":["14.3cm²","18.4cm²","20.9cm²","8.6cm²"],
+    "answer": "A"
+},
+{
+    "question": "Find the area between two circles with the same centre and of radii 5cm and 9cm respectively. (π = 22/7)",
+    "options":["176cm²","178cm²","175cm²","179cm²"],
+    "answer": "A"
+},
+{
+    "question": "The area of sector of a circle is 44cm². What is the radius of the circle if the angle at the centre of the circle is 140⁰?",
+    "options":["4cm","5cm","6cm","7cm"],
+    "answer": "C"
+},
+{
+    "question": "The area of a sector of a circle of radius 15cm is 110cm². Calculate the angle subtended at the centre of the circle by the arc.",
+    "options":["58⁰","60⁰","40⁰","56⁰"],
+    "answer": "D"
+},
+{
+    "question": "A village is roughly in the shape of a circle of diameter 400m. Use the value 3 for ⫪ to find the approximate area of the village in hectares",
+    "options":["10ha","11ha","12ha","13ha"],
+    "answer": "C"
+},
+{
+    "question": "Square polystyrene tiles, 50cm by 50cm, are used to cover the ceiling of a classroom measuring 7.4m by 4.5m. Find the number of tiles that are needed and find the cost at #130 per tile",
+    "options":["130, #17000","135, #17550","120, #17500","140, #17850"],
+    "answer": "B"
+},
+{
+    "question": "The walls of a bathroom are to be covered with wall tiles 15cm by 15cm. How many tiles are needed for a bathroom 2.7m long. 2.25m wide and 3m high? (do not allow for doors and windows)",
+    "options":["1200 tiles","1300 tiles","1320 tiles","1400 tiles"],
+    "answer": "C"
+},
+{
+    "question": "An open rectangular box, 1m long, 70cm wide and 50cm deep, is painted on the inside and outside. Find the cost at #90 per m².",
+    "options":["#432","#430","#420","#450"],
+    "answer": "A"
+},
+{
+    "question": "A gas at a temperature of X⁰C has an absolute temperature of TK, where T = X + 273. Find the absolute temperature of a gas at a temperature of 36⁰C and if the absolute temperature of a gas is 400K, find its temperature in ⁰C",
+    "options":["304K, 125⁰C","307K, 120⁰C","308K, 126⁰C","309K, 127⁰C"],
+    "answer": "D"
+},
+{
+    "question": "When a ray of light changes direction when it strikes the surface of a mirror is called ",
+    "options":["dispersion","luminousity","reflection","rarefaction"],
+    "answer": "C"
+},
+{
+    "question": "Objects that reflect light on their surfaces are called",
+    "options":["luminous objects","non-luminous objects","dispersed objects","non-dispersed objects"],
+    "answer": "B"
+},
+{
+    "question": "How many laws of reflection do they have?",
+    "options":["1","2","3","4"],
+    "answer": "B"
+},
+{
+    "question": "The difference between the normal and the surface of a smooth polished object",
+    "options":["60⁰","70⁰","80⁰","90⁰"],
+    "answer": "D"
+},
+{
+    "question": "The angle of incidence is ________ to the angle of reflection",
+    "options":["greater than","equal","less than","less than or equal"],
+    "answer": "B"
+},
+{
+    "question": "Which of the following is not the characteristics of an image formed by a plane mirror",
+    "options":["it is virtual","it is laterally inverted","it is upright","it is not the same size as the object"],
+    "answer": "D"
+},
+{
+    "question": "The phonemenom when light bends when it enters from a less dense meduim to a dense meduim is called ________",
+    "options":["refraction","reflection","rarefaction","dispersion"],
+    "answer": "A"
+},
+{
+    "question": "The seperation of white light into its component colours by a prism is called ________",
+    "options":["dispersion","reflection","refraction","rarefaction"],
+    "answer": "A"
+},
+{
+    "question": "The most deviated colour is ________ and the least deviated colour is ________",
+    "options":["violet, red","indigo, red","yellow, indigo","red, violet"],
+    "answer": "A"
+}
+]

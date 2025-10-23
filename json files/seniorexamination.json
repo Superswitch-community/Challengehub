@@ -1,0 +1,271 @@
+[
+    {
+        "question": "Simplify 1/(1/x + 1/y)",
+        "options":["x + y/x","xy/x + y","xy/x - y","x - y/x"],
+        "answer": "B"
+    }
+    ,
+    {
+        "question": "(3/x + 4/x + 1)/(2/x + 1 - 3/x)",
+        "options":["x + 3/7x + 3","-7x - 3/x + 3","-x - 3/","7x + 3/-x - 3"],
+        "answer": "D"
+    },
+    {
+        "question": "if y varies directly with x, and y = 10 when x = 2, find y when x = 7",
+        "options":["68","54","35","20"],
+        "answer": "C"
+    },
+    {
+        "question": "if p varies directly as r² and p = 3.2 when r = 4, find the value of p when r = 6.5",
+        "options":["8.45","9.45","7.45","6.45"],
+        "answer": "A"
+    },
+    {
+        "question": "find the roots of the equation: (2a + 3)(a - 2) = (a + 1)(a - 1)",
+        "options":["2.79, 1.79","2.79, -1.79","-2.79, 1.79","-2.79, -1.79"],
+        "answer": "C"
+    },
+    {
+        "question": "c varies inversely with d and c = k/d if c = 9 when d = 5, find k",
+        "options":["45","12","89","90"],
+        "answer": "A"
+    },
+    {
+        "question": "if t1 and t2 vary inversely, and if t1 = 4 when t2 = 5, find t2 when t1 = 10/3",
+        "options":["t2 = 3","t2 = 6","t2 = 8","t2 = 10"],
+        "answer": "B"
+    },
+    {
+        "question": "The reverse reaction when you mix salt and water(NaCl + H2O) gives?",
+        "options":["none","evaporated NaCl","NaCl.H2O","NaCl + H2O"],
+        "answer": "D"
+    },
+    {
+        "question": "In a chemical reaction, the mass of substance changes during reaction",
+        "options":["maybe","i don't know","no","yes"],
+        "answer": "D"
+    },
+    {
+        "question": "The reverse reaction when you burn wood is?",
+        "options":["soot","none","ash + gases","wood"],
+        "answer": "D"
+    },
+    {
+        "question": "Elements are grouped into metals, non-metals, and _____________",
+        "options":["semi-plastic","semi-amoorphous metals","none","metaliods"],
+        "answer": "C"
+    },
+    {
+        "question": "The property that non-metals foem acidic oxides with oxygen is the ________ property",
+        "options":["basic","chemical","physical","acidic"],
+        "answer": "B"
+    },
+    {
+        "question": "When an ionized non-metal loses eletrons, it becomes a __________",
+        "options":["semi-metal","non-metal","metal","metalliod"],
+        "answer": "B"
+    },
+    {
+        "question": "When an ionized metal gains electrons, it becomes a _____________",
+        "options":["metalliod","semi-metal","non-metal","metal"],
+        "answer": "D"
+    },
+    {
+        "question": "The mixture of petrol and water is seperated by ___________",
+        "options":["crystallization","sieving","precipitation","seperating funnel"],
+        "answer": "D"
+    },
+    {
+        "question": "____________ is any atom or group of atoms that possesses an elctric charge",
+        "options":["proton","neutron","isoelectron","ion"],
+        "answer": "D"
+    },
+    {
+        "question": "What is the latin name for soduim?",
+        "options":["al","none","ar","na"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the latin name for gold?",
+        "options":["none","sn","ag","au"],
+        "answer": "A"
+    },
+    {
+        "question": "1 mole of oxygen atoms contains ___________ atoms",
+        "options":["6.2 x 10^-23","6.1 x 10^23","6.02 x 10^22","6.02 x 10^23"],
+        "answer": "D"
+    },
+    {
+        "question": "A molecule of neon is",
+        "options":["none","monoatomic","triatomic","diatomic"],
+        "answer": "B"
+    },
+    {
+        "question": "Which one is heavier? 1 mole of N20, 1 mole of H2O2, and 1 mole of Ar2",
+        "options":["H2O","H2O2","N20","Ar2"],
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following the formular for energy?",
+        "options":["force/time","force/distance","force x time","force x distance"],
+        "answer": "D"
+    },
+    {
+        "question": "A metal block of mass 5kg lies on a rough horizontal platform. if a horizontal force of 8N just slides the block on the platform, then the coefficient of limiting friction between the block and the platform is:",
+        "options":["0.16","0.63","0.8","1.6"],
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not a consequence of force field?",
+        "options":["Magnetic force","Gravitational pull","Surface tension","weight"],
+        "answer": "B"
+    },
+    {
+        "question": "In a pendulum the potetial energy of a body reaches it maximum when",
+        "options":["none of the above","it reaches its minimum displacement","it reaches its maximum KE","it reaches its maximum displacement"],
+        "answer": "D"
+    },
+    {
+        "question": "A boy weighing 350N runs up a flight of stairs consisting of 20 steps each 10cm high in 10 seconds. What is his power?",
+        "options":["70J","80J","100J","200J"],
+        "answer": "A"
+    },
+    {
+        "question": "At what height above the ground must a body of mass 10kg be situated in order to have potential energy equal in value to the kinetic energy possessed by another body of mass 10kg moving with a velocity of 10ms-1",
+        "options":["5m","10m","50m","100m"],
+        "answer": "A"
+    },
+    {
+        "question": "A copper rod whose length is 30 degreee celcuis is 10.0m is heated to 50 degree celcuis. Find its new length. take a = 0.000017k-1",
+        "options":["0.13004m","0.134m","0.10034m","0.100034"],
+        "answer": "D"
+    },
+    {
+        "question": "What substance contracts on cooling from any temperature until at 4∘C and starts to expand if cooled below this temperature",
+        "options":["water","alcohol","lime","salt water"],
+        "answer": "A"
+    },
+    {
+        "question": "A process whereby a substance changes from a solid state to a liquid state when heat is applied it is called",
+        "options":["evaporation","vaporization","fusion","fision"],
+        "answer": "C"
+    },
+    {
+        "question": "The ability of a metal to conduct heat is known as its",
+        "options":["thermal capacitance","thermal conductance","thermal resistivity","thermal conductivity"],
+        "answer": "D"
+    },
+    {
+        "question": "___________ is the process by which a substance changes from a liquid to a gaseous state when heat is applied to it",
+        "options":["diffusion","vaporization","Surface tension","fusion"],
+        "answer": "B"
+    },
+    {
+        "question": "A room is heated by means of a charcoal fire. A man standing away from the fire is warmed by",
+        "options":["reflection","conduction","convention","radiation"],
+        "answer": "D"
+    },
+    {
+        "question": "On which of the following is the design of thermostat of an electric iron based?",
+        "options":["apparent expansion of a body","thermoelectric effects","expansion of metals when heated","change in the resistance of a body on heating"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following surfaces will absorb radiant energy",
+        "options":["white","red","yellow","black"],
+        "answer": "D"
+    },
+    {
+        "question": "The type of electricity that doesn't move from one point to another is called",
+        "options":["dynamic electron","static eletron","dynamic electricity","static electricity"],
+        "answer": "D"
+    },
+    {
+        "question": "The study of charges at rest is called",
+        "options":["all of the above","eletricity","electrodynamics","electrostatics"],
+        "answer": "D"
+    },
+    {
+        "question": "Materials that allow electrons to pass through them easily is called",
+        "options":["ions","conductors","insulators","semi-metals"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is not a way of producing charges?",
+        "options":["friction","contact","induction","electronic contact"],
+        "answer": "D"
+    },
+    {
+        "question": "Where is charges most concentrated in a solid body of charge",
+        "options":["sharpest point","smoothest point","none of the above","all of the above"],
+        "answer": "A"
+    },
+    {
+        "question": "A device used for storing charges is called",
+        "options":["electrodynamics","electrostatics","electrophorus","eletroscope"],
+        "answer": "C"
+    },
+    {
+        "question": "A vehicle travels at 90Kmhr-1 starting from 0Kmhr-1 at t = 0. It accelerates at constant rate of 20Kmhr-2.What is the velocity at time, t = 2.0h",
+        "options":["130Kmhr-1","120Kmhr-1","100Kmhr-1","70Kmhr-1"],
+        "answer": "A"
+    },
+    {
+        "question": "The building of complex organic molecules from simple ones in a biological system is called",
+        "options":["feeding","nutrition","catabolism","anabolism"],
+        "answer": "D"
+    },
+    {
+        "question": "The breaking down of complex organic molecules into simpler ones in abiological system is called",
+        "options":["meiosis","fission","catabolism","anabolism"],
+        "answer": "C"
+    },
+    {
+        "question": "___________ is called the emergency hormone",
+        "options":["prolactin","thyroid","pituitary","adrenaline"],
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not an example of tactic movements",
+        "options":["thermotaxis","phototaxis","hydrotaxis","lyrotaxis"],
+        "answer": "D"
+    },
+    {
+        "question": "which of the following is not an asexual reproduction",
+        "options":["binary fission","parthenogenesis","schizogony","fusion"],
+        "answer": "D"
+    },
+    {
+        "question": "_______________ is a tissue found in the skeleton of complex vertebrates taht consists of living cells(chrondoblasts), carbohydrates and protein fibres",
+        "options":["bone","cartilage","skeleton","exo-skeleton"],
+        "answer": "B"
+    }
+    ,{
+        "question": "What type of skeleton does earthworms have?",
+        "options":["hydrostatic","exo-skeleton","endo-skeleton","cuticle"],
+        "answer": "A"
+    },{
+    "question": "The 16th term of an AP is 93 and its common difference is 6. Find the first term of the AP and hence, calculate the 30th term of the AP.",
+    "options":["173","174","175","177"],
+    "answer": "D"
+},
+{
+    "question": "If the first term of an AP is -1 and the common difference is 0.5, the 6th term is ____________",
+    "options":["1.5","2.5","3.5","5.5"],
+    "answer": "A"
+},{
+    "question": "If the first term of an AP is equal to one-half of the common difference, d, find the 8th term of the AP",
+    "options":["4d","6d","13d/2","17d/2"],
+    "answer": "D"
+},
+{
+    "question": "Find the values of P and Q in the arithmetic progreesion: -12, P, Q, 18",
+    "options":["1, 11","-1, 8","-2, 8","0, 9"],
+    "answer": "C"
+},
+{
+    "question": "The first term of an arithmetic progression is 3 and the last term is 9. Find the number of terms in the progression if the common difference is 3/2",
+    "options":["4 terms","5 terms","6 terms","7 terms"],
+    "answer": "B"
+}
+]

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link rel="stylesheet" href="/boostrap file/node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      .nav-item a {
+        color: white;
+      }
+    
+      .nav-item a:hover {
+        color: green;
+      }
+    </style>
+
+
+    <link rel="stylesheet" href="/boostrap file/node_modules/bootstrap/dist/css/bootstrap.css"> 
+      <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../images/large.png" alt="" style="border-radius: 50%; width: 50px; height: 50px;"
+          class="img-fluid"></a>
+      </a>
+      <button class="navbar-toggler bg-white  border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex flex-direction-column justify-content-center">
+
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./demo.html">Demotest</a>
+          </li>
+          <li class="nav-item">
+               <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              Guildlines
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./Admin.html">Admin</a>
+          </li>
+        </ul>
+        <form class="d-flex flex-direction-column justify-content-center mb-3" role="search">
+          <!--   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button> -->
+
+          <button class="btn btn-outline-success mx-3" type="submit">
+            <a class="nav-link" href="./login.html">Login</a></button>
+
+
+          <button class="btn btn-outline-success mx-3" type="submit">
+            <a class="nav-link" href="./register.html">Register</a></button>
+
+
+        </form>
+      </div>
+    </div>
+  </nav>
+</head>
+<body>
+   <!--    <form class="container-fluid login-form border my-5 pt-5"  id="questionForm">
+
+    <div class="row justify-content-center text-align-center">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="question">
+        <label for="floatingInput">TypeIn Questions to upload...</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input class="form-control" id="floatingPassword" placeholder="Password" id="optionA">
+        <label for="floatingPassword">Option 1</label>
+      </div>
+       <div class="form-floating mb-3">
+        <input class="form-control" id="floatingPassword" placeholder="Password" id="optionB">
+        <label for="floatingPassword">Option 2</label>
+      </div>
+       <div class="form-floating mb-3">
+        <input class="form-control" id="floatingPassword" placeholder="Password" id="optionC">
+        <label for="floatingPassword">Option 3</label>
+      </div>
+       <div class="form-floating mb-3">
+        <input class="form-control" id="floatingPassword" placeholder="Password" id="optionD">
+        <label for="floatingPassword">Option 4</label>
+      </div>
+       <div class="form-floating mb-3">
+        <input class="form-control" id="floatingPassword" placeholder="Password" id="correctAnswer">
+        <label for="floatingPassword">Anwser</label>
+      </div>
+      
+        <input type="checkbox"class="form-control">
+        
+  
+      
+       <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingPassword" placeholder="Password" id="postNote">
+        <label for="floatingPassword">TypeIn in here for updates</label>
+      </div>
+
+      <div class="mb-3">
+        <label for="">IsUploading</label>
+        <input type="radio" name="examstatus" id="examStatus">
+      </div>
+
+      <div class="mb-3">
+        <label for="">IsNotUploading</label>
+        <input type="radio" name="examstatus" id="examStatus">
+      </div>
+      
+      
+
+      <div class="container text-center mb-3 mt-3">
+        <div class="col">
+          <div class="row p-5 align-self-center">
+            <button class="btn btn-outline-success mb-3 login-button">Upload</button>
+          </div>
+      </div>
+
+      </div>
+
+    </form>
+ -->
+  <!--   <form action="" id="questionForm">
+      <input type="text" class="" id="question">
+      <label for="">TypeIn Questions to upload...</label> <br>
+
+      <input class="" id="" placeholder="Password" id="optionA">
+      <label for="">Option 1</label><br>
+
+      <input class="" id="" placeholder="Password" id="optionB">
+      <label for="">Option 2</label><br>
+
+      <input class="" id="" placeholder="Password" id="optionC">
+      <label for="">Option 3</label><br>
+
+      <input class="" id="" placeholder="Password" id="optionD">
+      <label for="">Option 4</label><br>
+
+      <input class="" id="" placeholder="Password" id="correctAnswer">
+      <label for="">Anwser</label><br>
+
+      <input type="text" class="" id="" placeholder="Password" id="postNote">
+      <label for="">TypeIn in here for updates</label><br>
+
+      <label for="">IsUploading</label>
+      <input type="radio" name="examstatus" id="examStatus"><br>
+
+      <button class="" type="submit">Upload</button>
+    </form>
+  -->
+
+  <form id="question-form">
+    <input type="text" id="question" placeholder="Question" required><br>
+  
+    <input type="text" id="optionA" placeholder="Option A" required>
+    <input type="text" id="optionB" placeholder="Option B" required>
+    <input type="text" id="optionC" placeholder="Option C" required>
+    <input type="text" id="optionD" placeholder="Option D" required><br>
+  
+    <select id="answer" required>
+      <option value="">Correct Answer</option>
+      <option value="a">A</option>
+      <option value="b">B</option>
+      <option value="c">C</option>
+      <option value="d">D</option>
+    </select><br>
+  
+    <button type="submit">Upload Question</button>
+  </form>
+
+  <label>
+    <input type="checkbox" id="exam-toggle"> Exam is Open
+  </label>
+
+  <form id="update-post-form">
+    <input type="text" id="post-id" placeholder="Post ID" required><br>
+    <input type="text" id="post-title" placeholder="New Title" required><br>
+    <textarea id="post-content" placeholder="New Content" required></textarea><br>
+    <button type="submit">Update Post</button>
+  </form>
+
+  
+  
+</body>
+<script src="../scripts/updates.js" type="module" defer></script>
+    <script src="/boostrap file/node_modules/@popperjs/core/dist/esm/popper.js"></script>
+  <script src="/boostrap file/node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+ 
+</html>
