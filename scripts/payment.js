@@ -110,8 +110,10 @@ async function verifyPayment(reference) {
             })
     }
     else {
-        appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
+        /* appendAlert("If your seeing this message , this means that you haven't paid", 'danger'); */
+        console.log("")
     }
+    
 }
 
 
@@ -131,4 +133,5 @@ const updateUserPaymentStatus = async (userId, paymentStatus) => {
 document.getElementById('payment-button').addEventListener('click', () => {
 
     payWithPaystack();
+
 })
