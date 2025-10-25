@@ -1,4 +1,30 @@
-///For payment requests
+// Import the functions you need from the SDKs you need
+//Creating database and storing users' data
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
+import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, increment, deleteDoc } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
+
+//TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAbFVn9wUxFnqrW8qDD09hlcPebkPShDuY",
+    authDomain: "login-project-3e591.firebaseapp.com",
+    projectId: "login-project-3e591",
+    storageBucket: "login-project-3e591.firebasestorage.app",
+    messagingSenderId: "415326082872",
+    appId: "1:415326082872:web:fd9918e92abc81a6ba53cd"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth();
+const db = getFirestore();
+
+
+
+//For payment requests
 
 //For alerts initialization...
 const appendAlert = (message, type) => {
@@ -97,7 +123,8 @@ async function verifyPayment(reference) {
                 if (data.data.status === "success") {
                     showPopUpMessage('Payment Successful');
                     const loggedInUserId = localStorage.getItem('loggedInUserId');
-                    updateUserPaymentStatus(loggedInUserId, true);
+                    const category = localStorage.getItem("category");
+                    updateUserPaymentStatus(category, loggedInUserId, true);
 
                 }
                 else {
@@ -110,28 +137,33 @@ async function verifyPayment(reference) {
             })
     }
     else {
-        /* appendAlert("If your seeing this message , this means that you haven't paid", 'danger'); */
-        console.log("")
+        appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
     }
-    
 }
 
 
-const updateUserPaymentStatus = async (userId, paymentStatus) => {
+const updateUserPaymentStatus = async (category, userId, paymentStatus) => {
     try {
-        const userRef = doc('users', userId);
-        await updateDoc(userRef, {
-            paymentStatus: paymentStatus
-        });
-        showPopUpMessage("User payment status updated");
+        // Get user's data from the category collection
+        const docRef = doc(db, `${category}`, `${userId}`);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+            // and update the user's payment status
+            await updateDoc(docRef, {
+                paymentStatus: paymentStatus
+            });
+            appendAlert("User payment status updated", 'success');
+        }else{
+            appendAlert('User data not found', 'danger')
+        }
+
     } catch (error) {
-        showPopUpMessage("Error updating user payment status");
+        appendAlert("Error updating user payment status", 'danger');
     }
 }
 
 
 document.getElementById('payment-button').addEventListener('click', () => {
-
     payWithPaystack();
-
 })
