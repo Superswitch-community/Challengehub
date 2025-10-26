@@ -1,4 +1,104 @@
 [{
+        "question": "Find the compound interest on $600 for 2 years at 8% per annum.",
+        "options": ["$98.94", "$99.84", "$99.89", "$97.84"],
+        "answer": "B"
+    },
+    {
+        "question": "If sin θ = 3/5, find cos θ.",
+        "options": ["4/5", "3/5", "5/4", "1/5"],
+        "answer": "A"
+    },
+    {
+        "question": "The roots of the equation x² - 5x + 6 = 0 are:",
+        "options": ["2 and 3", "3 and 4", "1 and 6", "2 and 4"],
+        "answer": "A"
+    },
+    {
+        "question": "Find the derivative of y = 3x² + 5x - 7 with respect to x.",
+        "options": ["6x + 5", "3x + 5", "6x - 5", "2x + 5"],
+        "answer": "A"
+    },
+    {
+        "question": "Evaluate ∫x dx.",
+        "options": ["x²/2 + C", "2x + C", "x² + C", "1/x + C"],
+        "answer": "A"
+    },
+      {
+        "question": "Which law states that current is directly proportional to potential difference across a conductor?",
+        "options": ["Ohm’s Law", "Faraday’s Law", "Newton’s Law", "Coulomb’s Law"],
+        "answer": "A"
+    },
+    {
+        "question": "The SI unit of power is:",
+        "options": ["Joule", "Watt", "Newton", "Volt"],
+        "answer": "B"
+    },
+    {
+        "question": "A ball is thrown vertically upward with a velocity of 20 m/s. The time taken to reach the maximum height is (g = 10 m/s²):",
+        "options": ["1 s", "2 s", "3 s", "4 s"],
+        "answer": "B"
+    },
+    {
+        "question": "The force between two charges q₁ and q₂ separated by distance r in vacuum is given by:",
+        "options": ["kq₁q₂/r²", "q₁q₂/kr²", "kq₁q₂r²", "kr²/q₁q₂"],
+        "answer": "A"
+    },
+    {
+        "question": "Energy possessed by a body due to its motion is called:",
+        "options": ["Potential energy", "Kinetic energy", "Heat energy", "Mechanical energy"],
+        "answer": "B"
+    },
+      {
+        "question": "Which of the following is a noble gas?",
+        "options": ["Oxygen", "Nitrogen", "Argon", "Hydrogen"],
+        "answer": "C"
+    },
+    {
+        "question": "The atomic number of carbon is:",
+        "options": ["6", "12", "14", "8"],
+        "answer": "A"
+    },
+    {
+        "question": "The pH of a neutral solution at 25°C is:",
+        "options": ["0", "7", "14", "1"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following represents an endothermic process?",
+        "options": ["Freezing of water", "Combustion of fuel", "Photosynthesis", "Condensation of steam"],
+        "answer": "C"
+    },
+    {
+        "question": "The number of moles in 22 g of CO₂ is:",
+        "options": ["0.5 mol", "1 mol", "2 mol", "0.25 mol"],
+        "answer": "A"
+    },
+      {
+        "question": "The functional unit of the kidney is:",
+        "options": ["Neuron", "Nephron", "Alveolus", "Villus"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following carries oxygen in red blood cells?",
+        "options": ["Chlorophyll", "Haemoglobin", "Plasma", "Myoglobin"],
+        "answer": "B"
+    },
+    {
+        "question": "Photosynthesis occurs in which part of the plant cell?",
+        "options": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
+        "answer": "B"
+    },
+    {
+        "question": "DNA stands for:",
+        "options": ["Deoxyribonucleic Acid", "Dioxyribonucleic Acid", "Deoxyribose Nucleic Acid", "None of the above"],
+        "answer": "A"
+    },
+    {
+        "question": "Which blood group is known as the universal donor?",
+        "options": ["A", "B", "AB", "O"],
+        "answer": "D"
+    },
+{
     "question": "find the compound interest on $600  for 2 years at 8%",
     "options": ["$98.94", "$99.84", "$99.89", "$97.84"],
     "answer": "B"
@@ -773,4 +873,5 @@
     "question": "A cylindrical drain pip has internal and external diameters of 6.4cm and 7.6cm respectively, calculate the mass of the bowl if the is of density 0.8g/cm³",
     "options": ["4.12kg", "4.13kg", "4.14kg", "4.15kg"],
     "answer": "A"
+
 }]  
