@@ -367,5 +367,81 @@
             "R²/3"
         ],
         "answer": "B"
+    },
+     {
+        "question": "Which of the following subatomic particles has a negative charge?",
+        "options": ["Proton", "Neutron", "Electron", "Positron"],
+        "answer": "C"
+    },
+    {
+        "question": "Which organelle is responsible for producing ATP in eukaryotic cells?",
+        "options": ["Chloroplast", "Ribosome", "Mitochondrion", "Golgi apparatus"],
+        "answer": "C"
+    },
+    {
+        "question": "When two resistors, 6 Ω and 3 Ω, are connected in parallel, the equivalent resistance is:",
+        "options": ["9 Ω", "2 Ω", "4 Ω", "1.5 Ω"],
+        "answer": "B"
+    },
+    {
+        "question": "The pH of a solution with hydrogen ion concentration of 1 × 10⁻⁴ mol/L is:",
+        "options": ["4", "10", "7", "2"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following represents a quadratic equation?",
+        "options": ["2x + 3 = 0", "x² + 3x + 2 = 0", "3/x = 2", "√x + 2 = 0"],
+        "answer": "B"
+    },
+    {
+        "question": "Which element has the electron configuration 1s² 2s² 2p⁶ 3s² 3p⁴?",
+        "options": ["Sulfur", "Phosphorus", "Chlorine", "Silicon"],
+        "answer": "A"
+    },
+    {
+        "question": "In projectile motion (neglecting air resistance), the horizontal component of velocity:",
+        "options": ["Increases", "Decreases", "Remains constant", "Becomes zero at the top"],
+        "answer": "C"
+    },
+    {
+        "question": "Which process in the cell occurs in the nucleus?",
+        "options": ["Glycolysis", "Protein synthesis", "DNA replication", "ATP production"],
+        "answer": "C"
+    },
+    {
+        "question": "The acceleration due to gravity on Earth is approximately:",
+        "options": ["8.9 m/s²", "9.8 m/s²", "10.5 m/s²", "7.5 m/s²"],
+        "answer": "B"
+    },
+    {
+        "question": "Which law states that equal volumes of gases contain equal numbers of molecules at the same temperature and pressure?",
+        "options": ["Boyle’s law", "Charles’ law", "Avogadro’s law", "Dalton’s law"],
+        "answer": "C"
+    },
+    {
+        "question": "If sin θ = 3/5, then cos θ equals:",
+        "options": ["4/5", "5/4", "1/5", "3/4"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a vector quantity?",
+        "options": ["Velocity", "Acceleration", "Force", "Speed"],
+        "answer": "D"
+    },
+    {
+        "question": "Which part of the plant is mainly responsible for photosynthesis?",
+        "options": ["Stem", "Leaf", "Root", "Flower"],
+        "answer": "B"
+    },
+    {
+        "question": "The atomic number of oxygen is:",
+        "options": ["6", "8", "10", "16"],
+        "answer": "B"
+    },
+    {
+        "question": "The slope of a distance-time graph represents:",
+        "options": ["Acceleration", "Speed", "Displacement", "Time"],
+        "answer": "B"
     }
 ]
+
