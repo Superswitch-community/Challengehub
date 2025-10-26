@@ -12,6 +12,266 @@
         "question": "The roots of the equation x² - 5x + 6 = 0 are:",
         "options": ["2 and 3", "3 and 4", "1 and 6", "2 and 4"],
         "answer": "A"
+    },[
+    {
+        "question": "Why can’t most multicellular organisms survive if only a few of their cells perform photosynthesis?",
+        "options": [
+            "Because only photosynthetic cells need oxygen",
+            "Because energy cannot be shared efficiently between cells",
+            "Because chloroplasts are toxic to other cell types",
+            "Because photosynthesis blocks cell division"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How does the structure of the cell membrane allow selective permeability?",
+        "options": [
+            "It is rigid and blocks all substances",
+            "It is made only of proteins that absorb molecules",
+            "Its phospholipid bilayer allows some substances while proteins regulate others",
+            "It has pores that let everything pass through freely"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "If a mutation occurs in a somatic cell, can it be passed to offspring?",
+        "options": [
+            "Yes, because all body cells divide",
+            "No, because only gamete mutations are inherited",
+            "Yes, if it happens before birth",
+            "No, because somatic cells never mutate"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why is ATP described as the 'energy currency' of the cell?",
+        "options": [
+            "It contains enzymes that break down glucose",
+            "It stores and transfers energy for cellular reactions",
+            "It acts as a genetic messenger",
+            "It provides structural support for organelles"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How does enzyme specificity arise?",
+        "options": [
+            "Each enzyme has a unique active site shape",
+            "Enzymes can bind to any molecule",
+            "Enzymes contain DNA that guides reactions",
+            "They only work at high temperatures"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What would happen to the carbon cycle if decomposers disappeared?",
+        "options": [
+            "More carbon dioxide would be produced",
+            "Carbon would accumulate in dead matter",
+            "Plants would stop photosynthesis immediately",
+            "The oxygen cycle would speed up"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How does natural selection differ from genetic drift?",
+        "options": [
+            "Natural selection is random, drift is not",
+            "Drift is random change, selection favors advantageous traits",
+            "Both are caused by mutations",
+            "Selection decreases diversity while drift increases it"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why is drinking seawater dangerous?",
+        "options": [
+            "It dilutes blood plasma",
+            "It causes dehydration due to high salt concentration",
+            "It blocks kidney function temporarily",
+            "It contains harmful bacteria"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How do vaccines train the immune system?",
+        "options": [
+            "By killing all viruses in the body",
+            "By introducing weakened antigens to form memory cells",
+            "By increasing white blood cell count directly",
+            "By heating the body to destroy pathogens"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why does active transport require energy?",
+        "options": [
+            "Because molecules move with the concentration gradient",
+            "Because molecules move against the concentration gradient",
+            "Because it involves osmosis",
+            "Because the cell membrane blocks all particles"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why do ionic compounds have higher melting points than covalent compounds?",
+        "options": [
+            "They have stronger electrostatic forces between ions",
+            "They contain only metals",
+            "They form weak intermolecular bonds",
+            "They contain water molecules"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why does increasing temperature usually speed up a reaction?",
+        "options": [
+            "It increases the size of molecules",
+            "It decreases activation energy",
+            "It increases the frequency and energy of collisions",
+            "It adds more reactant molecules"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What does chemical equilibrium mean?",
+        "options": [
+            "Reactants stop reacting",
+            "The forward and reverse reactions occur at equal rates",
+            "Products are no longer formed",
+            "The reaction is complete"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why does rusting occur faster in humid coastal regions?",
+        "options": [
+            "Because oxygen levels are higher near the sea",
+            "Because salt and moisture enhance corrosion",
+            "Because metal expands in humid air",
+            "Because water acts as a protective coating"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why does ice float on water?",
+        "options": [
+            "Ice is less dense due to hydrogen bonding structure",
+            "Ice contains trapped gases",
+            "Ice molecules are heavier than liquid water molecules",
+            "Water expands when cooled below 0°C"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why is balancing chemical equations important?",
+        "options": [
+            "To ensure conservation of mass and atoms",
+            "To make equations shorter",
+            "To reduce energy loss",
+            "To increase reaction rate"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why does a car take longer to stop on a wet road?",
+        "options": [
+            "Friction is reduced between tires and the surface",
+            "The car weighs more in rain",
+            "Water increases air resistance",
+            "The brakes become stronger on wet surfaces"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why do astronauts experience weightlessness?",
+        "options": [
+            "Because there is no gravity in space",
+            "Because they are in continuous free fall around Earth",
+            "Because air pressure holds them up",
+            "Because they are too far from Earth’s gravity field"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why do sound waves need a medium but light waves do not?",
+        "options": [
+            "Sound transfers energy through particle vibration; light is electromagnetic",
+            "Light is weaker than sound",
+            "Sound is faster than light",
+            "Both need a medium but light uses air"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What happens when light enters a denser medium?",
+        "options": [
+            "Its speed increases and it bends away from the normal",
+            "Its speed decreases and it bends toward the normal",
+            "Its frequency decreases",
+            "Its wavelength increases"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How does pendulum length affect its period?",
+        "options": [
+            "Longer pendulums have shorter periods",
+            "Longer pendulums swing more slowly, increasing period",
+            "Length has no effect",
+            "Only mass affects the period"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why does a metal spoon feel colder than a wooden one?",
+        "options": [
+            "Because metals are better conductors of heat",
+            "Because wood contains trapped air",
+            "Because metals emit cold energy",
+            "Because wood absorbs body heat"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "How does Newton’s third law apply to a flying bird?",
+        "options": [
+            "The bird pushes air down; air pushes the bird up",
+            "The bird’s wings reduce gravity",
+            "The bird pulls the air forward",
+            "There is no reaction in flight"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why doesn’t an orbiting satellite fall to Earth?",
+        "options": [
+            "Because gravity does not act in space",
+            "Because its forward velocity balances gravitational pull",
+            "Because it moves faster than light",
+            "Because air resistance holds it up"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "How does conservation of energy apply to a roller coaster?",
+        "options": [
+            "Potential energy converts to kinetic energy as it moves downhill",
+            "Energy is lost completely at the bottom",
+            "Energy increases during descent",
+            "Kinetic energy becomes greater than total energy"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why can’t anything travel faster than light?",
+        "options": [
+            "Because light is the only form of energy",
+            "Because mass would become infinite at light speed",
+            "Because gravity prevents acceleration",
+            "Because photons block other particles"
+        ],
+        "answer": "B"
     },
     {
         "question": "Find the derivative of y = 3x² + 5x - 7 with respect to x.",
@@ -875,3 +1135,4 @@
     "answer": "A"
 
 }]  
+
