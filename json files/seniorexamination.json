@@ -3,8 +3,517 @@
         "question": "Simplify 1/(1/x + 1/y)",
         "options":["x + y/x","xy/x + y","xy/x - y","x - y/x"],
         "answer": "B"
-    }
-    ,
+    },
+    {
+        "question": "Which of the following is true about isotopes of an element?",
+        "options": ["They have the same number of neutrons", "They have different numbers of protons", "They have the same number of protons but different neutrons", "They have different atomic numbers"],
+        "answer": "C"
+    },
+    {
+        "question": "A ball is thrown straight up. At the highest point of its motion, its velocity is:",
+        "options": ["Maximum", "Zero", "Constant", "Equal to acceleration"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following compounds conducts electricity only when dissolved in water?",
+        "options": ["NaCl", "C6H12O6", "O2", "CH4"],
+        "answer": "A"
+    },
+    {
+        "question": "If 3x + 5 = 20, what is the value of x?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "B"
+    },
+    {
+        "question": "Which part of the human eye controls the amount of light entering it?",
+        "options": ["Lens", "Cornea", "Iris", "Retina"],
+        "answer": "C"
+    },
+    {
+        "question": "When ice melts at 0°C, its temperature:",
+        "options": ["Increases", "Decreases", "Remains constant", "Becomes negative"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is NOT an example of uniform motion?",
+        "options": ["A car moving at constant speed on a straight road", "Earth orbiting the Sun", "A ball rolling on a flat surface", "A fan blade rotating at constant speed"],
+        "answer": "B"
+    },
+    {
+        "question": "What happens to resistance of a metal wire when its temperature increases?",
+        "options": ["Decreases", "Increases", "Remains the same", "Becomes zero"],
+        "answer": "B"
+    },
+    {
+        "question": "Which blood vessels carry blood away from the heart?",
+        "options": ["Veins", "Capillaries", "Arteries", "Valves"],
+        "answer": "C"
+    },
+    {
+        "question": "The sum of angles in a triangle is always:",
+        "options": ["90°", "180°", "270°", "360°"],
+        "answer": "B"
+    },
+    {
+        "question": "When a solid directly changes into gas, the process is called:",
+        "options": ["Condensation", "Sublimation", "Evaporation", "Deposition"],
+        "answer": "B"
+    },
+    {
+        "question": "The enzyme amylase breaks down:",
+        "options": ["Proteins", "Fats", "Carbohydrates", "Vitamins"],
+        "answer": "C"
+    },
+    {
+        "question": "Which element forms the backbone of organic compounds?",
+        "options": ["Oxygen", "Hydrogen", "Carbon", "Nitrogen"],
+        "answer": "C"
+    },
+    {
+        "question": "A concave mirror can form a real image only when the object is placed:",
+        "options": ["At infinity", "Between mirror and focus", "Beyond focus", "At the pole"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these has the highest frequency?",
+        "options": ["Radio waves", "Infrared", "Ultraviolet", "X-rays"],
+        "answer": "D"
+    },
+    {
+        "question": "In photosynthesis, light energy is converted into:",
+        "options": ["Kinetic energy", "Chemical energy", "Thermal energy", "Electrical energy"],
+        "answer": "B"
+    },
+    {
+        "question": "If a current of 2 A flows for 10 seconds, how much charge passes through the wire?",
+        "options": ["2 C", "5 C", "10 C", "20 C"],
+        "answer": "D"
+    },
+    {
+        "question": "Which gas is released during respiration in humans?",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "B"
+    },
+    {
+        "question": "The molecular formula of glucose is:",
+        "options": ["C6H6", "C6H12O6", "C12H22O11", "CH3OH"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following has the lowest melting point?",
+        "options": ["Iron", "Gold", "Mercury", "Copper"],
+        "answer": "C"
+    },
+    {
+        "question": "Which type of motion does the pendulum of a clock exhibit?",
+        "options": ["Circular", "Linear", "Oscillatory", "Rotational"],
+        "answer": "C"
+    },
+    {
+        "question": "Which part of the brain controls involuntary actions like heartbeat and breathing?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+        "answer": "C"
+    },
+    {
+        "question": "The chemical equation for neutralization is best represented as:",
+        "options": ["Acid + Base → Salt + Water", "Acid + Metal → Hydrogen + Salt", "Acid + Carbonate → CO2 + Salt + Water", "Base + Metal → Hydrogen + Salt"],
+        "answer": "A"
+    },
+    {
+        "question": "A body thrown vertically upward returns to the ground due to:",
+        "options": ["Magnetic force", "Gravitational force", "Friction", "Inertia"],
+        "answer": "B"
+    },
+    {
+        "question": "Which planet has the largest number of moons?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "D"
+    },
+    {
+        "question": "The atomic number of an element represents the number of:",
+        "options": ["Neutrons", "Protons", "Electrons + Protons", "Nucleons"],
+        "answer": "B"
+    },
+    {
+        "question": "Which reaction absorbs heat from surroundings?",
+        "options": ["Exothermic", "Endothermic", "Combustion", "Neutralization"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of these numbers is irrational?",
+        "options": ["√2", "3/4", "0.25", "1.5"],
+        "answer": "A"
+    },
+    {
+        "question": "Which law states that pressure is inversely proportional to volume at constant temperature?",
+        "options": ["Charles’ Law", "Boyle’s Law", "Avogadro’s Law", "Graham’s Law"],
+        "answer": "B"
+    },
+    {
+        "question": "The normal human body temperature in Celsius is approximately:",
+        "options": ["36.5°C", "37°C", "37.5°C", "38°C"],
+        "answer": "B"
+    },
+    {
+        "question": "Which part of a plant absorbs water and minerals?",
+        "options": ["Leaf", "Stem", "Root", "Flower"],
+        "answer": "C"
+    },
+    {
+        "question": "If the sides of a square are doubled, its area becomes:",
+        "options": ["Twice as large", "Four times as large", "Half as large", "Unchanged"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of these particles is not found in the nucleus?",
+        "options": ["Proton", "Electron", "Neutron", "Nucleon"],
+        "answer": "B"
+    },
+    {
+        "question": "In which process does liquid change into vapor below its boiling point?",
+        "options": ["Condensation", "Evaporation", "Boiling", "Sublimation"],
+        "answer": "B"
+    },
+    {
+        "question": "The formula for momentum is:",
+        "options": ["m × a", "F × t", "m × v", "v / t"],
+        "answer": "C"
+    },
+    {
+        "question": "Which part of the cell modifies and packages proteins?",
+        "options": ["Ribosome", "Mitochondria", "Golgi apparatus", "Nucleus"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a noble gas?",
+        "options": ["Helium", "Hydrogen", "Nitrogen", "Oxygen"],
+        "answer": "A"
+    },
+    {
+        "question": "A ray of light passing through the center of a lens:",
+        "options": ["Is bent toward the axis", "Is reflected back", "Passes undeviated", "Gets absorbed"],
+        "answer": "C"
+    },
+    {
+        "question": "Which organ in humans excretes urea?",
+        "options": ["Liver", "Kidney", "Heart", "Lungs"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of these is NOT a greenhouse gas?",
+        "options": ["Carbon dioxide", "Methane", "Oxygen", "Water vapor"],
+        "answer": "C"
+    },
+    {
+        "question": "Which branch of science deals with the study of motion?",
+        "options": ["Dynamics", "Statics", "Kinematics", "Optics"],
+        "answer": "C"
+    },
+    {
+        "question": "When two waves meet and cancel each other, the phenomenon is called:",
+        "options": ["Reflection", "Diffraction", "Destructive interference", "Refraction"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following increases when a solid is heated?",
+        "options": ["Mass", "Density", "Kinetic energy", "Volume"],
+        "answer": "C"
+    },
+    {
+        "question": "The chemical symbol for silver is:",
+        "options": ["Si", "Ag", "Au", "Sr"],
+        "answer": "B"
+    },
+    {
+        "question": "Which gas turns limewater milky?",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Ammonia"],
+        "answer": "B"
+    },
+    {
+        "question": "In a right triangle, if one angle is 30°, the other acute angle is:",
+        "options": ["30°", "45°", "60°", "90°"],
+        "answer": "C"
+    },
+    {
+        "question": "Which planet is known for its beautiful rings?",
+        "options": ["Jupiter", "Saturn", "Neptune", "Venus"],
+        "answer": "B"
+    },
+    {
+        "question": "The energy stored in food is a form of:",
+        "options": ["Thermal energy", "Potential energy", "Chemical energy", "Nuclear energy"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these has the lowest density?",
+        "options": ["Ice", "Water", "Mercury", "Iron"],
+        "answer": "A"
+    },
+    {
+        "question": "Which gas is most abundant in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "C"
+    },
+    {
+        "question": "The sum of the interior angles of a pentagon is:",
+        "options": ["360°", "540°", "720°", "900°"],
+        "answer": "B"
+    },
+      {
+        "question": "If a candle burns in a closed jar, it eventually goes out because:",
+        "options": ["The wax melts completely", "All oxygen is used up", "Carbon dioxide supports more combustion", "The flame cools below ignition temperature"],
+        "answer": "B"
+    },
+    {
+        "question": "When you mix acid with water, you should always:",
+        "options": ["Add water to acid", "Add acid to water", "Mix both simultaneously", "It doesn’t matter"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following quantities changes when light enters glass from air?",
+        "options": ["Frequency", "Wavelength", "Color", "Amplitude only"],
+        "answer": "B"
+    },
+    {
+        "question": "A piece of ice floats on water. When it melts, the water level will:",
+        "options": ["Rise", "Fall", "Remain the same", "First rise then fall"],
+        "answer": "C"
+    },
+    {
+        "question": "The buoyant force on an object depends on:",
+        "options": ["Its weight", "The liquid’s density", "Its shape only", "The volume of the liquid displaced"],
+        "answer": "D"
+    },
+    {
+        "question": "If the slope of a velocity-time graph is zero, the object is:",
+        "options": ["Accelerating", "Moving at constant velocity", "At rest", "Moving backward"],
+        "answer": "B"
+    },
+    {
+        "question": "An electron and a proton experience equal but opposite forces in an electric field because:",
+        "options": ["Their charges are equal and opposite", "Their masses are equal", "They move in the same direction", "The field strength is unequal"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a vector quantity?",
+        "options": ["Displacement", "Velocity", "Momentum", "Work"],
+        "answer": "D"
+    },
+    {
+        "question": "When a ray of light passes through a glass prism, which color deviates the most?",
+        "options": ["Red", "Yellow", "Green", "Violet"],
+        "answer": "D"
+    },
+    {
+        "question": "If a plant is kept in a dark room for 48 hours, what happens to its starch content?",
+        "options": ["Increases", "Decreases", "Remains the same", "Doubles"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following processes produces oxygen in nature?",
+        "options": ["Respiration", "Fermentation", "Photosynthesis", "Combustion"],
+        "answer": "C"
+    },
+    {
+        "question": "A metal block feels cold to touch because:",
+        "options": ["It has lower temperature", "It conducts heat away from your hand faster", "It emits cold air", "It absorbs moisture"],
+        "answer": "B"
+    },
+    {
+        "question": "The functional unit of the kidney is called:",
+        "options": ["Neuron", "Nephron", "Alveolus", "Atrium"],
+        "answer": "B"
+    },
+    {
+        "question": "When a resistor is added in series to a circuit, the total current:",
+        "options": ["Increases", "Decreases", "Remains same", "Becomes zero"],
+        "answer": "B"
+    },
+    {
+        "question": "Which type of chemical bond is strongest under normal conditions?",
+        "options": ["Ionic bond", "Covalent bond", "Hydrogen bond", "Van der Waals bond"],
+        "answer": "B"
+    },
+    {
+        "question": "Why are metals good conductors of electricity?",
+        "options": ["They contain free electrons", "They have high density", "They reflect light", "They have strong nuclei"],
+        "answer": "A"
+    },
+    {
+        "question": "The acceleration of a freely falling object on the Moon is less than on Earth because:",
+        "options": ["The Moon has no atmosphere", "The Moon has less gravity", "The Moon is farther from the Sun", "Objects are lighter on the Moon"],
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following is both a metal and a liquid at room temperature?",
+        "options": ["Bromine", "Mercury", "Gallium", "Cesium"],
+        "answer": "B"
+    },
+    {
+        "question": "The image formed by a plane mirror is always:",
+        "options": ["Real and inverted", "Virtual and erect", "Real and smaller", "Magnified and inverted"],
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following gases is lighter than air?",
+        "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+        "answer": "D"
+    },
+    {
+        "question": "The rate of a chemical reaction increases with temperature because:",
+        "options": ["Activation energy increases", "Molecular collisions are more frequent", "Molecules move slower", "Energy is absorbed by the catalyst"],
+        "answer": "B"
+    },
+    {
+        "question": "Which organelle is absent in animal cells but present in plant cells?",
+        "options": ["Mitochondria", "Cell wall", "Nucleus", "Ribosome"],
+        "answer": "B"
+    },
+    {
+        "question": "An object that sinks in water has a density:",
+        "options": ["Equal to water", "Less than water", "Greater than water", "Not related to water"],
+        "answer": "C"
+    },
+    {
+        "question": "The mirror used by dentists to view the back of a patient’s teeth is:",
+        "options": ["Concave mirror", "Convex mirror", "Plane mirror", "Parabolic mirror"],
+        "answer": "A"
+    },
+    {
+        "question": "If you double both the mass and velocity of a moving object, its kinetic energy becomes:",
+        "options": ["Double", "Triple", "Quadruple", "Eight times"],
+        "answer": "D"
+    },
+    {
+        "question": "Which process separates a soluble solid from a liquid using evaporation?",
+        "options": ["Filtration", "Distillation", "Crystallization", "Sedimentation"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these is NOT part of the respiratory system?",
+        "options": ["Trachea", "Lungs", "Diaphragm", "Kidney"],
+        "answer": "D"
+    },
+    {
+        "question": "In a food chain, energy is transferred from:",
+        "options": ["Consumers to producers", "Producers to consumers", "Decomposers to producers", "Herbivores to sunlight"],
+        "answer": "B"
+    },
+    {
+        "question": "The sum of protons and neutrons in an atom is called its:",
+        "options": ["Mass number", "Atomic number", "Charge", "Valence number"],
+        "answer": "A"
+    },
+    {
+        "question": "If sin θ = 1/2, then θ equals:",
+        "options": ["30°", "45°", "60°", "90°"],
+        "answer": "A"
+    },
+    {
+        "question": "Why is the sky blue?",
+        "options": ["Reflection of oceans", "Scattering of shorter wavelengths", "Absorption of red light", "Refraction of sunlight"],
+        "answer": "B"
+    },
+    {
+        "question": "In the periodic table, elements in the same group have:",
+        "options": ["Same mass number", "Same number of valence electrons", "Same number of protons", "Different chemical properties"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following has the smallest atomic radius?",
+        "options": ["Sodium", "Magnesium", "Aluminum", "Chlorine"],
+        "answer": "D"
+    },
+    {
+        "question": "The total resistance of resistors in parallel is always:",
+        "options": ["Greater than any individual resistance", "Equal to the highest resistance", "Less than the smallest resistance", "Equal to average resistance"],
+        "answer": "C"
+    },
+    {
+        "question": "When you exhale, the air you breathe out has:",
+        "options": ["More oxygen, less carbon dioxide", "Less oxygen, more carbon dioxide", "Equal amounts of both", "No oxygen"],
+        "answer": "B"
+    },
+    {
+        "question": "A neutral atom becomes a positive ion by:",
+        "options": ["Gaining electrons", "Losing electrons", "Gaining neutrons", "Losing neutrons"],
+        "answer": "B"
+    },
+    {
+        "question": "Which number is equal to 4³?",
+        "options": ["12", "16", "64", "81"],
+        "answer": "C"
+    },
+    {
+        "question": "Which type of lens is used to correct short-sightedness (myopia)?",
+        "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following has the highest energy?",
+        "options": ["Red light", "Green light", "Blue light", "Violet light"],
+        "answer": "D"
+    },
+    {
+        "question": "The atomic mass of an element is approximately equal to the number of:",
+        "options": ["Protons", "Electrons", "Protons and neutrons", "Neutrons only"],
+        "answer": "C"
+    },
+    {
+        "question": "The bond in a molecule of oxygen (O₂) is:",
+        "options": ["Single covalent", "Double covalent", "Triple covalent", "Ionic"],
+        "answer": "B"
+    },
+    {
+        "question": "Which part of the brain helps maintain posture and balance?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following elements is liquid at room temperature?",
+        "options": ["Bromine", "Iodine", "Sodium", "Sulfur"],
+        "answer": "A"
+    },
+    {
+        "question": "What is the acceleration of an object moving at constant speed in a circle?",
+        "options": ["Zero", "Constant", "Directed towards the center", "Directed away from the center"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these is an example of chemical change?",
+        "options": ["Melting ice", "Boiling water", "Rusting iron", "Breaking glass"],
+        "answer": "C"
+    },
+    {
+        "question": "Which element’s atoms have 2 electrons in the outermost shell?",
+        "options": ["Hydrogen", "Beryllium", "Lithium", "Sodium"],
+        "answer": "B"
+    },
+    {
+        "question": "A ray passing through the optical center of a convex lens:",
+        "options": ["Emerges undeviated", "Bends away from the axis", "Converges to focus", "Diverges away"],
+        "answer": "A"
+    },
+    {
+        "question": "The function of white blood cells is to:",
+        "options": ["Transport oxygen", "Fight infection", "Carry carbon dioxide", "Produce hormones"],
+        "answer": "B"
+    },
+    {
+        "question": "Which unit is used to measure electric potential difference?",
+        "options": ["Ampere", "Ohm", "Volt", "Watt"],
+        "answer": "C"
+    },
+    {
+        "question": "The graph of y = 1/x represents a:",
+        "options": ["Straight line", "Parabola", "Hyperbola", "Circle"],
+        "answer": "C"
+    },
+    {
+        "question": "The color of a transparent object depends on:",
+        "options": ["The color it reflects", "The color it absorbs", "The color it transmits", "Its density"],
+        "answer": "C"
+    },
     {
         "question": "(3/x + 4/x + 1)/(2/x + 1 - 3/x)",
         "options":["x + 3/7x + 3","-7x - 3/x + 3","-x - 3/","7x + 3/-x - 3"],
@@ -444,4 +953,5 @@
         "answer": "B"
     }
 ]
+
 
