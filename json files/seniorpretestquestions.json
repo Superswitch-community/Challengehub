@@ -12,7 +12,263 @@
         "question": "The roots of the equation x² - 5x + 6 = 0 are:",
         "options": ["2 and 3", "3 and 4", "1 and 6", "2 and 4"],
         "answer": "A"
-    },[
+    },
+        
+    {
+        "question": "Which particle is responsible for the charge of an atom?",
+        "options": ["Proton", "Neutron", "Electron", "Nucleus"],
+        "answer": "C"
+    },
+    {
+        "question": "The force that keeps planets in orbit around the Sun is:",
+        "options": ["Electromagnetic force", "Gravitational force", "Nuclear force", "Frictional force"],
+        "answer": "B"
+    },
+    {
+        "question": "Which type of bond involves the sharing of electrons?",
+        "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the main function of red blood cells?",
+        "options": ["Fight infections", "Carry oxygen", "Produce antibodies", "Transport nutrients"],
+        "answer": "B"
+    },
+    {
+        "question": "The value of π (pi) is approximately:",
+        "options": ["3.12", "3.14", "3.16", "3.18"],
+        "answer": "B"
+    },
+    {
+        "question": "Which gas is essential for photosynthesis?",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a base?",
+        "options": ["HCl", "NaOH", "CO2", "CH4"],
+        "answer": "B"
+    },
+    {
+        "question": "The unit of electric current is:",
+        "options": ["Volt", "Coulomb", "Ampere", "Ohm"],
+        "answer": "C"
+    },
+    {
+        "question": "Which organ controls coordination and balance in humans?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Spinal cord"],
+        "answer": "B"
+    },
+    {
+        "question": "The formula for kinetic energy is:",
+        "options": ["mgh", "½mv²", "F × d", "mc²"],
+        "answer": "B"
+    },
+    {
+        "question": "Which chemical element has the symbol ‘Fe’?",
+        "options": ["Fluorine", "Iron", "Francium", "Fermium"],
+        "answer": "B"
+    },
+    {
+        "question": "If 5x = 20, then x equals:",
+        "options": ["2", "3", "4", "5"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the main function of the mitochondria?",
+        "options": ["Store genetic material", "Produce energy", "Transport materials", "Control cell division"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of these is a renewable source of energy?",
+        "options": ["Coal", "Petroleum", "Solar", "Natural gas"],
+        "answer": "C"
+    },
+    {
+        "question": "Which organelle is known as the 'control center' of the cell?",
+        "options": ["Ribosome", "Nucleus", "Golgi apparatus", "Endoplasmic reticulum"],
+        "answer": "B"
+    },
+    {
+        "question": "A body moving with constant velocity has:",
+        "options": ["Zero acceleration", "Increasing acceleration", "Constant acceleration", "Decreasing velocity"],
+        "answer": "A"
+    },
+    {
+        "question": "The number of protons in an atom is equal to its:",
+        "options": ["Mass number", "Neutron number", "Atomic number", "Charge number"],
+        "answer": "C"
+    },
+    {
+        "question": "Which law explains the relationship between current, voltage, and resistance?",
+        "options": ["Newton’s law", "Boyle’s law", "Ohm’s law", "Faraday’s law"],
+        "answer": "C"
+    },
+    {
+        "question": "Which vitamin is produced when the skin is exposed to sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "answer": "D"
+    },
+    {
+        "question": "What is the SI unit of force?",
+        "options": ["Newton", "Joule", "Pascal", "Watt"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of these elements is a noble gas?",
+        "options": ["Nitrogen", "Argon", "Oxygen", "Chlorine"],
+        "answer": "B"
+    },
+    {
+        "question": "The chemical formula of water is:",
+        "options": ["H2O", "CO2", "O2H", "H2O2"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following planets is closest to the Sun?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the value of acceleration due to gravity on Earth?",
+        "options": ["8.5 m/s²", "9.8 m/s²", "10.5 m/s²", "12 m/s²"],
+        "answer": "B"
+    },
+    {
+        "question": "The powerhouse of the cell is the:",
+        "options": ["Ribosome", "Mitochondrion", "Chloroplast", "Nucleus"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of these is not a state of matter?",
+        "options": ["Solid", "Liquid", "Plasma", "Radiation"],
+        "answer": "D"
+    },
+    {
+        "question": "The square root of 81 is:",
+        "options": ["7", "8", "9", "10"],
+        "answer": "C"
+    },
+    {
+        "question": "The speed of light in a vacuum is approximately:",
+        "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10⁴ m/s", "3 × 10⁹ m/s"],
+        "answer": "B"
+    },
+    {
+        "question": "Which part of the atom contains most of its mass?",
+        "options": ["Electron cloud", "Nucleus", "Outer shell", "Proton only"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following acids is found in lemons?",
+        "options": ["Acetic acid", "Citric acid", "Lactic acid", "Sulfuric acid"],
+        "answer": "B"
+    },
+    {
+        "question": "Which process releases energy in the Sun?",
+        "options": ["Nuclear fusion", "Nuclear fission", "Combustion", "Ionization"],
+        "answer": "A"
+    },
+    {
+        "question": "The freezing point of water in Celsius is:",
+        "options": ["-100°C", "0°C", "32°C", "100°C"],
+        "answer": "B"
+    },
+    {
+        "question": "Which organ filters blood in the human body?",
+        "options": ["Heart", "Liver", "Kidney", "Lungs"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these gases is responsible for the greenhouse effect?",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "answer": "C"
+    },
+    {
+        "question": "A body of mass 2 kg is acted on by a force of 10 N. Its acceleration is:",
+        "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
+        "answer": "C"
+    },
+    {
+        "question": "The solution that resists change in pH is called a:",
+        "options": ["Salt", "Buffer", "Acid", "Base"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["So", "Sd", "Na", "Sn"],
+        "answer": "C"
+    },
+    {
+        "question": "Which number is a prime number?",
+        "options": ["9", "15", "17", "21"],
+        "answer": "C"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Jupiter", "Venus", "Mars", "Saturn"],
+        "answer": "C"
+    },
+    {
+        "question": "The process of cell division in body cells is called:",
+        "options": ["Meiosis", "Mitosis", "Fission", "Replication"],
+        "answer": "B"
+    },
+    {
+        "question": "A neutral atom has equal numbers of:",
+        "options": ["Protons and electrons", "Neutrons and protons", "Electrons and neutrons", "Neutrons only"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is an example of a vector quantity?",
+        "options": ["Speed", "Mass", "Velocity", "Temperature"],
+        "answer": "C"
+    },
+    {
+        "question": "In an acid-base reaction, what is formed?",
+        "options": ["Water and salt", "Hydrogen gas", "Carbon dioxide", "Ammonia"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of these organs is part of the digestive system?",
+        "options": ["Liver", "Lungs", "Kidneys", "Heart"],
+        "answer": "A"
+    },
+    {
+        "question": "Which number is equal to 10³?",
+        "options": ["100", "1000", "10,000", "1,000,000"],
+        "answer": "B"
+    },
+    {
+        "question": "Which part of a flower produces pollen?",
+        "options": ["Stigma", "Anther", "Ovary", "Petal"],
+        "answer": "B"
+    },
+    {
+        "question": "Which law states that energy cannot be created or destroyed?",
+        "options": ["Law of Conservation of Energy", "Newton’s Second Law", "Boyle’s Law", "Hooke’s Law"],
+        "answer": "A"
+    },
+    {
+        "question": "The function of chlorophyll in plants is to:",
+        "options": ["Absorb water", "Absorb sunlight", "Transport nutrients", "Store food"],
+        "answer": "B"
+    },
+    {
+        "question": "Which organ pumps blood throughout the body?",
+        "options": ["Lungs", "Brain", "Heart", "Liver"],
+        "answer": "C"
+    },
+    {
+        "question": "The square of 12 is:",
+        "options": ["124", "122", "144", "132"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these represents Newton’s Third Law?",
+        "options": ["F = ma", "Every action has an equal and opposite reaction", "Energy = mc²", "V = IR"],
+        "answer": "B"
+    },
     {
         "question": "Why can’t most multicellular organisms survive if only a few of their cells perform photosynthesis?",
         "options": [
@@ -1135,4 +1391,5 @@
     "answer": "A"
 
 }]  
+
 
