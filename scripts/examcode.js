@@ -48,7 +48,7 @@ export async function startDemo(url, numQuestions, submitButton, modalId) {
     console.log(closeButton) */
 
     // Set the countdown time (in seconds)
-    let countdownTime = 600;
+    let countdownTime = 1200;
     let isRunning = true;
 
 
@@ -356,4 +356,5 @@ export async function startDemo(url, numQuestions, submitButton, modalId) {
     loadQuestion();
     countDown();
 }
+
 
