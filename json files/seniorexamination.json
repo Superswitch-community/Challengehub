@@ -267,5 +267,105 @@
     "question": "The first term of an arithmetic progression is 3 and the last term is 9. Find the number of terms in the progression if the common difference is 3/2",
     "options":["4 terms","5 terms","6 terms","7 terms"],
     "answer": "B"
-}
+},
+     {
+        "question": "If an object moves close to the speed of light, which of the following effects is predicted by special relativity?",
+        "options": [
+            "Its mass decreases and time speeds up",
+            "Its mass increases and time slows down",
+            "Its charge increases and distance contracts",
+            "Its temperature drops and energy remains constant"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "The Schrödinger equation primarily describes which property of a quantum system?",
+        "options": [
+            "Its exact position and momentum simultaneously",
+            "The probability distribution of its state over time",
+            "The trajectory of an electron around a nucleus",
+            "The electric potential of atomic orbitals"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In enzyme kinetics, what does the Michaelis constant (Km) represent?",
+        "options": [
+            "The maximum rate of catalysis",
+            "The substrate concentration at half of Vmax",
+            "The total enzyme concentration",
+            "The energy required for reaction initiation"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "If f(x) = e^(sin x), what is f''(x)?",
+        "options": [
+            "e^(sin x)(cos²x - sin x)",
+            "e^(sin x)(cos x + sin x)",
+            "e^(sin x)(cos²x - sin x)",
+            "e^(sin x)(cos²x - sin x)"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Why is helium used in cryogenics instead of hydrogen, despite hydrogen’s lower molecular weight?",
+        "options": [
+            "Helium has a lower boiling point and is inert",
+            "Helium forms stronger intermolecular bonds",
+            "Hydrogen freezes before boiling",
+            "Helium reacts with metals to absorb heat"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "A bacterial population doubles every 20 minutes. How long will it take to increase by a factor of 64?",
+        "options": [
+            "2 hours",
+            "100 minutes",
+            "120 minutes",
+            "140 minutes"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "In a redox reaction, the reducing agent is:",
+        "options": [
+            "The substance that gains electrons",
+            "The substance that loses electrons and is oxidized",
+            "The species that accepts hydrogen atoms",
+            "Always an acid"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following integrals converges?",
+        "options": [
+            "∫(1/x) dx from 0 to 1",
+            "∫(1/x²) dx from 1 to ∞",
+            "∫(1/x) dx from 1 to ∞",
+            "∫(1/√x) dx from 0 to 1"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Why do transition metals often form colored compounds?",
+        "options": [
+            "Because of d–d electronic transitions within partially filled d orbitals",
+            "Because of high ionization energies",
+            "Because they absorb infrared radiation only",
+            "Because of their high melting points"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "If two resistors of values R and 2R are connected in parallel, what is the equivalent resistance?",
+        "options": [
+            "R/3",
+            "2R/3",
+            "3R/2",
+            "R²/3"
+        ],
+        "answer": "B"
+    }
 ]
