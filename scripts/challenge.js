@@ -165,13 +165,13 @@ onAuthStateChanged(auth, async (user) => {
 
                                 let category = localStorage.getItem("category");
                                 if (category === "primary") {
-                                    location.href = 'primaryexam.html'
+                                    location.href = './primaryexam.html'
                                 }
                                 else if (category === "junior") {
-                                    location.href = 'juniorexam.html'
+                                    location.href = './juniorexam.html'
                                 }
-                                else if (category === "senior") {
-                                    location.href = 'seniorexam.html'
+                                else if (category === "senior-science") {
+                                    location.href = './seniorexam.html'
                                 }
 
                             }
@@ -194,3 +194,4 @@ onAuthStateChanged(auth, async (user) => {
         window.location.href = "login.html"; // redirect to login
     }
 });
+
