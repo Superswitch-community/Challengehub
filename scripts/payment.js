@@ -48,7 +48,7 @@ async function payWithPaystack() {
     const email = localStorage.getItem('LoggedInEmail');
     const loggedInUserId = localStorage.getItem('LoggedInUserId');
 
-    console.log(loggedInUserId)
+   // console.log(loggedInUserId)
 
     const payloadData = {
         "currency": "NGN",
@@ -121,19 +121,19 @@ async function verifyPayment(reference) {
             .then(res => res.json())
             .then(data => {
                 if (data.data.status === "success") {
-                    showPopUpMessage('Payment Successful');
+                    ('Payment Successful');
                     const loggedInUserId = localStorage.getItem('loggedInUserId');
                     const category = localStorage.getItem("category");
                     updateUserPaymentStatus(category, loggedInUserId, true);
 
                 }
                 else {
-                    showPopUpMessage('Payment Failed');
+                     appendAlert('Payment Failed', 'danger');
                 }
             })
             .catch(error => {
                 console.error(error);
-                showPopUpMessage('Verification Error');
+                 appendAlert('Verification Error', 'danger');
             })
     }
     else {
@@ -167,4 +167,5 @@ const updateUserPaymentStatus = async (category, userId, paymentStatus) => {
 document.getElementById('payment-button').addEventListener('click', () => {
     payWithPaystack();
 })
+
 
