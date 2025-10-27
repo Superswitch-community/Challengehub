@@ -28,7 +28,7 @@ const auth = getAuth();
 const db = getFirestore();
 import { startDemo } from "./examcode.js";
 
-startDemo('/json files/seniorexamination.json', 20, 'submit-btn', 'exampleModal1');
+startDemo('./json files/seniorexamination.json', 20, 'submit-btn', 'exampleModal1');
 
 window.addEventListener('beforeunload', (e) => {
     const confirmationMessage = 'Are you sure you want to leave this page to end the exam?';
@@ -75,4 +75,5 @@ onAuthStateChanged(auth, async (user) => {
       window.location.href = "./login.html"; // redirect to login
   }
 });
+
 
