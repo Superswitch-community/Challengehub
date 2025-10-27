@@ -83,11 +83,10 @@ async function payWithPaystack() {
             if (data && data.status === true && data.data && data.data.authorization_url) {
                 const authorizationUrl = data.data.authorization_url;
                 const reference = data.data.reference;
+                consol.log(reference);
                 localStorage.setItem('reference', reference);
                 //redirect the user to the authorization URL
                 window.location.href = authorizationUrl;
-
-
 
             }
             else {
@@ -167,5 +166,6 @@ const updateUserPaymentStatus = async (category, userId, paymentStatus) => {
 document.getElementById('payment-button').addEventListener('click', () => {
     payWithPaystack();
 })
+
 
 
