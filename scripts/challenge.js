@@ -155,6 +155,7 @@ onAuthStateChanged(auth, async (user) => {
                             appendAlert("Oops!! 😮You can't take till you complete your payment", 'danger')
                         }
                         else { 
+                            
                             if (challengeCount >= examCount) {
                                 appendAlert('You have exceeded the maximum attempts', 'danger');
                                 beginButton.innerHTML = 'Maximum attempts reached';
@@ -199,6 +200,7 @@ onAuthStateChanged(auth, async (user) => {
         window.location.href = "./login.html"; // redirect to login
     }
 });
+
 
 
 
