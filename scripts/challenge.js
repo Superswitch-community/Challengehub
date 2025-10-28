@@ -175,6 +175,9 @@ onAuthStateChanged(auth, async (user) => {
                                 else if (category === "senior-science") {
                                     location.href = './seniorexam.html'
                                 }
+                                 else if (category === "senior-art") {
+                                    location.href = './seniorartexam.html'
+                                }
 
                             }
                              } 
@@ -193,8 +196,9 @@ onAuthStateChanged(auth, async (user) => {
         }
     } else {
         // Not logged in
-        window.location.href = "login.html"; // redirect to login
+        window.location.href = "./login.html"; // redirect to login
     }
 });
+
 
 
