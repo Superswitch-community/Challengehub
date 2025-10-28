@@ -34,7 +34,7 @@ const db = getFirestore();
 
 onAuthStateChanged(auth, (user) => {
     if (!user) {
-        window.location.href = "login.html"; // redirect if not signed in
+        window.location.href = "./login.html"; // redirect if not signed in
     }
 });
 
@@ -66,7 +66,7 @@ document.getElementById("signout-button").addEventListener("click", async (e) =>
         localStorage.removeItem("category");
 
         // Redirect to login page
-        window.location.href = "/index.html";
+        window.location.href = "./index.html";
 
         console.log("User signed out successfully.");
     } catch (error) {
@@ -199,6 +199,7 @@ onAuthStateChanged(auth, async (user) => {
         window.location.href = "./login.html"; // redirect to login
     }
 });
+
 
 
 
