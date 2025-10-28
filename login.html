@@ -347,12 +347,15 @@ const appendAlert = (message, type) => {
   let alertPlaceholder = document.getElementById('liveAlertPlaceholder')
   alertPlaceholder.append(wrapper);
 }
-
+ setTimeout(() => {
     appendAlert('Welcome to the login page','success')
+        }, 2000)
+  
   </script>
 <script type="module" src="./scripts/login.js" defer></script>
 
 </html>
+
 
 
 
