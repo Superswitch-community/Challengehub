@@ -13,8 +13,11 @@ const appendAlert = (message, type) => {
     let alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     alertPlaceholder.append(wrapper);
   }
-  
-    appendAlert('Welcome to the signup page','success')
+
+ setTimeout(() => {
+       appendAlert('Welcome to the signup page','success')
+        }, 2000)
+ 
   
   
 
@@ -209,4 +212,5 @@ Time Remaining: ${countdownTime}Secs; `;
     } 
     countDown();
       
+
     } */
