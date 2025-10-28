@@ -69,6 +69,7 @@ document.getElementById("signup-form").addEventListener("submit", async (e) => {
     });
 
     appendAlert("User registered successfully in " + category + " category!", 'success');
+    document.getElementById("signup-form").reset();
   } catch (error) {
     const errorCode = error.code;
     if (errorCode == 'auth/email-already-in-use') {
@@ -108,4 +109,5 @@ getDocs(usersRef)
   })
 
   */
+
 
