@@ -69,7 +69,7 @@ document.getElementById("signout-button").addEventListener("click", async (e) =>
     
 
     // Redirect to login page
-    window.location.href = "./index.html";
+    window.location.href = "/";
 
     console.log("User signed out successfully.");
   } catch (error) {
@@ -233,6 +233,7 @@ onAuthStateChanged(auth, async (user) => {
 </body>
 
  */
+
 
 
 
