@@ -15,7 +15,7 @@ const appendAlert = (message, type) => {
   }
 
  setTimeout(() => {
-       appendAlert('Welcome to the signup page','success')
+       appendAlert('Welcome to Chalengehub','success')
         }, 2000)
  
   
@@ -214,3 +214,4 @@ Time Remaining: ${countdownTime}Secs; `;
       
 
     } */
+
