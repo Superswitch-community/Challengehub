@@ -1,0 +1,882 @@
+[
+    {
+        "question": "What is the meaning of the term ‘sovereignty’ in government?",
+        "options": [
+            "The power to tax only",
+            "The highest authority in a territory",
+            "A type of economic system",
+            "The process of election"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which economic term refers to the total value of all goods and services produced in a country in a year?",
+        "options": [
+            "Inflation",
+            "Gross Domestic Product",
+            "Fiscal deficit",
+            "Trade surplus"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, which of the following best defines ‘rule of law’?",
+        "options": [
+            "Law applies only to citizens",
+            "Law is above everyone and must be followed by all",
+            "Only the government follows the law",
+            "Law is optional when convenient"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is the term for a character’s tragic flaw that leads to their downfall?",
+        "options": [
+            "Metaphor",
+            "Hubris",
+            "Alliteration",
+            "Oxymoron"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Who was the first king of Israel anointed by Samuel?",
+        "options": [
+            "David",
+            "Saul",
+            "Solomon",
+            "Rehoboam"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a function of government in a democratic state?",
+        "options": [
+            "Suppressing all opposition",
+            "Providing public goods and services",
+            "Preventing elections",
+            "Controlling every private conversation"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What happens when demand for a good increases and supply remains the same?",
+        "options": [
+            "Price falls",
+            "Quantity falls",
+            "Price rises",
+            "Supply increases automatically"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "According to the Beatitudes, who shall inherit the earth?",
+        "options": [
+            "The merciful",
+            "The peacemakers",
+            "The pure in heart",
+            "The meek"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "Which civic duty requires citizens to serve on a jury if asked?",
+        "options": [
+            "Voting in every election",
+            "Paying taxes",
+            "Serving in the armed forces",
+            "Participating in jury service"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "In literature, what is ‘personification’?",
+        "options": [
+            "Giving human qualities to non-human things",
+            "An extended metaphor",
+            "A long monologue",
+            "A plot twist"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which branch of government is typically responsible for making laws?",
+        "options": [
+            "Executive",
+            "Legislative",
+            "Judicial",
+            "Municipal"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is inflation?",
+        "options": [
+            "A fall in price levels",
+            "A rise in general price levels",
+            "When supply outstrips demand",
+            "When exports exceed imports"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What was the main reason Joseph’s brothers sold him into slavery?",
+        "options": [
+            "They feared famine",
+            "They envied his dreams and their father's love",
+            "They wanted to protect him",
+            "They were following Jacob’s command"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a right guaranteed under a democratic constitution?",
+        "options": [
+            "Right to remain silent always",
+            "Right to a fair trial",
+            "Right to unlimited wealth",
+            "Right to ignore laws"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What literary device is used when a story starts in the middle of the action?",
+        "options": [
+            "Flashback",
+            "Foreshadowing",
+            "In media res",
+            "Allegory"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "During Jesus’ temptation, what was His response when asked to turn stones into bread?",
+        "options": [
+            "Man shall not live by bread alone",
+            "Get behind me, Satan",
+            "It is finished",
+            "My food is to do God’s will"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What does ‘opportunity cost’ refer to in economics?",
+        "options": [
+            "The cost of producing one more unit",
+            "The next best alternative forgone when a choice is made",
+            "Money paid as tax",
+            "Cost of importing goods"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following best describes ‘civil society’?",
+        "options": [
+            "Government alone",
+            "Private businesses only",
+            "Voluntary groups and institutions outside government",
+            "The military"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "In literature, what is the ‘setting’ of a story?",
+        "options": [
+            "The sequence of events",
+            "The time and place where the story occurs",
+            "The main character’s name",
+            "The narrator’s voice"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Who replaced Judas Iscariot among the apostles after his death?",
+        "options": [
+            "Matthias",
+            "Barnabas",
+            "Paul",
+            "Silas"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which economic policy uses government spending and taxation to influence the economy?",
+        "options": [
+            "Monetary policy",
+            "Fiscal policy",
+            "Trade policy",
+            "Industrial policy"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is meant by ‘bicameral legislature’?",
+        "options": [
+            "A legislature with one chamber",
+            "A legislature with two chambers",
+            "A council of elders",
+            "A dictatorship’s parliament"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which narrative point of view uses ‘I’ or ‘we’ to tell the story?",
+        "options": [
+            "First-person",
+            "Second-person",
+            "Third-person limited",
+            "Third-person omniscient"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the main purpose of taxation in a modern state?",
+        "options": [
+            "To restrict trade",
+            "To generate revenue for public services",
+            "To penalize citizens",
+            "To ban imports"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What does ‘elasticity of demand’ refer to?",
+        "options": [
+            "The responsiveness of quantity demanded to a change in price",
+            "The total supply available",
+            "Fixed cost of production",
+            "Government regulation of price"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which civic value encourages citizens to listen to and respect differing opinions?",
+        "options": [
+            "Tolerance",
+            "Apathy",
+            "Corruption",
+            "Discrimination"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In literature, what is an ‘antihero’?",
+        "options": [
+            "A hero with superpowers",
+            "A main character with flawed moral qualities",
+            "An irrelevant sidekick",
+            "A mythical creature"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the role of the judiciary in a democratic government?",
+        "options": [
+            "Enforcing the laws",
+            "Making laws",
+            "Interpreting laws and protecting rights",
+            "Electing the legislature"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is a budget deficit?",
+        "options": [
+            "When government revenues exceed expenditures",
+            "When expenditures exceed revenues",
+            "When exports exceed imports",
+            "When jobs exceed population growth"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is ‘symbolism’ in literature?",
+        "options": [
+            "A concrete thing representing a larger idea",
+            "A rhyme scheme",
+            "Dialogue only",
+            "Literal description"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is a feature of a parliamentary system of government?",
+        "options": [
+            "President is head of government only",
+            "Executive drawn from legislature",
+            "Legislature independent",
+            "Monthly referendum"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, what does ‘political apathy’ mean?",
+        "options": [
+            "Active participation in politics",
+            "Indifference or lack of interest in politics",
+            "Vigorous campaigning",
+            "Voting in every election"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the ‘climax’ of a literary work?",
+        "options": [
+            "The beginning of the story",
+            "The highest point of tension or turning point",
+            "The final resolution",
+            "A character description"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What does the term ‘sovereign state’ mean in international law?",
+        "options": [
+            "A state dependent on another",
+            "A state with full control over its internal affairs",
+            "A state with no citizens",
+            "A state under occupation"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the function of the ‘chorus’ in classical literature such as Greek tragedy?",
+        "options": [
+            "To comment on the action and reflect public opinion",
+            "To act as main hero",
+            "To set laws",
+            "To add comic relief only"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the ‘opportunity cost’ of choosing to attend university full-time instead of working?",
+        "options": [
+            "Tuition fees",
+            "The wages forgone by not working",
+            "Cost of books",
+            "Time with friends"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is ‘tone’?",
+        "options": [
+            "The author’s attitude toward the subject or audience",
+            "The number of pages",
+            "The theme",
+            "The protagonist’s personality"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following describes a ‘unitary’ system of government?",
+        "options": [
+            "Power shared by national and regional equally",
+            "One central government holds primary power",
+            "Regional governments have total sovereignty",
+            "No government at all"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, what is meant by ‘good governance’?",
+        "options": [
+            "Government without rule of law",
+            "Transparent, accountable and participatory leadership",
+            "Dictatorship with no checks",
+            "Absence of elections"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is a ‘foil’ character?",
+        "options": [
+            "A character who contrasts another to highlight qualities",
+            "The main hero",
+            "A narrator",
+            "A background extra"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What does ‘demand-pull inflation’ refer to?",
+        "options": [
+            "When demand rises faster than supply and causes prices to rise",
+            "When supply drops suddenly",
+            "When imports increase",
+            "When government raises taxes"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In civic education, what is the meaning of ‘accountability’ of public officials?",
+        "options": [
+            "They must answer for their actions and decisions to the public",
+            "They are above the law",
+            "They serve for life",
+            "They cannot be questioned"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In literature, what is ‘dramatic irony’?",
+        "options": [
+            "When the audience knows something the characters do not",
+            "When the setting is dark",
+            "When dialogue rhymes",
+            "When the narrator lies"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is meant by ‘characterisation’ in literature?",
+        "options": [
+            "The creation and development of characters in a story",
+            "The setting of the story",
+            "The title of the book",
+            "The theme"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the meaning of the term ‘sovereignty’ in government?",
+        "options": [
+            "The power to tax only",
+            "The highest authority in a territory",
+            "A type of economic system",
+            "The process of election"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which economic term refers to the total value of all goods and services produced in a country in a year?",
+        "options": [
+            "Inflation",
+            "Gross Domestic Product",
+            "Fiscal deficit",
+            "Trade surplus"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, which of the following best defines ‘rule of law’?",
+        "options": [
+            "Law applies only to citizens",
+            "Law is above everyone and must be followed by all",
+            "Only the government follows the law",
+            "Law is optional when convenient"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is the term for a character’s tragic flaw that leads to their downfall?",
+        "options": [
+            "Metaphor",
+            "Hubris",
+            "Alliteration",
+            "Oxymoron"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Who was the first king of Israel anointed by Samuel?",
+        "options": [
+            "David",
+            "Saul",
+            "Solomon",
+            "Rehoboam"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a function of government in a democratic state?",
+        "options": [
+            "Suppressing all opposition",
+            "Providing public goods and services",
+            "Preventing elections",
+            "Controlling every private conversation"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What happens when demand for a good increases and supply remains the same?",
+        "options": [
+            "Price falls",
+            "Quantity falls",
+            "Price rises",
+            "Supply increases automatically"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "According to the Beatitudes, who shall inherit the earth?",
+        "options": [
+            "The merciful",
+            "The peacemakers",
+            "The pure in heart",
+            "The meek"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "Which civic duty requires citizens to serve on a jury if asked?",
+        "options": [
+            "Voting in every election",
+            "Paying taxes",
+            "Serving in the armed forces",
+            "Participating in jury service"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "In literature, what is ‘personification’?",
+        "options": [
+            "Giving human qualities to non-human things",
+            "An extended metaphor",
+            "A long monologue",
+            "A plot twist"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which branch of government is typically responsible for making laws?",
+        "options": [
+            "Executive",
+            "Legislative",
+            "Judicial",
+            "Municipal"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is inflation?",
+        "options": [
+            "A fall in price levels",
+            "A rise in general price levels",
+            "When supply outstrips demand",
+            "When exports exceed imports"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What was the main reason Joseph’s brothers sold him into slavery?",
+        "options": [
+            "They feared famine",
+            "They envied his dreams and their father's love",
+            "They wanted to protect him",
+            "They were following Jacob’s command"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a right guaranteed under a democratic constitution?",
+        "options": [
+            "Right to remain silent always",
+            "Right to a fair trial",
+            "Right to unlimited wealth",
+            "Right to ignore laws"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What literary device is used when a story starts in the middle of the action?",
+        "options": [
+            "Flashback",
+            "Foreshadowing",
+            "In media res",
+            "Allegory"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "During Jesus’ temptation, what was His response when asked to turn stones into bread?",
+        "options": [
+            "Man shall not live by bread alone",
+            "Get behind me, Satan",
+            "It is finished",
+            "My food is to do God’s will"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What does ‘opportunity cost’ refer to in economics?",
+        "options": [
+            "The cost of producing one more unit",
+            "The next best alternative forgone when a choice is made",
+            "Money paid as tax",
+            "Cost of importing goods"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following best describes ‘civil society’?",
+        "options": [
+            "Government alone",
+            "Private businesses only",
+            "Voluntary groups and institutions outside government",
+            "The military"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "In literature, what is the ‘setting’ of a story?",
+        "options": [
+            "The sequence of events",
+            "The time and place where the story occurs",
+            "The main character’s name",
+            "The narrator’s voice"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Who replaced Judas Iscariot among the apostles after his death?",
+        "options": [
+            "Matthias",
+            "Barnabas",
+            "Paul",
+            "Silas"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which economic policy uses government spending and taxation to influence the economy?",
+        "options": [
+            "Monetary policy",
+            "Fiscal policy",
+            "Trade policy",
+            "Industrial policy"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is meant by ‘bicameral legislature’?",
+        "options": [
+            "A legislature with one chamber",
+            "A legislature with two chambers",
+            "A council of elders",
+            "A dictatorship’s parliament"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which narrative point of view uses ‘I’ or ‘we’ to tell the story?",
+        "options": [
+            "First-person",
+            "Second-person",
+            "Third-person limited",
+            "Third-person omniscient"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the main purpose of taxation in a modern state?",
+        "options": [
+            "To restrict trade",
+            "To generate revenue for public services",
+            "To penalize citizens",
+            "To ban imports"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What does ‘elasticity of demand’ refer to?",
+        "options": [
+            "The responsiveness of quantity demanded to a change in price",
+            "The total supply available",
+            "Fixed cost of production",
+            "Government regulation of price"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which civic value encourages citizens to listen to and respect differing opinions?",
+        "options": [
+            "Tolerance",
+            "Apathy",
+            "Corruption",
+            "Discrimination"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In literature, what is an ‘antihero’?",
+        "options": [
+            "A hero with superpowers",
+            "A main character with flawed moral qualities",
+            "An irrelevant sidekick",
+            "A mythical creature"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the role of the judiciary in a democratic government?",
+        "options": [
+            "Enforcing the laws",
+            "Making laws",
+            "Interpreting laws and protecting rights",
+            "Electing the legislature"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is a budget deficit?",
+        "options": [
+            "When government revenues exceed expenditures",
+            "When expenditures exceed revenues",
+            "When exports exceed imports",
+            "When jobs exceed population growth"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is ‘symbolism’ in literature?",
+        "options": [
+            "A concrete thing representing a larger idea",
+            "A rhyme scheme",
+            "Dialogue only",
+            "Literal description"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is a feature of a parliamentary system of government?",
+        "options": [
+            "President is head of government only",
+            "Executive drawn from legislature",
+            "Legislature independent",
+            "Monthly referendum"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, what does ‘political apathy’ mean?",
+        "options": [
+            "Active participation in politics",
+            "Indifference or lack of interest in politics",
+            "Vigorous campaigning",
+            "Voting in every election"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the ‘climax’ of a literary work?",
+        "options": [
+            "The beginning of the story",
+            "The highest point of tension or turning point",
+            "The final resolution",
+            "A character description"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What does the term ‘sovereign state’ mean in international law?",
+        "options": [
+            "A state dependent on another",
+            "A state with full control over its internal affairs",
+            "A state with no citizens",
+            "A state under occupation"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the function of the ‘chorus’ in classical literature such as Greek tragedy?",
+        "options": [
+            "To comment on the action and reflect public opinion",
+            "To act as main hero",
+            "To set laws",
+            "To add comic relief only"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the ‘opportunity cost’ of choosing to attend university full-time instead of working?",
+        "options": [
+            "Tuition fees",
+            "The wages forgone by not working",
+            "Cost of books",
+            "Time with friends"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is ‘tone’?",
+        "options": [
+            "The author’s attitude toward the subject or audience",
+            "The number of pages",
+            "The theme",
+            "The protagonist’s personality"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following describes a ‘unitary’ system of government?",
+        "options": [
+            "Power shared by national and regional equally",
+            "One central government holds primary power",
+            "Regional governments have total sovereignty",
+            "No government at all"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In civic education, what is meant by ‘good governance’?",
+        "options": [
+            "Government without rule of law",
+            "Transparent, accountable and participatory leadership",
+            "Dictatorship with no checks",
+            "Absence of elections"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "In literature, what is a ‘foil’ character?",
+        "options": [
+            "A character who contrasts another to highlight qualities",
+            "The main hero",
+            "A narrator",
+            "A background extra"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What does ‘demand-pull inflation’ refer to?",
+        "options": [
+            "When demand rises faster than supply and causes prices to rise",
+            "When supply drops suddenly",
+            "When imports increase",
+            "When government raises taxes"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In civic education, what is the meaning of ‘accountability’ of public officials?",
+        "options": [
+            "They must answer for their actions and decisions to the public",
+            "They are above the law",
+            "They serve for life",
+            "They cannot be questioned"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "In literature, what is ‘dramatic irony’?",
+        "options": [
+            "When the audience knows something the characters do not",
+            "When the setting is dark",
+            "When dialogue rhymes",
+            "When the narrator lies"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is meant by ‘characterisation’ in literature?",
+        "options": [
+            "The creation and development of characters in a story",
+            "The setting of the story",
+            "The title of the book",
+            "The theme"
+        ],
+        "answer": "A"
+    }
+]

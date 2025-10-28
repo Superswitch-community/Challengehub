@@ -1,0 +1,524 @@
+[
+    {
+      "question": "Which of the following best explains the principle of separation of powers in a federal government?",
+      "options": [
+        "Executive and legislature operate under the same office",
+        "Judiciary, legislature, and executive have independent powers but can check each other",
+        "Legislature is subordinate to executive in all matters",
+        "Judiciary enforces laws without consulting other branches"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "If a government increases public spending significantly during a recession, which economic theory best justifies this action?",
+      "options": [
+        "Classical economics",
+        "Keynesian economics",
+        "Monetarism",
+        "Supply-side economics"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is the most likely outcome if citizens fail to participate in democratic processes?",
+      "options": [
+        "Government becomes more accountable",
+        "Policies reflect the will of the majority",
+        "Power becomes concentrated in the hands of a few elites",
+        "Political institutions strengthen automatically"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "In literature, which narrative technique is most effective in revealing a character’s internal conflict?",
+      "options": [
+        "Third-person omniscient narration",
+        "Internal monologue",
+        "Exposition through dialogue",
+        "Foreshadowing"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "In biblical teaching, which principle most closely relates to the statement, 'The love of money is the root of all evil'?",
+      "options": [
+        "Integrity",
+        "Contentment",
+        "Generosity",
+        "Stewardship"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following best demonstrates fiscal policy being used to curb inflation?",
+      "options": [
+        "Lowering taxes to stimulate spending",
+        "Increasing government spending on infrastructure",
+        "Raising taxes and reducing government expenditure",
+        "Printing more money to increase liquidity"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A country with limited natural resources, rapidly growing population, and high unemployment is most likely to face which of the following economic challenges?",
+      "options": [
+        "Inflation and scarcity",
+        "Budget surplus",
+        "Excess supply of goods",
+        "Over-automation of labor"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following scenarios best illustrates the concept of social contract in civic theory?",
+      "options": [
+        "Citizens obey laws in exchange for security and protection",
+        "Government imposes taxes without public consultation",
+        "Judges act independently of the law",
+        "Military controls the government"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "In literature, which technique involves presenting events out of chronological order to enhance narrative impact?",
+      "options": [
+        "Foreshadowing",
+        "Flashback",
+        "Imagery",
+        "Personification"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following biblical characters demonstrated resilience and faith in the face of adversity?",
+      "options": [
+        "David during Goliath’s challenge",
+        "Jonah during his mission to Nineveh",
+        "Job during his trials",
+        "Peter walking on water"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "In a parliamentary system, which of the following most accurately describes the relationship between the executive and legislature?",
+      "options": [
+        "The executive is independent and separate from the legislature",
+        "The executive is accountable to the legislature and can be removed by a vote of no confidence",
+        "The legislature is subordinate to the judiciary",
+        "The executive enforces laws without legislative oversight"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which economic situation would most likely result from a significant increase in the central bank’s interest rates?",
+      "options": [
+        "Higher borrowing and rapid economic growth",
+        "Reduced borrowing and decreased investment",
+        "Increased consumer spending and inflation",
+        "Rapid depreciation of currency due to higher spending"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which civic virtue is demonstrated when citizens critically evaluate government policies before supporting them?",
+      "options": [
+        "Obedience",
+        "Patriotism",
+        "Civic responsibility",
+        "Apathy"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "In literature, what is the effect of unreliable narration on readers’ perception of the story?",
+      "options": [
+        "It strengthens the chronological order",
+        "It challenges readers to question the truth and interpret events critically",
+        "It makes the story predictable",
+        "It simplifies character motivation"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which biblical story emphasizes the importance of forgiveness and reconciliation?",
+      "options": [
+        "Cain and Abel",
+        "The Prodigal Son",
+        "Noah and the Ark",
+        "Daniel in the lions’ den"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following best reflects a situation of economic opportunity cost?",
+      "options": [
+        "Choosing to invest in education instead of buying a luxury car",
+        "Increasing government spending on defense",
+        "Printing more currency to boost economy",
+        "Importing goods instead of producing them domestically"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A democratic government that guarantees freedom of speech, regular elections, and equal treatment under the law is likely to face which main challenge?",
+      "options": [
+        "Corruption and political apathy",
+        "Absolute monarchy",
+        "Military dictatorship",
+        "Natural disasters"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which literary technique is most effective in creating suspense and uncertainty in a story?",
+      "options": [
+        "Irony",
+        "Foreshadowing",
+        "Alliteration",
+        "Allegory"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "In biblical ethics, which action best reflects the principle of stewardship?",
+      "options": [
+        "Neglecting communal resources",
+        "Managing resources responsibly and benefiting others",
+        "Accruing wealth selfishly",
+        "Ignoring moral duties"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which scenario illustrates the concept of checks and balances in government?",
+      "options": [
+        "Judiciary reviews the constitutionality of a law passed by legislature",
+        "Executive passes law without legislative approval",
+        "Legislature controls judiciary appointments unilaterally",
+        "Military supervises elections directly"
+      ],
+      "answer": "A"
+    },
+      {
+          "question": "Which of the following scenarios best illustrates the tension between national security and individual rights in a democracy?",
+          "options": [
+            "Government surveillance of citizens without oversight",
+            "Mandatory voting in national elections",
+            "Freedom of the press",
+            "Independent judiciary decisions"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which economic measure is most likely to reduce persistent high unemployment in an economy?",
+          "options": [
+            "Tight monetary policy",
+            "Expansionary fiscal policy",
+            "Price controls",
+            "Reducing public expenditure"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "A president refuses to sign a bill passed by the legislature and sends it back for reconsideration. This is an example of which principle?",
+          "options": [
+            "Separation of powers",
+            "Judicial review",
+            "Executive discretion",
+            "Federalism"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "Which literary device is being used when a story’s ending contradicts the expectations set earlier?",
+          "options": [
+            "Foreshadowing",
+            "Irony",
+            "Symbolism",
+            "Hyperbole"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "According to the Bible, which event demonstrates God’s covenant with humanity?",
+          "options": [
+            "The fall of Jericho",
+            "Noah’s Ark and the rainbow",
+            "The Exodus from Egypt",
+            "The baptism of Jesus"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following policies best demonstrates supply-side economics?",
+          "options": [
+            "Reducing corporate taxes to stimulate investment",
+            "Increasing government spending on infrastructure",
+            "Raising tariffs on imports",
+            "Implementing strict wage controls"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "A government limits monopolistic practices by requiring companies to share technology with smaller firms. This is an example of which economic principle?",
+          "options": [
+            "Market failure correction",
+            "Monetary policy",
+            "Supply and demand equilibrium",
+            "Fiscal conservatism"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which scenario best represents the civic principle of subsidiarity?",
+          "options": [
+            "Local governments manage local issues while national government handles national issues",
+            "National government controls every local decision",
+            "Courts dictate all public policy",
+            "Citizens rely entirely on NGOs for governance"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which literary technique is used when a story alternates between multiple points of view to create complexity?",
+          "options": [
+            "Stream of consciousness",
+            "Multiple narrators",
+            "Exposition",
+            "Flashback"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which biblical figure exemplifies moral courage by confronting authority to defend justice?",
+          "options": [
+            "Elijah confronting King Ahab",
+            "Jonah avoiding Nineveh",
+            "Moses hiding from Pharaoh",
+            "David playing harp"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which situation best illustrates the concept of judicial independence?",
+          "options": [
+            "Courts rule against the government despite political pressure",
+            "Judges seek approval from legislature before ruling",
+            "Executive appoints judges for political loyalty",
+            "Judiciary consults military for every decision"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "If inflation is persistent and consumer spending is high, which monetary policy action is most appropriate?",
+          "options": [
+            "Lower interest rates",
+            "Increase interest rates",
+            "Reduce taxes",
+            "Increase government subsidies"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following best illustrates the principle of civic accountability?",
+          "options": [
+            "Citizens monitor public officials’ actions and report corruption",
+            "Citizens vote without evaluating candidates",
+            "Government operates without transparency",
+            "Judiciary is influenced by public opinion"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "A story where a seemingly minor action of a character triggers a chain of tragic events is an example of:",
+          "options": [
+            "Foreshadowing",
+            "Causality and irony",
+            "Exposition",
+            "Metaphor"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which biblical story best illustrates the dangers of pride and disobedience?",
+          "options": [
+            "Tower of Babel",
+            "David and Goliath",
+            "Joseph in Egypt",
+            "Ruth and Naomi"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which government action best reflects the use of fiscal policy to stimulate economic growth?",
+          "options": [
+            "Reducing interest rates",
+            "Cutting taxes and increasing government expenditure",
+            "Increasing reserve requirements",
+            "Raising tariffs on imports"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "If the government enforces strict regulations on monopolies, this is primarily aimed at:",
+          "options": [
+            "Increasing government revenue",
+            "Promoting competition and efficiency",
+            "Controlling currency exchange rates",
+            "Reducing employment"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which scenario demonstrates the principle of subsidiarity in civic governance?",
+          "options": [
+            "Local authorities handle local education issues while national government handles foreign policy",
+            "National government controls every local issue",
+            "Judiciary controls local taxation",
+            "Military intervenes in local councils"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which literary device creates suspense by hinting at future events?",
+          "options": [
+            "Alliteration",
+            "Foreshadowing",
+            "Metaphor",
+            "Onomatopoeia"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which biblical principle is demonstrated when Joseph forgives his brothers despite their betrayal?",
+          "options": [
+            "Justice",
+            "Forgiveness and reconciliation",
+            "Stewardship",
+            "Courage"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following best illustrates the conflict between economic efficiency and equity?",
+          "options": [
+            "Government subsidies benefit only the wealthy while taxing the poor",
+            "All citizens receive the same public service",
+            "Private markets produce goods efficiently without government intervention",
+            "Citizens participate in voting"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which scenario best reflects the effect of opportunity cost in personal decision-making?",
+          "options": [
+            "Choosing further education instead of immediate employment",
+            "Investing in multiple ventures simultaneously",
+            "Ignoring scarcity of resources",
+            "Purchasing low-quality goods"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "A government uses quantitative easing to boost economic activity. Which is a likely short-term effect?",
+          "options": [
+            "Increased lending and spending",
+            "Decreased money supply",
+            "Lower consumer demand",
+            "Deflationary pressure"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which civic principle is being exercised when citizens challenge unfair laws through courts?",
+          "options": [
+            "Participation and accountability",
+            "Obedience",
+            "Apathy",
+            "Patriotism"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which literary technique is primarily used when a story contrasts appearance and reality to highlight human flaws?",
+          "options": [
+            "Irony",
+            "Foreshadowing",
+            "Hyperbole",
+            "Alliteration"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which biblical event exemplifies divine intervention to protect the faithful?",
+          "options": [
+            "Daniel in the lions’ den",
+            "Jonah fleeing from Nineveh",
+            "David defeating Goliath",
+            "Moses receiving the Ten Commandments"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following represents a limitation of a market economy?",
+          "options": [
+            "Inequality of wealth distribution",
+            "Efficient allocation of resources",
+            "Consumer choice",
+            "Innovation and competition"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which government system is most likely to have a ceremonial head of state and a politically powerful prime minister?",
+          "options": [
+            "Presidential system",
+            "Parliamentary system",
+            "Federal dictatorship",
+            "Unitary monarchy"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which scenario best reflects the principle of judicial review?",
+          "options": [
+            "Supreme Court invalidates a law that violates the constitution",
+            "Legislature creates new taxes",
+            "Executive issues executive orders without judicial oversight",
+            "Military enforces law"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which economic policy is most effective in addressing a severe recession with low consumer confidence?",
+          "options": [
+            "Expansionary fiscal policy with tax cuts and government spending",
+            "Raising interest rates",
+            "Implementing wage caps",
+            "Increasing tariffs"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which civic action demonstrates active participation in democratic governance?",
+          "options": [
+            "Monitoring elections and reporting irregularities",
+            "Ignoring government policies",
+            "Following all instructions blindly",
+            "Private lobbying only"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which literary technique focuses on detailed description of setting to evoke atmosphere and mood?",
+          "options": [
+            "Imagery",
+            "Metaphor",
+            "Alliteration",
+            "Irony"
+          ],
+          "answer": "A"
+        }
+      
+  ]
+  
