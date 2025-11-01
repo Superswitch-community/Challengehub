@@ -59,7 +59,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
       localStorage.setItem("category", category);
       localStorage.setItem('LoggedInEmail', email);
       localStorage.getItem('LoggedInUserId', userId);
-      appendAlert("Login successful!");
+      appendAlert("Login successful!", 'success);
       location.href = './dashboard.html'
       // Continue to dashboard or homepage
     } else {
@@ -71,9 +71,9 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     }
   } catch (error) {
     appendAlert(`Login error: ${error.message}`, 'danger');
-    appendAlert(`Login failed: ${error.message}`, 'danger');
     loginButton.innerHTML = "Login"
     loginButton.disabled = false;
   }
 });
+
 
