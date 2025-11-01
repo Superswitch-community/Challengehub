@@ -155,6 +155,8 @@ export async function startDemo(url, numQuestions, submitButton, scoredisplayer,
             let li = document.createElement('li');
             li.classList.add('text-success')
             li.style.listStyleType = "none";
+            let button = document.createElement('button');
+            button.classList.add('container','p-2','border-1','bg-white','d-flex','justify-content-start','align-items-start','rounded-1','mt-3')
             let input = document.createElement('input');
             input.classList.add('m-2')
             input.type = "radio";
@@ -290,5 +292,6 @@ export async function startDemo(url, numQuestions, submitButton, scoredisplayer,
     loadQuestion();
     countDown();
 }
+
 
 
