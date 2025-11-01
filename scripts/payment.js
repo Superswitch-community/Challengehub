@@ -48,7 +48,7 @@ async function payWithPaystack() {
     const email = localStorage.getItem('LoggedInEmail');
     const loggedInUserId = localStorage.getItem('LoggedInUserId');
 
-   // console.log(loggedInUserId)
+    console.log(loggedInUserId)
 
     const payloadData = {
         "currency": "NGN",
@@ -83,14 +83,15 @@ async function payWithPaystack() {
             if (data && data.status === true && data.data && data.data.authorization_url) {
                 const authorizationUrl = data.data.authorization_url;
                 const reference = data.data.reference;
-               // console.log(reference);
                 localStorage.setItem('reference', reference);
                 //redirect the user to the authorization URL
                 window.location.href = authorizationUrl;
 
+
+
             }
             else {
-                console.error("Authorization URL not found in response");
+             appendAlert("Authorization URL not found in response", 'danger');
             }
 
 
@@ -119,33 +120,36 @@ async function verifyPayment(reference) {
         })
             .then(res => res.json())
             .then(data => {
+                console.log(data)
                 if (data.data.status === "success") {
-                    ('Payment Successful');
-                    const loggedInUserId = localStorage.getItem('loggedInUserId');
+                    appendAlert('Payment Successful', 'success');
+                    const loggedInUserId = localStorage.getItem('LoggedInUserId');
                     const category = localStorage.getItem("category");
+                 
                     updateUserPaymentStatus(category, loggedInUserId, true);
 
                 }
                 else {
-                     appendAlert('Payment Failed', 'danger');
+                    appendAlert('Payment Failed', 'danger');
                 }
             })
             .catch(error => {
                 console.error(error);
-                 appendAlert('Verification Error', 'danger');
+                appendAlert('Verification Error', 'danger');
             })
     }
     else {
-        //appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
+       // appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
     }
 }
 
 
-const updateUserPaymentStatus = async (category, userId, paymentStatus) => {
+const updateUserPaymentStatus = async (category, UserId, paymentStatus) => {
     try {
         // Get user's data from the category collection
-        const docRef = doc(db, `${category}`, `${userId}`);
+        const docRef = doc(db, `${category}`, `${UserId}`);
         const docSnap = await getDoc(docRef);
+
 
         if (docSnap.exists()) {
             // and update the user's payment status
@@ -166,8 +170,3 @@ const updateUserPaymentStatus = async (category, userId, paymentStatus) => {
 document.getElementById('payment-button').addEventListener('click', () => {
     payWithPaystack();
 })
-
-
-
-
-
