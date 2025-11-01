@@ -48,17 +48,17 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     // Step 1: Sign in with email and password
     const userCredential = await signInWithEmailAndPassword(auth, email, password);
     const user = userCredential.user;
-    var userId = user.id;
+    var userId = user.uid;
 
     // Step 2: Check if user exists in selected category collection
-    const userDocRef = doc(db, category, user.uid);
+    const userDocRef = doc(db, category, userId);
     const userDocSnap = await getDoc(userDocRef);
 
     if (userDocSnap.exists()) {
       // ✅ Login successful and category match
       localStorage.setItem("category", category);
       localStorage.setItem('LoggedInEmail', email);
-      localStorage.getItem('LoggedInUserId', userId);
+      localStorage.setItem('LoggedInUserId', userId);
       appendAlert("Login successful!", 'success');
       location.href = './dashboard.html'
       // Continue to dashboard or homepage
@@ -75,7 +75,4 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     loginButton.disabled = false;
   }
 });
-
-
-
 
