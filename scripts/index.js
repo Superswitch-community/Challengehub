@@ -1,4 +1,4 @@
-//  Javascript program for the website
+l//  Javascript program for the website
 
     
 const appendAlert = (message, type) => {
@@ -15,7 +15,7 @@ const appendAlert = (message, type) => {
   }
 
  setTimeout(() => {
-       appendAlert('Welcome to Chalengehub','success')
+       appendAlert('Welcome to Challengehub','success')
         }, 2000)
  
   
@@ -214,4 +214,5 @@ Time Remaining: ${countdownTime}Secs; `;
       
 
     } */
+
 
