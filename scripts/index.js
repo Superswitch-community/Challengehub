@@ -1,4 +1,4 @@
-l//  Javascript program for the website
+//  Javascript program for the website
 
     
 const appendAlert = (message, type) => {
@@ -214,5 +214,6 @@ Time Remaining: ${countdownTime}Secs; `;
       
 
     } */
+
 
 
