@@ -171,7 +171,7 @@ export async function startDemo(url, numQuestions, submitButton, scoredisplayer,
             })
             li.appendChild(input);
             li.appendChild(document.createTextNode(option));
-            optionElement.appendChild(li);
+            optionElement.appendChild(button);
 
         });
 
@@ -293,6 +293,7 @@ export async function startDemo(url, numQuestions, submitButton, scoredisplayer,
     loadQuestion();
     countDown();
 }
+
 
 
 
