@@ -2,7 +2,7 @@
 //Creating database and storing users' data
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
-import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, increment, deleteDoc, getCountFromServer } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
+import { getFirestore, setDoc, doc, getDoc, getDocs, collection, updateDoc, query, orderBy, increment, deleteDoc, getCountFromServer, onSnapshot } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
 import { startDemo } from './examcode.js'
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -105,6 +105,30 @@ onAuthStateChanged(auth, async (user) => {
                 const usersRef = collection(db, `${category}`);
                 var challengePaymentStatus = document.getElementById('dashboard-payment-status');
 
+                 // 👤 The current user's ID (for example, from login)
+                const userId = uid; // change this dynamically
+
+                const leaderboardRef = collection(db, `${category}`);
+
+                // Listen for leaderboard changes ordered by score
+                const leaderboardQuery = query(leaderboardRef, orderBy("result", "desc"));
+
+                onSnapshot(leaderboardQuery, (snapshot) => {
+                    const docs = snapshot.docs;
+                    const userIndex = docs.findIndex((doc) => doc.id === userId);
+
+                    if (userIndex === -1) {
+                        document.getElementById("challenge-rank").innerText = "User not found";
+                        return;
+                    }
+
+                    const userData = docs[userIndex].data();
+                    const rank = userIndex + 1; // rank starts at 1
+
+                    // Update the page
+                    document.getElementById("challenge-rank").innerText = `Rank: ${rank}`;
+                });
+
 
 
                 getDocs(usersRef)
@@ -134,4 +158,5 @@ onAuthStateChanged(auth, async (user) => {
         window.location.href = "./login.html"; // redirect to login
     }
 });
+
 
