@@ -91,7 +91,7 @@ async function payWithPaystack() {
 
             }
             else {
-             appendAlert("Authorization URL not found in response", 'danger');
+                appendAlert("Authorization URL not found in response", 'danger');
             }
 
 
@@ -103,7 +103,7 @@ async function payWithPaystack() {
 
 async function HandleCallback() {
     const reference = localStorage.getItem('reference');
-    verifyPayment(reference);
+    verifyPayment("74zdvo7pzp");
     localStorage.removeItem('reference');
 }
 
@@ -125,8 +125,49 @@ async function verifyPayment(reference) {
                     appendAlert('Payment Successful', 'success');
                     const loggedInUserId = localStorage.getItem('LoggedInUserId');
                     const category = localStorage.getItem("category");
-                 
-                    updateUserPaymentStatus(category, loggedInUserId, true);
+
+              /*       updateUserPaymentStatus(category, loggedInUserId, true); */
+
+                    // Listen for auth state
+                    onAuthStateChanged(auth, async (user) => {
+
+                        //Assume the category is saved in localStorage during login
+                        let category = localStorage.getItem("category");
+                        if (user) {
+                            const uid = user.uid;
+
+                            /*     dashboardId.innerText = `UserId: ${uid}`; */
+
+                            if (!category) {
+                                appendAlert("No category info found. Please login again.", 'danger');
+                                return;
+                            }
+
+                            try {
+                                // Get user's data from the category collection
+                                const docRef = doc(db, `${category}`, uid);
+                                const docSnap = await getDoc(docRef);
+                                let userData = docSnap.data();
+                                
+
+                                if (docSnap.exists()) {
+                                    // and update the user's payment status
+                                   userData.paymentStatus = true;
+                                    appendAlert("User payment status updated", 'success');
+                                } else {
+                                    appendAlert('User data not found', 'danger')
+                                }
+
+                            } catch (error) {
+                                appendAlert("Error updating user payment status", 'danger');
+                            }
+
+                        } else {
+                            // Not logged in
+                            window.location.href = "login.html"; // redirect to login
+                        }
+                    });
+
 
                 }
                 else {
@@ -139,12 +180,12 @@ async function verifyPayment(reference) {
             })
     }
     else {
-       // appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
+        // appendAlert("If your seeing this message , this means that you haven't paid", 'danger');
     }
 }
 
 
-const updateUserPaymentStatus = async (category, UserId, paymentStatus) => {
+/* const updateUserPaymentStatus = async (category, UserId, paymentStatus) => {
     try {
         // Get user's data from the category collection
         const docRef = doc(db, `${category}`, `${UserId}`);
@@ -157,7 +198,7 @@ const updateUserPaymentStatus = async (category, UserId, paymentStatus) => {
                 paymentStatus: paymentStatus
             });
             appendAlert("User payment status updated", 'success');
-        }else{
+        } else {
             appendAlert('User data not found', 'danger')
         }
 
@@ -165,7 +206,7 @@ const updateUserPaymentStatus = async (category, UserId, paymentStatus) => {
         appendAlert("Error updating user payment status", 'danger');
     }
 }
-
+ */
 
 document.getElementById('payment-button').addEventListener('click', () => {
     payWithPaystack();
