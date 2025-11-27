@@ -103,7 +103,7 @@ async function payWithPaystack() {
 
 async function HandleCallback() {
     const reference = localStorage.getItem('reference');
-    verifyPayment("74zdvo7pzp");
+    verifyPayment(reference);
     localStorage.removeItem('reference');
 }
 
@@ -211,3 +211,4 @@ async function verifyPayment(reference) {
 document.getElementById('payment-button').addEventListener('click', () => {
     payWithPaystack();
 })
+
