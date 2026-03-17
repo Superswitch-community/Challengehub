@@ -4,135 +4,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./images/large.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-  <title>Result board - challengehub</title>
+  <title>Result Board - Challengehub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<style>
-  .nav-item a {
-    color: white;
-  }
 
-  .nav-item a:hover {
-    color: green;
-  }
-</style>
+<body class="bg-gray-100 min-h-screen">
 
-<body class="p-3">
-
- <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/large.png" alt="" style="border-radius: 50%; width: 50px; height: 50px;"
-          class="img-fluid"></a>
-      </a>
-      <button class="navbar-toggler bg-white  border-0" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex flex-direction-column justify-content-center">
-
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./dashboard.html"><i class="bi bi-speedometer2"></i>Dashboard</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./results.html"><i class="bi bi-bar-chart"></i>Result</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./challenge.html"><i class="bi bi-trophy"></i>Challenge</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-              aria-controls="offcanvasExample"><i class="bi bi-credit-card"></i>Payments</a>
-          </li>
-
-        </ul>
-        <div class="d-flex flex-direction-column justify-content-center mb-3" role="search">
-
-          <button class="btn btn-outline-success mx-3" type="submit" id="signout-button">
-            SignOut
-          </button>
-
-        </div>
+  <!-- Navbar -->
+  <nav class="bg-green-700 text-white shadow relative z-10">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <a href="./dashboard.html" class="flex items-center space-x-2">
+          <img src="./images/large.png" alt="Logo" class="w-12 h-12 rounded-full">
+          <span class="font-bold text-xl">Challengehub</span>
+        </a>
       </div>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-6 text-sm">
+        <li><a href="./dashboard.html" class="hover:text-green-300 flex items-center gap-1"><i
+              class="bi bi-speedometer2"></i>Dashboard</a></li>
+        <li><a href="./results.html" class="hover:text-green-300 flex items-center gap-1"><i
+              class="bi bi-bar-chart"></i>Result</a></li>
+        <li><a href="./challenge.html" class="hover:text-green-300 flex items-center gap-1"><i
+              class="bi bi-trophy"></i>Challenge</a></li>
+        <li><button data-modal-target="#paymentModal"
+            class="hover:text-green-300 flex items-center gap-1"><i class="bi bi-credit-card"></i>Payments</button></li>
+      </ul>
+
+      <!-- Sign Out & Hamburger -->
+      <div class="flex items-center space-x-2">
+        <button class="hidden md:inline bg-white text-green-700 px-3 py-1 rounded hover:bg-gray-100">Sign Out</button>
+        <button id="menu-btn" class="md:hidden focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-green-700 px-6 py-4 space-y-3">
+      <a href="./dashboard.html" class="block hover:text-green-300">Dashboard</a>
+      <a href="./results.html" class="block hover:text-green-300">Result</a>
+      <a href="./challenge.html" class="block hover:text-green-300">Challenge</a>
+      <button data-modal-target="#paymentModal" class="w-full text-left hover:text-green-300">Payments</button>
+      <button class="w-full bg-white text-green-700 px-3 py-2 rounded hover:bg-gray-100">Sign Out</button>
     </div>
   </nav>
 
-  <div id="liveAlertPlaceholder" class="mx-3 mt-3"></div>
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto p-6 space-y-6">
 
+    <h2 class="text-3xl font-bold text-green-700 text-center mt-6">Your Test Results</h2>
+    <p class="text-center text-gray-700 mt-2">Check your performance and ranks below</p>
 
-
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Make Payments</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div>
-        <div class="container-fluid">
-          <div class="container-fluid text-white bg-success mt-3 p-3">
-            <div class="row" id="dashboard-payment-status">
-
-            </div>
-          </div>
-          <div class="container-fluid text-white bg-info mt-3 p-3">
-            Before you make payments, please read the instructions carefully.
-          </div>
-          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
-            <p class="text-info col-12">Payment instrucctions: </p>
-            <p class="col-12">
-              To make a payment, you will be redirected to a secure payment page hosted
-              by Paystack. You can pay using your card, bank account, or other available
-              payment options.
-            </p>
-          </div>
-          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
-            <div class="text-info col-12">
-              Important:
-            </div>
-            <div class="col-12">
-              Pleas do not close this window or shut down your browser while the payment
-              is being processed. Doing so amy cause error or delays in your payments. Our system willl automatically
-              redirect you back to our website after payment is completed.
-            </div>
-          </div>
-          <div class="container-fluid mt-3">
-            <button class="btn btn-success" id="payment-button">Click to make payment</button>
-          </div>
-        </div>
+    <!-- Result Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <div class="bg-white rounded-lg shadow p-5 text-center">
+        <h3 class="text-green-700 font-semibold text-xl">Score</h3>
+        <p id="challenge-score" class="text-gray-800 text-2xl mt-2">---</p>
       </div>
+      <div class="bg-white rounded-lg shadow p-5 text-center">
+        <h3 class="text-green-700 font-semibold text-xl">Rank</h3>
+        <p id="challenge-rank" class="text-gray-800 text-2xl mt-2">---</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-5 text-center">
+        <h3 class="text-green-700 font-semibold text-xl">Total Users</h3>
+        <p id="challenge-total-users" class="text-gray-800 text-2xl mt-2">---</p>
+      </div>
+    </div>
 
+  </main>
+
+  <!-- Payment Modal -->
+  <div id="paymentModal"
+    class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg max-w-lg w-full p-6 space-y-4 relative">
+      <button id="closeModal" class="absolute top-3 right-3 text-gray-600 hover:text-gray-800 text-xl">&times;</button>
+      <h3 class="text-green-700 text-xl font-bold">Make Payments</h3>
+      <div class="bg-green-600 text-white p-4 rounded">
+        <p id="dashboard-payment-status">Payment details will appear here</p>
+      </div>
+      <div class="bg-green-100 text-gray-700 p-3 rounded">
+        Please read instructions carefully before making a payment.
+      </div>
+      <div class="bg-red-500 text-white p-3 rounded space-y-2">
+        <p class="font-semibold">Payment Instructions:</p>
+        <p>To make a payment, you will be redirected to a secure payment page. You can pay using your card,
+          bank account, or other available options.</p>
+      </div>
+      <div class="bg-red-500 text-white p-3 rounded space-y-1">
+        <p class="font-semibold text-blue-200">Important:</p>
+        <p>Do not close this window while the payment is being processed. You will be redirected back after completion.
+        </p>
+      </div>
+      <button class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-600 mt-2 w-full">Click to Make
+        Payment</button>
     </div>
   </div>
 
-  <div class="h2 text-success mx-3 mb-3 mt-5 fs-sm-6 fs-md-5 fs-lg-6 text-align-center">This is where your test result
-    will be shown</div>
-  <div class="container mx-sm-4 mt-5 bg-success text-white p-3 rounded-1">
-    <!--   <div class="h3 m-3 fs-sm-6 fs-md-5 fs-lg-5 fs-xl-5" id="challenge-rank"></div> -->
-    <div class="h3 m-3 fs-sm-6 fs-md-5 fs-lg-5" id="challenge-score"></div>
-    <div class="h3 m-3 fs-sm-6 fs-md-5 fs-lg-5" id="challenge-rank"></div>
-    <div class="h3 m-3 fs-sm-6 fs-md-5 fs-lg-5" id="challenge-total-users"></div>
-  </div>
+  <!-- Scripts -->
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Modal toggle
+    const modal = document.getElementById('paymentModal');
+    document.querySelectorAll('[data-modal-target]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      });
+    });
+    document.getElementById('closeModal').addEventListener('click', () => {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    });
+  </script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
-  integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
-
-<script src="./scripts/result.js" type="module" defer></script>
-<script src="./scripts/payment.js" type="module" defer></script>
-
 
 </html>
-
-
-
-
-
