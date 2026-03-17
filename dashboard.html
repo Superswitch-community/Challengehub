@@ -23,14 +23,40 @@
     <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
       <div class="flex items-center space-x-6">
         <a href="./dashboard.html" class="font-bold text-xl">Challengehub</a>
-        <ul class="flex space-x-4 text-sm">
-          <li><a href="./dashboard.html" class="hover:text-green-300">Dashboard</a></li>
-          <li><a href="./results.html" class="hover:text-green-300">Result</a></li>
-          <li><a href="./challenge.html" class="hover:text-green-300">Challenge</a></li>
-          <li><a href="#" class="hover:text-green-300">Payments</a></li>
-        </ul>
       </div>
-      <button class="bg-white text-green-700 px-3 py-1 rounded hover:bg-gray-100">Sign Out</button>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-4 text-sm">
+        <li><a href="./dashboard.html" class="hover:text-green-300">Dashboard</a></li>
+        <li><a href="./results.html" class="hover:text-green-300">Result</a></li>
+        <li><a href="./challenge.html" class="hover:text-green-300">Challenge</a></li>
+        <li><a href="#" class="hover:text-green-300">Payments</a></li>
+      </ul>
+
+      <!-- Sign Out Button -->
+      <button class="hidden md:block bg-white text-green-700 px-3 py-1 rounded hover:bg-gray-100">Sign Out</button>
+
+      <!-- Mobile Hamburger -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-green-700 bg-opacity-95">
+      <ul class="flex flex-col px-6 py-4 space-y-3">
+        <li><a href="./dashboard.html" class="hover:text-green-300">Dashboard</a></li>
+        <li><a href="./results.html" class="hover:text-green-300">Result</a></li>
+        <li><a href="./challenge.html" class="hover:text-green-300">Challenge</a></li>
+        <li><a href="#" class="hover:text-green-300">Payments</a></li>
+        <li>
+          <button class="w-full bg-white text-green-700 px-3 py-2 rounded hover:bg-gray-100">Sign Out</button>
+        </li>
+      </ul>
     </div>
   </nav>
 
@@ -84,11 +110,25 @@
           <a href="https://chat.whatsapp.com/KtTEjGkizMV3bSvQB2Hb69"
              class="text-blue-600 hover:underline">Join Whatsapp Group</a>
         </div>
-       
+        <div>
+          <h3 class="text-green-700 font-semibold">Primary Category</h3>
+          <a href="https://chat.whatsapp.com/JVWuwTRVEzn52gq58Ae6C9"
+             class="text-blue-600 hover:underline">Join Whatsapp Group</a>
+        </div>
       </div>
     </section>
 
   </main>
+
+  <!-- Mobile menu toggle script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
 
 </body>
 
