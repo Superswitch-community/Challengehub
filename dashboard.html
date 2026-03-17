@@ -2,199 +2,94 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./images/large.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dashboard - Challengehub</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<style>
-  .nav-item a {
-    color: white;
-  }
 
-  .nav-item a:hover {
-    color: green;
-  }
-</style>
+<body class="relative min-h-screen font-sans bg-gray-100">
 
-<body class="p-3">
+  <!-- Background Image -->
+  <div class="fixed inset-0 z-0">
+    <img src="https://images.pexels.com/photos/4145041/pexels-photo-4145041.jpeg"
+         alt="Background"
+         class="w-full h-full object-cover opacity-20" />
+    <div class="absolute inset-0 bg-gray-900/30"></div> <!-- dark overlay for contrast -->
+  </div>
 
-  <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/large.png" alt="" style="border-radius: 50%; width: 50px; height: 50px;"
-          class="img-fluid"></a>
-      </a>
-      <button class="navbar-toggler bg-white  border-0" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex flex-direction-column justify-content-center">
-
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./dashboard.html"><i class="bi bi-speedometer2"></i>Dashboard</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./results.html"><i class="bi bi-bar-chart"></i>Result</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./challenge.html"><i class="bi bi-trophy"></i>Challenge</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-              aria-controls="offcanvasExample"><i class="bi bi-credit-card"></i>Payments</a>
-          </li>
-
+  <!-- Navigation -->
+  <nav class="relative z-10 bg-green-700 bg-opacity-90 text-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-6">
+        <a href="./dashboard.html" class="font-bold text-xl">Challengehub</a>
+        <ul class="flex space-x-4 text-sm">
+          <li><a href="./dashboard.html" class="hover:text-green-300">Dashboard</a></li>
+          <li><a href="./results.html" class="hover:text-green-300">Result</a></li>
+          <li><a href="./challenge.html" class="hover:text-green-300">Challenge</a></li>
+          <li><a href="#" class="hover:text-green-300">Payments</a></li>
         </ul>
-        <div class="d-flex flex-direction-column justify-content-center mb-3" role="search">
-
-          <button class="btn btn-outline-success mx-3" type="submit" id="signout-button">
-            SignOut
-          </button>
-
-        </div>
       </div>
+      <button class="bg-white text-green-700 px-3 py-1 rounded hover:bg-gray-100">Sign Out</button>
     </div>
   </nav>
 
-  <div id="liveAlertPlaceholder" class="mx-3 mt-3"></div>
+  <!-- Main Dashboard -->
+  <main class="relative z-10 max-w-7xl mx-auto p-6 space-y-6">
 
+    <!-- Welcome Banner -->
+    <section class="bg-white bg-opacity-80 backdrop-blur-md rounded-lg shadow p-6 text-center">
+      <h1 class="text-3xl sm:text-4xl font-bold text-green-700">Welcome Back!</h1>
+      <p class="mt-2 text-gray-700">Check your profile, challenges, and payments below.</p>
+    </section>
 
+    <!-- Profile Card -->
+    <section class="bg-white bg-opacity-80 backdrop-blur-md rounded-lg shadow p-5">
+      <h2 class="text-xl font-semibold text-green-700">Profile</h2>
+      <div id="dashboard-profile" class="mt-3 text-gray-800">
+        <!-- JS content -->
+      </div>
+    </section>
 
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Make Payments</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div>
-        <div class="container-fluid">
-          <div class="container-fluid text-white bg-success mt-3 p-3">
-            <div class="row" id="dashboard-payment-status">
-            </div>
-          </div>
-          <div class="container-fluid text-white bg-info mt-3 p-3">
-            Before you make payments, please read the instructions carefully.
-          </div>
-          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
-            <p class="text-info col-12">Payment instrucctions: </p>
-            <p class="col-12">
-              To make a payment, you will be redirected to a secure payment page hosted
-              by Paystack. You can pay using your card, bank account, or other available
-              payment options.
-            </p>
-          </div>
-          <div class="container-fluid bg-danger mt-3 mb-3 p-3 text-white">
-            <div class="text-info col-12">
-              Important:
-            </div>
-            <div class="col-12">
-              Pleas do not close this window or shut down your browser while the payment
-              is being processed. Doing so amy cause error or delays in your payments. Our system willl automatically
-              redirect you back to our website after payment is completed.
-            </div>
-          </div>
-          <div class="container-fluid mt-3">
-            <button class="btn btn-success" id="payment-button">Click to make payment</button>
-          </div>
+    <!-- Category -->
+    <section class="bg-white bg-opacity-80 backdrop-blur-md rounded-lg shadow p-5">
+      <h2 class="text-xl font-semibold text-blue-600">Category</h2>
+      <div id="dashboard-category" class="mt-3 text-gray-800">
+        <!-- JS content -->
+      </div>
+    </section>
+
+    <!-- Payment Status -->
+    <section class="bg-white bg-opacity-80 backdrop-blur-md rounded-lg shadow p-5">
+      <h2 class="text-xl font-semibold text-red-600">Payment</h2>
+      <div id="dashboard-payment-status" class="mt-3 text-gray-800">
+        <!-- JS content -->
+      </div>
+    </section>
+
+    <!-- Socials Accordion -->
+    <section class="bg-white bg-opacity-80 backdrop-blur-md rounded-lg shadow p-5">
+      <button class="w-full text-left text-lg font-medium text-gray-800"
+              onclick="document.getElementById('socialCollapse').classList.toggle('hidden')">
+        Socials
+      </button>
+      <div id="socialCollapse" class="pt-3 hidden space-y-3">
+        <div>
+          <h3 class="text-green-700 font-semibold">Senior Category</h3>
+          <a href="https://chat.whatsapp.com/JVWuwTRVEzn52gq58Ae6C9"
+             class="text-blue-600 hover:underline">Join Whatsapp Group</a>
         </div>
-      </div>
-
-    </div>
-  </div>
-
-  <h1 class="h1 text-success m-3 fs-sm-6 fs-md-5 fs-lg-4" id="dashboard-welcome"></h1>
-
-  <div class="container-fluid">
-    <div class="container-fluid mt-5 bg-success text-white p-3 mb-3 rounded-1mx-3">
-      <div class="row">
-        <h5 class="text-white">Profile</h5>
-      </div>
-      <div class="row">
-        <div class="row" id="dashboard-id"></div>
-        <div class="row" id="dashboard-name"></div>
-      </div>
-    </div>
-    <div class="container-fluid mt-5 bg-info text-white p-3 mb-3 rounded-1mx-3">
-      <div class="row">
-        <h5 class="text-white">Category</h5>
-      </div>
-      <div class="row">
-        <div class="row" id="dashboard-category"></div>
-      </div>
-    </div>
-    <div class="container-fluid mt-5 bg-danger text-white p-3 mb-3 rounded-1mx-3">
-      <div class="row">
-        <h5 class="text-white">Payment</h5>
-      </div>
-      <div class="row">
-        <div class="row" id="dashboard-payment-status-2"></div>
-      </div>
-    </div>
-
-
-  </div>
-
-<div class="accordion mx-3" id="myAccordion">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-          Socials
-        </button>
-      </h2>
-
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-        data-bs-parent="#myAccordion">
-        <div class="accordion-body">
-          <div class="container mt-3 ">
-            <div class="container-fluid  rounded-1 w-100 h-50 bg-success text-white fs-sm-5 fs-md-5 fs-lg-4 ">
-              whatsapp links</div>
-
-            <h5 class="text-success">Challengehub senior group</h5>
-            <a href="https://chat.whatsapp.com/JVWuwTRVEzn52gq58Ae6C9" class="text-danger">senior
-              category
-              whatsapp link</a>
-
-            <h5 class="text-success">Challengehub junior group</h5>
-            <a href="https://chat.whatsapp.com/KtTEjGkizMV3bSvQB2Hb69" class="text-danger">junior category
-              whatsapp link</a>
-
-              <h5 class="text-success">Challengehub Primary group </h5>
-          <a href="https://chat.whatsapp.com/JVWuwTRVEzn52gq58Ae6C9" class="text-danger">primary
-            category
-            whatsapp link</a>
-          </div>
-      
+        <div>
+          <h3 class="text-green-700 font-semibold">Junior Category</h3>
+          <a href="https://chat.whatsapp.com/KtTEjGkizMV3bSvQB2Hb69"
+             class="text-blue-600 hover:underline">Join Whatsapp Group</a>
         </div>
+       
       </div>
-    </div>
-  </div>
-  
-  </div>
+    </section>
 
-
+  </main>
 
 </body>
-<script src="./scripts/payment.js" type="module" defer></script>
-<script type="module" src="./scripts/dasboard.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
-  integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
-
 
 </html>
-
-
-
-
